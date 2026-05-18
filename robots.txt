@@ -1,37 +1,26 @@
-# robots.txt — HalloweenCostumes 2026
-# Updated: 2026-05-18
-
+# robots.txt — HalloweenCostumes 2026 | Updated: 2026-05-18
 User-agent: *
 Allow: /
 Sitemap: https://brightlane.github.io/HalloweenCostumes/sitemap.xml
-
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
-
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
-
 User-agent: YandexBot
 Allow: /
 Crawl-delay: 2
-
 User-agent: Baiduspider
 Allow: /
 Crawl-delay: 2
-
 User-agent: DuckDuckBot
 Allow: /
-
 User-agent: facebookexternalhit
 Allow: /
-
 User-agent: Twitterbot
 Allow: /
-
 User-agent: LinkedInBot
 Allow: /
-
 User-agent: WhatsApp
 Allow: /

@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page Not Found | HalloweenCostumes 2026</title>
   <meta name="robots" content="noindex, follow">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root{--ink:#0c0b09;--amber:#f5a623;--cream:#fdf6e3;--red:#e8321a;--smoke:#1e1c18}
-    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-    html,body{height:100%}
-    body{font-family:'DM Sans',sans-serif;background:var(--ink);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:24px;text-align:center;overflow:hidden}
+    *{margin:0;padding:0;box-sizing:border-box}body{font-family:'DM Sans',sans-serif;background:var(--ink);color:var(--cream);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;overflow:hidden}
     a{color:inherit;text-decoration:none}
-    .spook{position:fixed;font-size:2rem;opacity:0;animation:float var(--d,6s) ease-in-out infinite var(--delay,0s);pointer-events:none}
-    @keyframes float{0%{opacity:0;transform:translateY(110vh)}10%{opacity:.35}90%{opacity:.35}100%{opacity:0;transform:translateY(-10vh)}}
+    .spook{position:fixed;opacity:0;animation:float var(--d,6s) ease-in-out infinite var(--delay,0s);pointer-events:none}
+    @keyframes float{0%{opacity:0;transform:translateY(110vh)}10%{opacity:.3}90%{opacity:.3}100%{opacity:0;transform:translateY(-10vh)}}
     .num{font-family:'Bebas Neue',cursive;font-size:clamp(7rem,22vw,14rem);line-height:1;color:var(--amber);text-shadow:0 0 40px rgba(245,166,35,.4),6px 6px 0 var(--red);letter-spacing:4px;animation:glitch 4s ease-in-out infinite}
     @keyframes glitch{0%,90%,100%{text-shadow:0 0 40px rgba(245,166,35,.4),6px 6px 0 var(--red);transform:none}92%{text-shadow:-4px 0 var(--red),4px 0 #0ff;transform:skewX(-2deg)}94%{text-shadow:4px 0 var(--red),-4px 0 #0ff;transform:skewX(2deg)}}
     .ghost{font-size:3.5rem;margin-bottom:12px;display:block;animation:bob 2s ease-in-out infinite}
@@ -23,14 +19,12 @@
     .sub{font-size:1rem;color:rgba(253,246,227,.6);max-width:440px;line-height:1.7;margin-bottom:32px}
     .cd-wrap{font-size:.8rem;color:rgba(253,246,227,.35);letter-spacing:2px;text-transform:uppercase;margin-bottom:28px}
     .cd-num{color:var(--amber);font-family:'Bebas Neue',cursive;font-size:1.3rem}
-    .btns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:40px}
-    .btn-p{display:inline-block;background:var(--amber);color:var(--ink);font-weight:700;font-size:.95rem;letter-spacing:1px;text-transform:uppercase;padding:16px 36px;border-radius:4px;transition:background .15s}
-    .btn-p:hover{background:#ffb733}
+    .btn-p{display:inline-block;background:var(--amber);color:var(--ink);font-weight:700;font-size:.95rem;letter-spacing:1px;text-transform:uppercase;padding:16px 36px;border-radius:4px;margin-bottom:32px}
     .quick-title{font-family:'Bebas Neue',cursive;font-size:1.3rem;color:rgba(253,246,227,.3);letter-spacing:2px;margin-bottom:12px}
-    .quick-grid{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:560px}
-    .quick-tag{background:rgba(245,166,35,.08);border:1px solid rgba(245,166,35,.2);border-radius:100px;padding:7px 16px;font-size:.8rem;color:rgba(253,246,227,.6);transition:background .15s,color .15s}
+    .quick-grid{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:700px}
+    .quick-tag{background:rgba(245,166,35,.08);border:1px solid rgba(245,166,35,.2);border-radius:100px;padding:7px 16px;font-size:.8rem;color:rgba(253,246,227,.6);transition:all .15s}
     .quick-tag:hover{background:rgba(245,166,35,.2);color:var(--amber)}
-    .footer-line{position:fixed;bottom:14px;font-size:.7rem;color:rgba(253,246,227,.15);letter-spacing:1px}
+    .footer-line{position:fixed;bottom:14px;font-size:.7rem;color:rgba(253,246,227,.15)}
   </style>
 </head>
 <body>
@@ -38,36 +32,17 @@
 <span class="ghost">👻</span>
 <div class="num">404</div>
 <h1>This Page Got Spooked</h1>
-<p class="sub">Looks like this costume vanished into the night. Don't worry — we have 10,000+ Halloween costumes still waiting for you.</p>
-<div class="cd-wrap">Redirecting in <span class="cd-num" id="cd">5</span> seconds...</div>
-<div class="btns">
-  <a href="index.html" class="btn-p">🎃 Back to Halloween Costumes</a>
-</div>
+<p class="sub">This costume vanished into the night — but 10,000+ Halloween costumes are still waiting for you.</p>
+<div class="cd-wrap">Redirecting in <span class="cd-num" id="cd">5</span>...</div>
+<a href="index.html" class="btn-p">🎃 Back to Halloween Costumes</a>
 <div class="quick-title">Jump to a Category</div>
-<div class="quick-grid">
-  <a class="quick-tag" href="index.html">🎃 Home</a>
-<a class="quick-tag" href="kids.html">👶 Kids Costumes</a>
-<a class="quick-tag" href="adult.html">🧑 Adult Costumes</a>
-<a class="quick-tag" href="scary.html">💀 Scary Costumes</a>
-<a class="quick-tag" href="funny.html">😂 Funny Costumes</a>
-<a class="quick-tag" href="group.html">👨‍👩‍👧‍👦 Group & Family</a>
-<a class="quick-tag" href="wholesale.html">🛍️ Wholesale</a>
-<a class="quick-tag" href="pet.html">🐾 Pet Costumes</a>
-<a class="quick-tag" href="plussize.html">💎 Plus Size</a>
-</div>
+<div class="quick-grid"><a class="quick-tag" href="index.html">🎃 Halloween Costumes</a><a class="quick-tag" href="womens.html">👩 Women's Halloween</a><a class="quick-tag" href="mens.html">👨 Men's Halloween</a><a class="quick-tag" href="girls.html">👧 Girls' Halloween</a><a class="quick-tag" href="boys.html">👦 Boys' Halloween</a><a class="quick-tag" href="kids.html">👶 Kids Halloween</a><a class="quick-tag" href="teen.html">🧑 Teen Halloween</a><a class="quick-tag" href="toddler.html">🍼 Toddler Halloween</a><a class="quick-tag" href="baby.html">👼 Baby Halloween</a><a class="quick-tag" href="adult.html">🎭 Adult Halloween</a><a class="quick-tag" href="scary.html">💀 Scary Halloween</a><a class="quick-tag" href="funny.html">😂 Funny Halloween</a></div>
 <div class="footer-line">© 2026 Benny "Palmo Kid" Palmarino | LinkConnector ID 7949</div>
 <script>
-  const spookEmojis=['🎃','👻','💀','🕷','🦇','🕯','🧙','🧟'];
-  const wrap=document.getElementById('spooks');
-  for(let i=0;i<16;i++){
-    const s=document.createElement('div');
-    s.className='spook';
-    s.textContent=spookEmojis[Math.floor(Math.random()*spookEmojis.length)];
-    s.style.cssText=`left:${Math.random()*100}%;--d:${5+Math.random()*8}s;--delay:${Math.random()*8}s;font-size:${1.5+Math.random()*2}rem;`;
-    wrap.appendChild(s);
-  }
-  let n=5;
-  const cd=document.getElementById('cd');
+  ['🎃','👻','💀','🕷','🦇','🧙','🧟','😱'].forEach(e=>{
+    for(let i=0;i<3;i++){const s=document.createElement('div');s.className='spook';s.textContent=e;s.style.cssText=`left:${Math.random()*100}%;--d:${5+Math.random()*8}s;--delay:${Math.random()*8}s;font-size:${1.5+Math.random()*2}rem;`;document.getElementById('spooks').appendChild(s);}
+  });
+  let n=5;const cd=document.getElementById('cd');
   const t=setInterval(()=>{n--;cd.textContent=n;if(n<=0){clearInterval(t);window.location.href='index.html';}},1000);
 </script>
 </body>
