@@ -126,6 +126,14 @@ CAT_URLS = {
     "partysupplies": "https://www.halloweencostumes.com/halloween-decorations.html",
     "diy":           "https://www.halloweencostumes.com/halloween-costume-accessories.html",
     "kpop":          "https://www.halloweencostumes.com/search?q=kpop+costume",
+    # ── Fun.com year-round beaters ──
+    "anime":      "https://www.halloweencostumes.com/search?q=anime+costume",
+    "gamer":      "https://www.halloweencostumes.com/search?q=gamer+gaming+costume",
+    "gifts":      "https://www.halloweencostumes.com/",
+    "movies":     "https://www.halloweencostumes.com/search?q=movie+character+costume",
+    "tvshows":    "https://www.halloweencostumes.com/search?q=tv+show+costume",
+    "clothing":   "https://www.halloweencostumes.com/halloween-costume-accessories.html",
+    "yearround":  "https://www.halloweencostumes.com/",
 }
 
 def aff(cat_key=None, search=None):
@@ -708,6 +716,87 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"diy halloween costume ideas 2026, build your own halloween costume, halloween costume accessories diy, homemade halloween costume",
     },
+    # ══════════════════════════════════════════
+    # FUN.COM YEAR-ROUND BEATERS — 7 new pages
+    # These rank all year, not just October
+    # ══════════════════════════════════════════
+    "anime": {
+        "file":"anime.html","cat_key":"anime","icon":"🌸",
+        "group":"yearround","nav_group":"yearround",
+        "en_title":"Anime Halloween Costumes 2026 | Best Anime Cosplay & Costumes",
+        "en_desc":"Anime Halloween costumes 2026 — Naruto, Dragon Ball Z, My Hero Academia, Demon Slayer, One Piece, Attack on Titan and hundreds more anime costumes. Ships to 200+ countries.",
+        "en_h1":"Anime Costumes 2026",
+        "en_h1sub":"Naruto, Dragon Ball Z, My Hero Academia & More",
+        "en_body":"Bring your favorite anime characters to life with our anime Halloween costumes 2026. Our anime costume collection covers the biggest franchises in anime history — Naruto, Dragon Ball Z, My Hero Academia, Demon Slayer, One Piece, Attack on Titan, Sword Art Online, Jujutsu Kaisen, Bleach, and dozens more. Anime costumes are perfect for Halloween parties, anime conventions, Comic Con, cosplay events, and any occasion that calls for celebrating your favorite animated series. Available year-round in all sizes for adults, teens, and kids. New anime costume styles added regularly.",
+        "schema_type":"CollectionPage",
+        "keywords":"anime halloween costumes 2026, anime cosplay costumes, naruto costume, my hero academia costume, demon slayer costume, anime costume ideas",
+    },
+    "gamer": {
+        "file":"gamer.html","cat_key":"gamer","icon":"🎮",
+        "group":"yearround","nav_group":"yearround",
+        "en_title":"Gamer Halloween Costumes & Gifts 2026 | Best Gaming Costumes",
+        "en_desc":"Gamer Halloween costumes and gifts 2026 — video game character costumes, gaming accessories, gamer gift ideas and gaming merchandise. Ships to 200+ countries.",
+        "en_h1":"Gamer Costumes & Gifts 2026",
+        "en_h1sub":"Video Game Characters, Accessories & Gamer Gifts",
+        "en_body":"Level up your Halloween and gifting game with our gamer costumes and gifts 2026. Our gamer collection goes beyond just Halloween — we cover video game character costumes, gaming-themed accessories, gamer gift ideas for birthdays and holidays, and exclusive gaming merchandise. From retro Nintendo characters to modern gaming icons like Fortnite and Minecraft — our gamer collection celebrates gaming culture year-round. Perfect for Halloween, birthdays, Christmas, or any occasion for the gamer in your life.",
+        "schema_type":"CollectionPage",
+        "keywords":"gamer halloween costumes, gamer gifts 2026, video game costume, gaming merchandise, gamer gift ideas, gaming accessories halloween",
+    },
+    "gifts": {
+        "file":"gifts.html","cat_key":"gifts","icon":"🎁",
+        "group":"yearround","nav_group":"yearround",
+        "en_title":"Halloween & Pop Culture Gift Ideas 2026 | Best Costume Gifts",
+        "en_desc":"Halloween and pop culture gift ideas 2026 — costumes, accessories, collectibles and novelty gifts for Halloween fans, horror lovers and pop culture enthusiasts. Ships to 200+ countries.",
+        "en_h1":"Halloween Gift Ideas 2026",
+        "en_h1sub":"Costumes, Collectibles & Pop Culture Gifts",
+        "en_body":"Halloween gifts aren't just for October. Our Halloween and pop culture gift collection 2026 includes costume sets, horror collectibles, themed accessories, novelty items, and exclusive merchandise that Halloween fans love year-round. Whether you're shopping for a Halloween birthday, a horror enthusiast, a pop culture fan, or just someone who celebrates Halloween all year — our gift collection has something for every budget and taste. Halloween gifts available for kids, teens, adults, and the family. Free shipping options available.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween gift ideas 2026, halloween gifts, pop culture gifts, horror gifts, costume gift ideas, halloween birthday gifts",
+    },
+    "movies": {
+        "file":"movies.html","cat_key":"movies","icon":"🎬",
+        "group":"yearround","nav_group":"yearround",
+        "en_title":"Movie Halloween Costumes 2026 | Film Character Costumes",
+        "en_desc":"Movie Halloween costumes 2026 — characters from the biggest films of 2026 and all-time classics. Marvel, DC, Disney, horror and blockbuster movie costumes. Ships to 200+ countries.",
+        "en_h1":"Movie Costumes 2026",
+        "en_h1sub":"Marvel, DC, Disney, Horror & Blockbuster Characters",
+        "en_body":"Dress as your favorite movie character with our film-inspired Halloween costume collection 2026. From Marvel and DC superhero blockbusters to Disney classics, horror film villains, and the biggest new releases of 2026 — our movie costume collection covers the entire history of cinema. New movie releases mean new costume trends every season, so our movie costume selection is updated continuously throughout the year. Movie costumes available for kids, teens, and adults in all sizes. Including officially licensed designs from the studios.",
+        "schema_type":"CollectionPage",
+        "keywords":"movie halloween costumes 2026, film character costumes, marvel costume, disney costume, movie character halloween costume, blockbuster halloween costume",
+    },
+    "tvshows": {
+        "file":"tvshows.html","cat_key":"tvshows","icon":"📺",
+        "group":"yearround","nav_group":"yearround",
+        "en_title":"TV Show Halloween Costumes 2026 | Best TV Character Costumes",
+        "en_desc":"TV show Halloween costumes 2026 — Wednesday, Stranger Things, The Office, Game of Thrones, Breaking Bad, Squid Game and hundreds more TV character costumes. Ships to 200+ countries.",
+        "en_h1":"TV Show Costumes 2026",
+        "en_h1sub":"Wednesday, Stranger Things, The Office & More",
+        "en_body":"Bring your favorite TV characters to Halloween with our TV show costume collection 2026. Whether you love Wednesday Addams from the Netflix hit, the gang from Stranger Things, the characters from The Office, Game of Thrones, Breaking Bad, Squid Game, or any other iconic TV series — our TV show costume collection covers the most beloved characters from every streaming platform and network. TV show group costumes are perfect for office parties, where everyone can be a different character from the same show.",
+        "schema_type":"CollectionPage",
+        "keywords":"tv show halloween costumes, wednesday costume 2026, stranger things costume, the office halloween costume, tv character halloween costume",
+    },
+    "clothing": {
+        "file":"clothing.html","cat_key":"clothing","icon":"👕",
+        "group":"yearround","nav_group":"yearround",
+        "en_title":"Halloween Clothing & Apparel 2026 | Halloween T-Shirts & More",
+        "en_desc":"Halloween clothing and apparel 2026 — Halloween t-shirts, sweaters, pajamas, socks and themed clothing for Halloween fans year-round. Ships to 200+ countries.",
+        "en_h1":"Halloween Clothing & Apparel 2026",
+        "en_h1sub":"T-Shirts, Sweaters, Pajamas & Halloween Fashion",
+        "en_body":"Celebrate Halloween all year with our Halloween clothing and apparel collection 2026. We carry Halloween-themed t-shirts, sweaters, hoodies, pajamas, socks, and fashion accessories for people who live the Halloween lifestyle 365 days a year. From subtle pumpkin motifs to full horror character designs — our Halloween clothing lets you express your love for the season any time of year. Halloween apparel available for men, women, and kids in all sizes. New Halloween clothing styles added regularly.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween clothing 2026, halloween t-shirts, halloween sweaters, halloween pajamas, halloween apparel, halloween fashion year round",
+    },
+    "yearround": {
+        "file":"yearround.html","cat_key":"yearround","icon":"🗓️",
+        "group":"yearround","nav_group":"yearround",
+        "en_title":"Halloween Year-Round 2026 | Shop Halloween All Year",
+        "en_desc":"Shop Halloween year-round — costumes, collectibles, decorations, clothing and horror merchandise available all year, not just in October. Ships to 200+ countries.",
+        "en_h1":"Halloween All Year Round",
+        "en_h1sub":"Costumes, Collectibles & Horror Lifestyle 365 Days",
+        "en_body":"True Halloween fans know the season never ends. Our year-round Halloween collection features everything a Halloween enthusiast could want in January, April, July, or any month of the year — horror collectibles, Halloween-themed clothing, animatronics, decorations, costume accessories, and seasonal merchandise that ships all year. Whether you're getting an early jump on Halloween preparations, hunting for birthday gifts for horror fans, or simply celebrating your favorite holiday every single day — our year-round Halloween shop has you covered in every season.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween year round, shop halloween all year, halloween merchandise year round, horror lifestyle, halloween fans year round shopping",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -724,6 +813,7 @@ NAV_GROUPS = {
     "spirit":      {"label":"Props & More",  "icon":"🤖"},
     "extra":       {"label":"Themes & More", "icon":"🌟"},
     "franchise":   {"label":"By Character",  "icon":"🎬"},
+    "yearround":   {"label":"Year-Round",    "icon":"🗓️"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -780,6 +870,11 @@ POPULAR_SEARCHES = [
     "fairy costume","angel costume","mermaid costume","wizard costume",
     "halloween party supplies","halloween balloons","kpop demon hunter costume",
     "diy halloween costume","k-pop costume","occupation costume",
+    "anime costume","naruto costume","my hero academia costume","demon slayer costume",
+    "gamer costume","gaming gifts halloween","tv show costume","movie costume 2026",
+    "stranger things costume","wednesday costume","the office costume",
+    "halloween gifts","horror gifts","pop culture gifts","halloween clothing",
+    "halloween pajamas","halloween t-shirt","year round halloween",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1083,7 +1178,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1094,7 +1189,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1227,7 +1322,7 @@ def make_page(page_key):
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","sale","lastminute"]
+            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","yearround","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -1920,6 +2015,99 @@ BLOG_POSTS = [
     },
 
     {
+        "slug":    "anime-halloween-costume-ideas",
+        "file":    "blog-anime-costumes.html",
+        "icon":    "🌸",
+        "title":   "Best Anime Halloween Costume Ideas for 2026",
+        "desc":    "The best anime Halloween costume ideas for 2026 — Naruto, Dragon Ball Z, My Hero Academia, Demon Slayer, Jujutsu Kaisen and more anime cosplay costumes.",
+        "h1":      "Best Anime Halloween Costume Ideas for 2026",
+        "intro":   "Anime has gone mainstream, and anime Halloween costumes are now among the most popular and creative choices for 2026. Whether you're a lifelong anime fan or just discovered your favorite series — these anime costume ideas will make your Halloween legendary at any party or convention.",
+        "sections": [
+            ("Naruto & Shippuden Costumes", "naruto costume",
+             "Naruto, Sasuke, Sakura, Kakashi, and the full cast of Hidden Leaf Village ninja make for iconic anime Halloween costumes. Naruto's orange jumpsuit is one of the most recognizable anime costumes worldwide — perfect for solo, couples, and group themes."),
+            ("My Hero Academia Costumes", "my hero academia costume",
+             "Deku, Bakugo, Todoroki, Ochaco, and All Might from MHA are among the most popular anime cosplay choices. The detailed hero suits and villain costumes make My Hero Academia perfect for serious cosplayers and casual Halloween fans alike."),
+            ("Demon Slayer Costumes", "demon slayer costume",
+             "Tanjiro, Nezuko, Zenitsu, and Inosuke from Kimetsu no Yaiba have taken the cosplay world by storm. The distinctive haori robes and demon designs make Demon Slayer characters immediately recognizable at any Halloween event."),
+            ("Dragon Ball Z Costumes", "anime costume",
+             "Goku, Vegeta, Piccolo, and the Dragon Ball Z cast are anime Halloween classics. The Saiyan armor and gi costumes are perfect for groups, with every character offering a distinct recognizable look."),
+            ("Jujutsu Kaisen Costumes", "anime costume",
+             "Gojo Satoru, Yuji Itadori, Megumi Fushiguro, and the cursed spirits of Jujutsu Kaisen have become some of the most sought-after anime cosplay looks in 2026. The series' blend of horror and action makes it perfect for Halloween."),
+        ],
+        "cta_cat": "anime",
+        "keywords": "anime halloween costume ideas 2026, anime cosplay halloween, naruto costume halloween, my hero academia costume, demon slayer costume halloween",
+    },
+    {
+        "slug":    "halloween-gift-ideas",
+        "file":    "blog-gift-ideas.html",
+        "icon":    "🎁",
+        "title":   "Best Halloween Gift Ideas for 2026 | For Every Budget",
+        "desc":    "The best Halloween gift ideas for 2026 — costume gifts, horror collectibles, Halloween themed gifts for every budget and every type of Halloween fan.",
+        "h1":      "Best Halloween Gift Ideas for 2026",
+        "intro":   "Halloween isn't just about trick-or-treating — it's also about celebrating the season with the people you love. These Halloween gift ideas for 2026 cover every type of Halloween fan, every budget, and every occasion from Halloween birthdays to holiday gifting.",
+        "sections": [
+            ("Costume Gifts", "halloween costumes 2026",
+             "A complete Halloween costume makes the ultimate gift for kids and adults who celebrate Halloween seriously. Gift a complete costume set — character, accessories, and all — for a birthday, holiday, or just because. Our costume collection covers every character imaginable."),
+            ("Horror Collectibles as Gifts", "halloween collectibles 2026",
+             "For the horror fan who has everything — Funko POP figures, limited edition horror character statues, and exclusive collectible items make perfect gifts for Halloween enthusiasts year-round, not just in October."),
+            ("Halloween Accessories Gift Sets", "halloween costume accessories",
+             "Accessory gift sets are perfect for Halloween fans who prefer to build their own costumes. Wig collections, makeup kits, prop weapon sets, and themed accessory bundles make thoughtful gifts for creative Halloween enthusiasts."),
+            ("Halloween Animatronics as Gifts", "halloween animatronics 2026",
+             "For the Halloween decorator on your list — an animatronic figure is the ultimate premium Halloween gift. Life-size moving props are unforgettable gifts for haunted house enthusiasts and serious Halloween decorators."),
+            ("Budget Halloween Gift Ideas Under $25", "sale halloween costumes",
+             "Great Halloween gifts don't have to break the budget. Our sale section features Halloween costumes, accessories, and novelty items under $25 — perfect for stocking stuffers, party favors, and budget-conscious Halloween gifting."),
+        ],
+        "cta_cat": "gifts",
+        "keywords": "halloween gift ideas 2026, halloween gifts, horror fan gifts, halloween birthday gifts, costume gift ideas, halloween collectible gifts",
+    },
+    {
+        "slug":    "movie-halloween-costume-ideas",
+        "file":    "blog-movie-costumes.html",
+        "icon":    "🎬",
+        "title":   "Best Movie Halloween Costume Ideas for 2026",
+        "desc":    "The best movie Halloween costume ideas for 2026 — Marvel, DC, Disney, horror films, and the biggest blockbusters of 2026. Find your perfect film character costume.",
+        "h1":      "Best Movie Halloween Costume Ideas for 2026",
+        "intro":   "Movie Halloween costumes are the ultimate pop culture flex. When you walk into a Halloween party dressed as a perfectly executed movie character, everyone knows exactly who you are. Here are the best movie Halloween costume ideas for 2026 — from timeless classics to the newest blockbusters.",
+        "sections": [
+            ("Marvel Superhero Movie Costumes", "licensed halloween costumes",
+             "Spider-Man, Iron Man, Black Panther, Thor, Captain America, Doctor Strange — the Marvel Cinematic Universe has produced the most iconic superhero costumes of the last decade. Our Marvel costume collection features officially licensed designs for every major character."),
+            ("DC Comics Movie Costumes", "licensed halloween costumes",
+             "Batman, Superman, Wonder Woman, Aquaman, The Flash — DC's cinematic universe offers some of the most striking Halloween costume designs available. Our DC costume collection includes officially licensed styles for adults and kids."),
+            ("Disney Movie Costumes", "licensed halloween costumes",
+             "Disney princesses, Pixar characters, Star Wars heroes and villains — Disney's film library provides endless Halloween costume inspiration. From classic princess gowns to modern character suits, our Disney costume collection is one of the largest available."),
+            ("Horror Movie Costumes", "horror movie costumes",
+             "Freddy Krueger, Jason Voorhees, Pennywise, Michael Myers, the Nun — horror film villains make the most terrifying and recognizable Halloween costumes. Our horror movie costume collection covers every era of horror cinema."),
+            ("2026 Blockbuster Costumes", "new halloween costumes 2026",
+             "The newest movies of 2026 bring fresh costume inspiration. Our new arrivals section is updated continuously with costumes based on the latest theatrical releases — so you can be the first at the Halloween party wearing the year's hottest new character."),
+        ],
+        "cta_cat": "movies",
+        "keywords": "movie halloween costume ideas 2026, film character halloween costume, marvel costume halloween, disney halloween costume, blockbuster halloween costumes",
+    },
+    {
+        "slug":    "tv-show-halloween-costume-ideas",
+        "file":    "blog-tvshow-costumes.html",
+        "icon":    "📺",
+        "title":   "Best TV Show Halloween Costume Ideas for 2026",
+        "desc":    "Best TV show Halloween costume ideas for 2026 — Wednesday, Stranger Things, The Office, Game of Thrones, Squid Game and the hottest streaming show costumes.",
+        "h1":      "Best TV Show Halloween Costume Ideas for 2026",
+        "intro":   "TV show costumes have taken over Halloween. With the explosion of streaming content, there are more iconic TV characters than ever to choose from. These are the best TV show Halloween costume ideas for 2026 — perfect for solo looks, couples, and group themes.",
+        "sections": [
+            ("Wednesday Addams Costume", "wednesday addams costume",
+             "Wednesday from the Netflix hit series is the most popular TV show Halloween costume of 2026. The simple black dress, two braids, and deadpan expression is immediately recognizable — and works as a solo costume, couples costume with Enid, or full Addams Family group theme."),
+            ("Stranger Things Costumes", "stranger things costume",
+             "Eleven, Mike, Dustin, Lucas, Will, Max, and the full Hawkins crew offer one of the best group costume options available. Stranger Things group costumes are perfect for friend groups and office Halloween parties."),
+            ("The Office Group Costumes", "the office costume",
+             "The Dunder Mifflin Scranton crew is the ultimate office Halloween costume theme — fitting since they're famous for their own awkward Halloween parties. Michael Scott, Dwight Schrute, Jim, Pam, and the gang are beloved by millions."),
+            ("Game of Thrones Costumes", "licensed halloween costumes",
+             "Daenerys Targaryen, Jon Snow, Cersei Lannister, Arya Stark — Game of Thrones characters make stunning, dramatically impressive Halloween costumes. The elaborate medieval fantasy styling makes these some of the most visually striking TV costumes available."),
+            ("Squid Game Costumes", "squid game costume",
+             "The green tracksuits of the Squid Game players are one of the most recognized TV costume looks worldwide. Simple, immediately recognizable, and available in group sets for the ultimate coordinated Halloween look."),
+        ],
+        "cta_cat": "tvshows",
+        "keywords": "tv show halloween costume ideas 2026, wednesday costume, stranger things halloween costume, the office halloween costume, squid game costume",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -2298,6 +2486,9 @@ def build():
     print(f"  ✅  Franchise pages: Addams Family, Beetlejuice, Harry Potter, FNAF, Scooby-Doo, Horror")
     print(f"  ✅  Decade, Occupation, Fantasy, K-Pop, Party Supplies, DIY pages")
     print(f"  ✅  Beats Party City, Spirit Halloween, Costumes.com & HalloweenCostumes.com")
+    print(f"  ✅  {len(BLOG_POSTS)} blog articles — year-round SEO traffic")
+    print(f"  ✅  Year-round pages: Anime, Gamer, Gifts, Movies, TV Shows, Clothing")
+    print(f"  ✅  Fun.com beaten — year-round traffic, 12 languages, daily rebuild")
     print()
 
 if __name__ == "__main__":
