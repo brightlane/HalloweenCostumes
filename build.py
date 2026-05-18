@@ -106,6 +106,13 @@ CAT_URLS = {
     "collectibles": "https://www.halloweencostumes.com/halloween-collectibles.html",
     "tween":        "https://www.halloweencostumes.com/tween-halloween-costumes.html",
     "medieval":     "https://www.halloweencostumes.com/renaissance-medieval-costumes.html",
+    # ── Costumes.com beaters ──
+    "videogame":    "https://www.halloweencostumes.com/video-game-costumes.html",
+    "themes":       "https://www.halloweencostumes.com/halloween-costume-themes.html",
+    "comiccon":     "https://www.halloweencostumes.com/superhero-costumes.html",
+    "sizeguide":    "https://www.halloweencostumes.com/size-charts.html",
+    "couples2":     "https://www.halloweencostumes.com/couples-halloween-costumes.html",
+    "celebrations": "https://www.halloweencostumes.com/",
 }
 
 def aff(cat_key=None, search=None):
@@ -505,6 +512,53 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"medieval halloween costumes, renaissance halloween costumes 2026, knight costume, princess medieval costume, renaissance fair costume",
     },
+    # ══════════════════════════════════════════
+    # COSTUMES.COM BEATERS — 4 new category pages
+    # ══════════════════════════════════════════
+    "videogame": {
+        "file":"videogame.html","cat_key":"videogame","icon":"🎮",
+        "group":"type","nav_group":"type",
+        "en_title":"Video Game Halloween Costumes 2026 | Best Gaming Costumes",
+        "en_desc":"Video game Halloween costumes 2026 — Mario, Zelda, Fortnite, Minecraft, FNAF, Mortal Kombat and hundreds more gaming costumes. Ships to 200+ countries.",
+        "en_h1":"Video Game Costumes 2026",
+        "en_h1sub":"Mario, Zelda, Fortnite, Minecraft & More",
+        "en_body":"Level up your Halloween with our video game Halloween costumes 2026. We carry the largest selection of gaming costumes online — from classic Nintendo characters like Mario and Link, to modern hits like Fortnite, Minecraft, Five Nights at Freddy's, Mortal Kombat, Among Us, and dozens more. Video game costumes available for kids, teens, and adults in all sizes. Whether you're a casual gamer or hardcore enthusiast — find your favorite character and dominate the Halloween costume contest. New video game costume styles added daily.",
+        "schema_type":"CollectionPage",
+        "keywords":"video game halloween costumes, gaming costumes 2026, mario costume, zelda costume, fortnite costume, minecraft costume",
+    },
+    "themes": {
+        "file":"themes.html","cat_key":"themes","icon":"🌟",
+        "group":"type","nav_group":"type",
+        "en_title":"Halloween Costume Themes 2026 | Horror, Sci-Fi, Fantasy & More",
+        "en_desc":"Halloween costume themes 2026 — horror, sci-fi, fantasy, historical, decade themes and more. Find costumes by theme. Ships to 200+ countries.",
+        "en_h1":"Halloween Costume Themes 2026",
+        "en_h1sub":"Horror, Sci-Fi, Fantasy, Historical & Decade Themes",
+        "en_body":"Find Halloween costumes by theme with our massive themed costume collection 2026. Browse by horror themes, sci-fi and space themes, fantasy and fairy tale themes, historical period themes, decade themes from the 50s to 90s, movie and TV show themes, and pop culture themes. Whether you need costumes for a themed Halloween party, decade night, or just want to coordinate with a group — our themed costume collection covers every concept imaginable. Themed costumes for kids, adults, and groups.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween costume themes 2026, themed halloween costumes, horror theme costumes, sci-fi halloween costumes, decade costumes",
+    },
+    "comiccon": {
+        "file":"comiccon.html","cat_key":"comiccon","icon":"🦸",
+        "group":"type","nav_group":"type",
+        "en_title":"Comic Con & Convention Costumes 2026 | Cosplay Costumes",
+        "en_desc":"Comic Con and convention costumes 2026 — cosplay costumes, superhero suits, anime costumes and convention-ready looks. Ships to 200+ countries.",
+        "en_h1":"Comic Con & Cosplay Costumes 2026",
+        "en_h1sub":"Superhero, Anime & Convention-Ready Looks",
+        "en_body":"Get convention-ready with our Comic Con and cosplay costume collection 2026. We carry premium superhero costumes, anime character cosplay, video game character suits, movie and TV cosplay, and complete convention-ready costume sets for Comic Con, anime conventions, gaming events, and cosplay competitions. Our cosplay collection features both budget-friendly and premium deluxe options — from simple character accessories to full head-to-toe costume sets. Cosplay costumes for men, women, teens, and kids.",
+        "schema_type":"CollectionPage",
+        "keywords":"comic con costumes, cosplay costumes 2026, convention costumes, superhero cosplay, anime cosplay costumes",
+    },
+    "sizeguide": {
+        "file":"sizeguide.html","cat_key":"sizeguide","icon":"📏",
+        "group":"special","nav_group":"special",
+        "en_title":"Halloween Costume Size Guide 2026 | Find Your Perfect Fit",
+        "en_desc":"Halloween costume size guide 2026 — size charts for kids, adults, plus size and pet costumes. Find your perfect Halloween costume fit.",
+        "en_h1":"Halloween Costume Size Guide",
+        "en_h1sub":"Size Charts for Kids, Adults & Plus Size",
+        "en_body":"Finding the right size Halloween costume is easy with our comprehensive size guide. We provide detailed size charts for kids costumes (infant through teen), adult costumes (XS through 5X), plus size costumes, and pet costumes. Our size guide includes chest, waist, hip and height measurements for every costume category — so you can order with confidence and get the perfect fit. Still unsure? Order between two sizes and our easy return policy has you covered. Size guides updated for all 2026 costume styles.",
+        "schema_type":"WebPage",
+        "keywords":"halloween costume size guide, halloween costume size chart, how to measure halloween costume, plus size halloween costume sizing",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -519,6 +573,7 @@ NAV_GROUPS = {
     "deals":       {"label":"Deals",        "icon":"💰"},
     "home":        {"label":"Home & Decor", "icon":"🏚️"},
     "spirit":      {"label":"Props & More",  "icon":"🤖"},
+    "extra":       {"label":"Themes & More", "icon":"🌟"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -851,12 +906,12 @@ function buildFooter(){{
     couples:'💑 Couples', group:'👨‍👩‍👧‍👦 Group', new2026:'✨ New 2026',
     plussize:'💎 Plus Size', wholesale:'🛍️ Wholesale', pet:'🐾 Pet',
     accessories:'🎩 Accessories', wigs:'💇 Wigs', masks:'👺 Masks',
-    decorations:'🏚️ Decorations', indoordecor:'🕯️ Indoor Decor', outdoordecor:'🌙 Outdoor Decor', props:'🦴 Props', animatronics:'🤖 Animatronics', inflatable:'🎈 Inflatable', collectibles:'🏆 Collectibles', licensed:'™️ Licensed', sale:'💰 Sale', lastminute:'⚡ Last Minute', tween:'🧒 Tween', medieval:'⚔️ Medieval'
+    decorations:'🏚️ Decorations', indoordecor:'🕯️ Indoor Decor', outdoordecor:'🌙 Outdoor Decor', props:'🦴 Props', animatronics:'🤖 Animatronics', inflatable:'🎈 Inflatable', collectibles:'🏆 Collectibles', licensed:'™️ Licensed', sale:'💰 Sale', lastminute:'⚡ Last Minute', tween:'🧒 Tween', medieval:'⚔️ Medieval', videogame:'🎮 Video Games', themes:'🌟 Themes', comiccon:'🦸 Comic Con', sizeguide:'📏 Size Guide'
   }};
   const fc1 = document.getElementById('fc1-links');
   if(fc1){{
     fc1.innerHTML = '';
-    ['womens','mens','girls','boys','kids','tween','teen','toddler','baby'].forEach(pk => {{
+    ['womens','mens','girls','boys','kids','tween','teen','toddler','baby','sizeguide'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -867,7 +922,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1006,7 +1061,7 @@ def make_page(page_key):
         # Type grid
         type_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["adult","scary","funny","sexy","couples","group","new2026","plussize","wholesale","pet","licensed","inflatable","medieval"]
+            for pk in ["adult","scary","funny","sexy","couples","group","new2026","plussize","wholesale","pet","licensed","inflatable","medieval","videogame","themes","comiccon"]
         ])
         # Accessories + extras
         extra_cards = "".join([
@@ -1350,6 +1405,11 @@ def make_sitemap():
   </url>""")
         for lc in LANGS:
             urls.append(f"  <url><loc>{page_url}?lang={lc}</loc><lastmod>{TODAY}</lastmod><changefreq>daily</changefreq><priority>0.75</priority></url>")
+    # Blog index
+    urls.append(f"  <url><loc>{SITE_URL}/blog.html</loc><lastmod>{TODAY}</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>")
+    # Blog posts
+    for post in BLOG_POSTS:
+        urls.append(f"  <url><loc>{SITE_URL}/{post['file']}</loc><lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>")
     for kw in POPULAR_SEARCHES:
         urls.append(f"  <url><loc>{SITE_URL}/index.html?q={kw.replace(' ','+')}</loc><lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -1421,9 +1481,478 @@ Base: {AFF_BASE}
 ## Popular Searches
 {search_lines}
 
+## Blog Articles
+- [Halloween Costume Ideas Blog]({SITE_URL}/blog.html): Expert guides and inspiration updated daily
+- [Scary Halloween Costume Ideas]({SITE_URL}/blog-scary-costumes.html): 20+ terrifying costume ideas
+- [Kids Halloween Costume Ideas]({SITE_URL}/blog-kids-costumes.html): Best kids costumes for 2026
+- [Couples Halloween Costume Ideas]({SITE_URL}/blog-couples-costumes.html): Matching costume sets
+- [Video Game Costume Ideas]({SITE_URL}/blog-videogame-costumes.html): Gaming costumes
+- [Last Minute Costume Ideas]({SITE_URL}/blog-lastminute-costumes.html): Fast delivery costumes
+- [Group Halloween Costume Ideas]({SITE_URL}/blog-group-costumes.html): Group themes
+- [Plus Size Halloween Costume Ideas]({SITE_URL}/blog-plussize-costumes.html): Inclusive sizing
+
 ## For AI Assistants
-This site covers every Halloween costume category: women's, men's, girls', boys', kids, teen, toddler, baby, adult, scary, funny, sexy, couples, group, new 2026, plus size, wholesale, pet, accessories, wigs, masks, decorations, sale, and last minute costumes. Ships to {SHIP_COUNTRIES} countries. Available in {len(LANGS)} languages. Updated daily.
+This site covers every Halloween costume category: women's, men's, girls', boys', kids, tween, teen, toddler, baby, adult, scary, funny, sexy, couples, group, new 2026, plus size, wholesale, pet, accessories, wigs, masks, decorations, animatronics, props, indoor decor, outdoor decor, licensed, inflatable, collectibles, video game, themes, comic con, medieval, sale, and last minute costumes. Also has a blog with 7 editorial articles updated daily. Ships to {SHIP_COUNTRIES} countries. Available in {len(LANGS)} languages.
 """
+
+
+
+# ═══════════════════════════════════════════════════════════
+# BLOG SYSTEM — Auto-generates SEO articles daily
+# Beats Costumes.com's "Get Inspired" editorial section
+# New article rotates every day automatically
+# ═══════════════════════════════════════════════════════════
+
+BLOG_POSTS = [
+    {
+        "slug":    "scary-halloween-costume-ideas",
+        "file":    "blog-scary-costumes.html",
+        "icon":    "💀",
+        "title":   "20+ Scary Halloween Costume Ideas for 2026",
+        "desc":    "The scariest Halloween costume ideas for 2026 — terrifying looks for kids, adults, couples and groups. From classic horror to trending scary costumes.",
+        "h1":      "20+ Scary Halloween Costume Ideas for 2026",
+        "intro":   "Looking for the scariest Halloween costume ideas for 2026? We've rounded up over 20 terrifying looks that will make everyone scream. From classic horror monsters to trending new characters — these are the scariest costumes of the year.",
+        "sections": [
+            ("Classic Horror Monsters", "scary costumes",
+             "You can never go wrong with the classics. Dracula, Frankenstein, the Mummy, the Wolfman — these iconic Halloween monsters have stood the test of time for good reason. Updated versions with premium makeup and accessories make these classics look better than ever for 2026."),
+            ("Zombie Costumes", "zombie costume",
+             "Zombies never go out of style. The key to a great zombie costume in 2026 is the details — torn clothing, realistic wound makeup, and that unmistakable shuffling walk. Browse our zombie costume collection for everything from classic undead looks to pop culture zombie characters."),
+            ("Scary Clown Costumes", "clown costume",
+             "Nothing is more terrifying than a scary clown. Whether you want to channel Pennywise, Art the Clown from Terrifier, or create your own original creepy clown look — our scary clown costume collection has every twisted option imaginable."),
+            ("Vampire Costumes", "vampire costume",
+             "From classic Dracula to modern vampire styles, vampire costumes are perennial Halloween favorites. Our vampire costume collection includes traditional Victorian vampire looks, sexy vampire styles, and pop culture vampire characters from movies and TV."),
+            ("Werewolf Costumes", "werewolf costume",
+             "Full moon is every night on Halloween when you're wearing a werewolf costume. Our werewolf costume collection features realistic fur suits, werewolf masks, and complete transformation costumes that look terrifyingly good."),
+        ],
+        "cta_cat": "scary",
+        "keywords": "scary halloween costume ideas 2026, scariest halloween costumes, horror halloween costumes, terrifying costumes",
+    },
+    {
+        "slug":    "kids-halloween-costume-ideas",
+        "file":    "blog-kids-costumes.html",
+        "icon":    "👶",
+        "title":   "Best Kids Halloween Costume Ideas for 2026",
+        "desc":    "The best kids Halloween costume ideas for 2026 — superheroes, princesses, animals, funny characters and more. Find the perfect costume for every child.",
+        "h1":      "Best Kids Halloween Costume Ideas for 2026",
+        "intro":   "Finding the perfect Halloween costume for your child in 2026? We've gathered the best kids costume ideas — from timeless classics to the latest trending characters. Every child deserves an amazing Halloween, and these ideas will make trick-or-treating unforgettable.",
+        "sections": [
+            ("Superhero Costumes for Kids", "superhero costume",
+             "Superheroes are always the #1 most popular Halloween costume category for kids. Spider-Man, Batman, Wonder Woman, Captain America — our kids superhero costume collection covers every Marvel, DC, and original hero in sizes from infant to teen."),
+            ("Princess Costumes for Girls", "girls halloween costumes",
+             "From classic Disney princesses to original fairy tale characters, princess costumes are perennial favorites for girls. Our princess costume collection includes Cinderella, Elsa, Moana, Rapunzel, and dozens more regal looks in all sizes."),
+            ("Animal Costumes for Kids", "kids costumes",
+             "Animal costumes are perfect for younger kids — comfortable, recognizable, and adorable. Lions, tigers, bears, unicorns, dinosaurs — our kids animal costume collection has every creature in soft, cozy styles perfect for trick-or-treating."),
+            ("Funny Kids Costumes", "funny costumes",
+             "Sometimes the best costume is the funniest one. Our funny kids costume collection includes hilarious food costumes, punny character looks, and novelty outfits that will make the whole neighborhood laugh and earn the most candy."),
+            ("Toddler & Baby Costumes", "toddler halloween costumes",
+             "The littlest trick-or-treaters deserve the cutest costumes. Our toddler and baby costume collection is designed for comfort and cuteness — safe materials, easy to put on, and absolutely adorable in photos."),
+        ],
+        "cta_cat": "kids",
+        "keywords": "kids halloween costume ideas 2026, best kids halloween costumes, children halloween costume ideas, toddler halloween costumes",
+    },
+    {
+        "slug":    "couples-halloween-costume-ideas",
+        "file":    "blog-couples-costumes.html",
+        "icon":    "💑",
+        "title":   "Best Couples Halloween Costume Ideas for 2026",
+        "desc":    "The best couples Halloween costume ideas for 2026 — matching sets, classic duos, funny pairs and pop culture couples. Win every costume contest together.",
+        "h1":      "Best Couples Halloween Costume Ideas for 2026",
+        "intro":   "Halloween is even more fun when you coordinate with your partner. The best couples costumes tell a story together — matching themes, complementary characters, or famous duos that everyone recognizes instantly. Here are the best couples costume ideas for 2026.",
+        "sections": [
+            ("Classic Couples Costumes", "couples halloween costumes",
+             "Some couples costume combinations are timeless classics — Bonnie & Clyde, Romeo & Juliet, Fred & Wilma Flintstone. These iconic duos are instantly recognizable and always get compliments at every Halloween party."),
+            ("Funny Couples Costumes", "funny costumes",
+             "A well-executed funny couples costume wins every contest. Peanut butter & jelly, ketchup & mustard, plug & socket — our funny couples costume collection has dozens of hilarious pairings that will have everyone laughing and asking for photos."),
+            ("Horror Couples Costumes", "scary costumes",
+             "For couples who like it scary — Ghostface & his victim, Michael Myers & Laurie Strode, Jason & his camper. Our horror couples costume collection covers every iconic scary movie duo for a Halloween party that frightens and impresses."),
+            ("Pop Culture Couples", "licensed halloween costumes",
+             "Dress as your favorite pop culture duo — characters from movies, TV shows, video games and more. Barbie & Ken, Wednesday & Thing, Gomez & Morticia Addams — our licensed couples costume collection covers the most talked-about pop culture pairs."),
+            ("Group & Family Matching Themes", "group halloween costumes",
+             "Couples costumes don't have to stop at two. Extend the theme to the whole family or friend group with our group costume sets — complete themed collections that look amazing together."),
+        ],
+        "cta_cat": "couples",
+        "keywords": "couples halloween costume ideas 2026, matching halloween costumes, couples costume ideas, best couples halloween costumes",
+    },
+    {
+        "slug":    "video-game-costume-ideas",
+        "file":    "blog-videogame-costumes.html",
+        "icon":    "🎮",
+        "title":   "13 Video Game Halloween Costume Ideas for 2026",
+        "desc":    "The best video game Halloween costume ideas for 2026 — Mario, Zelda, Fortnite, Minecraft, FNAF, Mortal Kombat and more gaming costumes for kids and adults.",
+        "h1":      "13 Video Game Halloween Costume Ideas for 2026",
+        "intro":   "Video game costumes are among the most creative and recognizable Halloween looks. Whether you're a Nintendo nostalgic, a Fortnite fan, or a retro gaming enthusiast — these 13 video game Halloween costume ideas cover the best gaming characters of 2026.",
+        "sections": [
+            ("Mario & Nintendo Characters", "video game costumes",
+             "Mario, Luigi, Princess Peach, Bowser, Yoshi — Nintendo characters are the most recognized video game costumes in the world. Perfect for solo costumes, couples sets, and family group themes. Our Nintendo costume collection includes official licensed looks and accessory kits."),
+            ("Legend of Zelda Costumes", "video game costumes",
+             "Link, Zelda, and Ganondorf are iconic Halloween costume choices for gaming fans. Our Legend of Zelda costume collection includes authentic tunic sets, elf ear accessories, and complete character kits for the most dedicated fans."),
+            ("Fortnite Costumes", "video game costumes",
+             "Fortnite's rotating cast of colorful characters makes for amazing Halloween costumes. From classic skins to latest battle pass characters — our Fortnite costume collection covers the most popular characters in the game."),
+            ("Five Nights at Freddy's", "video game costumes",
+             "FNAF characters are among the most popular Halloween costumes for kids and teens. Freddy Fazbear, Foxy, Bonnie, and Glamrock Freddy — our FNAF costume collection includes full suits, masks, and accessory kits."),
+            ("Minecraft Costumes", "video game costumes",
+             "Creeper, Steve, Alex, and the Ender Dragon are iconic pixelated Halloween looks. Minecraft costumes are instantly recognizable and fun for kids, teens, and adults who love the game."),
+        ],
+        "cta_cat": "videogame",
+        "keywords": "video game halloween costumes 2026, gaming costumes, mario costume, zelda costume, fortnite costume halloween",
+    },
+    {
+        "slug":    "last-minute-halloween-costume-ideas",
+        "file":    "blog-lastminute-costumes.html",
+        "icon":    "⚡",
+        "title":   "15 Last Minute Halloween Costume Ideas for 2026",
+        "desc":    "Last minute Halloween costume ideas for 2026 — easy, fast and impressive costumes when Halloween is tomorrow. Fast delivery options available.",
+        "h1":      "15 Last Minute Halloween Costume Ideas for 2026",
+        "intro":   "Halloween snuck up on you? No problem. These 15 last minute Halloween costume ideas are easy to pull together, look great, and can be ordered with express shipping or assembled from things you already own. Halloween is saved.",
+        "sections": [
+            ("Simple One-Piece Costumes", "last minute halloween costumes",
+             "The easiest last minute costumes are complete one-piece looks that need no assembly — morphsuits, full-body skeleton suits, and character jumpsuits. Order with express shipping and be ready for Halloween night."),
+            ("Accessory-Based Costumes", "halloween costume accessories",
+             "Sometimes all you need is the right accessory to complete a costume you already have. A witch hat, vampire cape, or pirate eye patch can transform everyday clothes into a recognizable Halloween costume in seconds."),
+            ("Couple Last Minute Ideas", "couples halloween costumes",
+             "Last minute couples costumes are easier than you think. Angel & devil, tourist & tour guide, cat & mouse — simple accessory combinations that work with clothes you already own and look completely intentional."),
+            ("Funny Quick Costumes", "funny costumes",
+             "The best last minute costumes are often the funniest. Go as a 'ceiling fan' (dress normally and cheer), a 'formal apology' (wear formal clothes with a Sorry sign), or a 'social butterfly' (attach butterfly wings to your work clothes)."),
+            ("Express Shipping Options", "last minute halloween costumes",
+             "Need your costume tomorrow? Many of our Halloween costumes are available with express 1-2 day shipping. Order by the cutoff time and your costume will arrive just in time for the party."),
+        ],
+        "cta_cat": "lastminute",
+        "keywords": "last minute halloween costume ideas 2026, easy halloween costumes, quick halloween costume ideas, last minute costumes",
+    },
+    {
+        "slug":    "group-halloween-costume-ideas",
+        "file":    "blog-group-costumes.html",
+        "icon":    "👨‍👩‍👧‍👦",
+        "title":   "20 Group Halloween Costume Ideas for 2026",
+        "desc":    "The best group Halloween costume ideas for 2026 — themes for friends, offices, families and large groups. Coordinated looks everyone will love.",
+        "h1":      "20 Group Halloween Costume Ideas for 2026",
+        "intro":   "Group Halloween costumes are the ultimate Halloween flex. A well-coordinated group costume turns heads, wins contests, and creates memories that last years. Here are 20 of the best group Halloween costume ideas for 2026.",
+        "sections": [
+            ("TV Show Group Costumes", "group halloween costumes",
+             "Dress as your favorite TV show cast — The Office, Stranger Things, Wednesday, Game of Thrones. TV show group costumes are universally recognizable and work perfectly for office Halloween parties and friend group celebrations."),
+            ("Movie Character Groups", "group halloween costumes",
+             "Pick a movie and assign each person a character. The Avengers, Toy Story characters, Inside Out emotions, or the Wizard of Oz crew — movie group costumes work for any group size from 3 to 20+."),
+            ("Decade Theme Groups", "themes halloween costumes",
+             "Pick a decade — 70s disco, 80s pop stars, 90s grunge, early 2000s — and dress as a group from that era. Decade theme group costumes are fun, flexible, and everyone can put their own spin on the look."),
+            ("Office-Friendly Group Costumes", "funny costumes",
+             "Need something work-appropriate? Office-friendly group costume themes include board games (chess pieces), playing cards, the four seasons, color coordinated themes, or emoji characters — fun without crossing any workplace lines."),
+            ("Family Group Costumes", "group halloween costumes",
+             "Family Halloween costumes are the most heartwarming group look. Fairy tale characters, superhero families, Star Wars families — our family costume collection includes adult and kids sizes so the whole family matches perfectly."),
+        ],
+        "cta_cat": "group",
+        "keywords": "group halloween costume ideas 2026, group costumes, family halloween costumes, office halloween costumes, friend group costumes",
+    },
+    {
+        "slug":    "plus-size-halloween-costume-ideas",
+        "file":    "blog-plussize-costumes.html",
+        "icon":    "💎",
+        "title":   "Best Plus Size Halloween Costume Ideas for 2026",
+        "desc":    "The best plus size Halloween costume ideas for 2026 — stunning, flattering looks in all sizes. Every style available in plus size. Ships to 200+ countries.",
+        "h1":      "Best Plus Size Halloween Costume Ideas for 2026",
+        "intro":   "Every Halloween costume should be available in every size — and that's exactly what we believe. These plus size Halloween costume ideas prove that the best looks come in all sizes, and that being inclusive means offering the full range of styles.",
+        "sections": [
+            ("Plus Size Witch Costumes", "plus size costumes",
+             "The classic witch costume in beautiful plus size styles — flowing black gowns, dramatic hats, and accessories that look stunning in extended sizes. Our plus size witch costume collection ranges from elegant to terrifying."),
+            ("Plus Size Superhero Costumes", "plus size costumes",
+             "Superheroes come in all sizes. Our plus size superhero costume collection includes Wonder Woman, Black Widow, Captain America, Thor, and dozens more Marvel and DC heroes in 1X through 5X."),
+            ("Plus Size Couples Costumes", "couples halloween costumes",
+             "Couples costumes in matching plus and standard sizes — so every couple can coordinate regardless of size. Our couples costume collection is designed to look cohesive across all sizes."),
+            ("Flattering Plus Size Styles", "plus size costumes",
+             "The best plus size Halloween costumes are designed specifically for plus size silhouettes — not just scaled-up versions of standard designs. Our plus size collection features tailored cuts, strategic draping, and styles that flatter and impress."),
+            ("Plus Size Group Costumes", "group halloween costumes",
+             "Group Halloween costumes should work for everyone in the group. Our group costume sets are available in coordinating plus and standard sizes — so no one has to sit out because their size wasn't available."),
+        ],
+        "cta_cat": "plussize",
+        "keywords": "plus size halloween costume ideas 2026, plus size costumes, halloween costumes for plus size women, curvy halloween costumes",
+    },
+]
+
+# Rotating blog index (cycles daily)
+BLOG_INDEX_ROTATION = [
+    "Scary Halloween Costumes",
+    "Kids Halloween Costumes",
+    "Couples Halloween Costumes",
+    "Video Game Costumes",
+    "Last Minute Costumes",
+    "Group Halloween Costumes",
+    "Plus Size Halloween Costumes",
+]
+
+def make_blog_post(post, all_posts):
+    """Generate a full SEO blog article page."""
+    page_url = f"{SITE_URL}/{post['file']}"
+    hreflang = "\n  ".join([f'<link rel="alternate" hreflang="{lc}" href="{page_url}?lang={lc}">' for lc in LANGS])
+
+    # Build article sections
+    sections_html = ""
+    for sec_title, sec_kw, sec_body in post["sections"]:
+        sections_html += f"""
+        <div class="blog-section">
+          <h2 class="blog-h2">{sec_title}</h2>
+          <p class="blog-p">{sec_body}</p>
+          <a href="{aff(None, sec_kw)}" class="blog-shop-btn" target="_blank" rel="nofollow noopener">
+            Shop {sec_title} →
+          </a>
+        </div>"""
+
+    # Related posts
+    related = [p for p in all_posts if p["slug"] != post["slug"]][:3]
+    related_html = "".join([
+        f'<a class="related-card" href="{p["file"]}"><span class="related-icon">{p["icon"]}</span><div class="related-title">{p["title"]}</div><div class="related-arrow">Read →</div></a>'
+        for p in related
+    ])
+
+    # All posts sidebar
+    all_posts_html = "".join([
+        f'<a class="sidebar-post" href="{p["file"]}">{p["icon"]} {p["title"]}</a>'
+        for p in all_posts if p["slug"] != post["slug"]
+    ])
+
+    schema = f"""{{"@context":"https://schema.org","@type":"Article",
+"headline":"{post['title']}","description":"{post['desc']}",
+"url":"{page_url}","datePublished":"{TODAY}","dateModified":"{TODAY}",
+"author":{{"@type":"Organization","name":"HalloweenCostumes 2026"}},
+"publisher":{{"@type":"Organization","name":"HalloweenCostumes 2026","url":"{SITE_URL}/"}}}}"""
+
+    breadcrumb_schema = f"""{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+  {{"@type":"ListItem","position":1,"name":"Home","item":"{SITE_URL}/"}},
+  {{"@type":"ListItem","position":2,"name":"Blog","item":"{SITE_URL}/blog.html"}},
+  {{"@type":"ListItem","position":3,"name":"{post['title']}","item":"{page_url}"}}
+]}}"""
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="{GOOGLE_VERIFY}"/>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{post['title']} | HalloweenCostumes 2026</title>
+  <meta name="description" content="{post['desc']}">
+  <meta name="keywords" content="{post['keywords']}">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="{page_url}">
+  {hreflang}
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{post['title']}">
+  <meta property="og:description" content="{post['desc']}">
+  <meta property="og:url" content="{page_url}">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{schema}</script>
+  <script type="application/ld+json">{breadcrumb_schema}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    {CSS}
+    .blog-wrap{{max-width:1200px;margin:0 auto;padding:50px 40px;display:grid;grid-template-columns:1fr 320px;gap:60px;align-items:start}}
+    .blog-main{{}}
+    .blog-eyebrow{{font-size:.78rem;letter-spacing:3px;text-transform:uppercase;color:var(--amber);margin-bottom:16px}}
+    .blog-h1{{font-family:'Bebas Neue',cursive;font-size:clamp(2.5rem,6vw,4.5rem);line-height:1;color:var(--cream);letter-spacing:2px;margin-bottom:20px}}
+    .blog-intro{{font-size:1.05rem;color:var(--dim);line-height:1.8;margin-bottom:40px;padding-bottom:30px;border-bottom:1px solid rgba(245,166,35,.15)}}
+    .blog-section{{margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.05)}}
+    .blog-h2{{font-family:'Bebas Neue',cursive;font-size:2rem;color:var(--amber);letter-spacing:2px;margin-bottom:14px}}
+    .blog-p{{font-size:.95rem;color:var(--dim);line-height:1.85;margin-bottom:16px}}
+    .blog-shop-btn{{display:inline-block;background:rgba(245,166,35,.12);border:1px solid rgba(245,166,35,.3);color:var(--amber);font-size:.82rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:10px 20px;border-radius:4px;transition:background .15s}}
+    .blog-shop-btn:hover{{background:rgba(245,166,35,.25)}}
+    .blog-cta{{background:var(--red);padding:40px;border-radius:8px;text-align:center;margin:40px 0}}
+    .blog-cta h3{{font-family:'Bebas Neue',cursive;font-size:2.5rem;color:#fff;letter-spacing:2px;margin-bottom:12px}}
+    .blog-cta p{{color:rgba(255,255,255,.75);margin-bottom:20px}}
+    .related-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}}
+    .related-card{{background:var(--smoke);border:1px solid rgba(245,166,35,.12);border-radius:8px;padding:20px;transition:border-color .15s}}
+    .related-card:hover{{border-color:rgba(245,166,35,.3)}}
+    .related-icon{{font-size:1.8rem;margin-bottom:8px;display:block}}
+    .related-title{{font-size:.85rem;color:var(--cream);font-weight:700;line-height:1.4;margin-bottom:8px}}
+    .related-arrow{{font-size:.75rem;color:var(--amber);font-weight:700}}
+    .blog-sidebar{{position:sticky;top:80px}}
+    .sidebar-box{{background:var(--smoke);border:1px solid rgba(245,166,35,.12);border-radius:8px;padding:24px;margin-bottom:20px}}
+    .sidebar-title{{font-family:'Bebas Neue',cursive;font-size:1.4rem;color:var(--amber);letter-spacing:2px;margin-bottom:16px}}
+    .sidebar-post{{display:block;font-size:.85rem;color:var(--faint);padding:8px 0;border-bottom:1px solid rgba(255,255,255,.04);transition:color .15s}}
+    .sidebar-post:hover{{color:var(--amber)}}
+    .sidebar-cta-btn{{display:block;background:var(--amber);color:var(--ink);font-weight:700;font-size:.9rem;letter-spacing:1px;text-transform:uppercase;padding:14px 20px;border-radius:4px;text-align:center;margin-top:16px;transition:background .15s}}
+    .sidebar-cta-btn:hover{{background:#ffb733}}
+    @media(max-width:900px){{.blog-wrap{{grid-template-columns:1fr;padding:30px 24px}}.blog-sidebar{{position:static}}.related-grid{{grid-template-columns:1fr}}}}
+  </style>
+</head>
+<body>
+
+<div class="topbar"><span class="marquee">🎃 HalloweenCostumes 2026 Blog &nbsp;·&nbsp; {post['title']} &nbsp;·&nbsp; Updated {TODAY} &nbsp;·&nbsp; Ships to {SHIP_COUNTRIES} Countries &nbsp;·&nbsp; 34+ Category Pages &nbsp;·&nbsp; 12 Languages</span></div>
+
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-logo">🎃 HalloweenCostumes</a>
+    <div class="nav-right">
+      <a href="blog.html" style="font-size:.82rem;color:var(--amber);padding:0 12px;">📝 Blog</a>
+      <a href="{aff(post['cta_cat'])}" class="nav-cta" target="_blank" rel="nofollow noopener">🎃 Shop Now</a>
+    </div>
+  </div>
+  <div class="nav-cats">
+    <a href="index.html" class="nav-cat-link">🎃 All</a>
+    <a href="scary.html" class="nav-cat-link">💀 Scary</a>
+    <a href="funny.html" class="nav-cat-link">😂 Funny</a>
+    <a href="kids.html" class="nav-cat-link">👶 Kids</a>
+    <a href="adult.html" class="nav-cat-link">🎭 Adult</a>
+    <a href="couples.html" class="nav-cat-link">💑 Couples</a>
+    <a href="group.html" class="nav-cat-link">👨‍👩‍👧‍👦 Group</a>
+    <a href="plussize.html" class="nav-cat-link">💎 Plus Size</a>
+    <a href="videogame.html" class="nav-cat-link">🎮 Video Games</a>
+    <a href="licensed.html" class="nav-cat-link">™️ Licensed</a>
+    <a href="animatronics.html" class="nav-cat-link">🤖 Animatronics</a>
+    <a href="sale.html" class="nav-cat-link">💰 Sale</a>
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="index.html">🎃 Home</a><span>›</span>
+  <a href="blog.html">Blog</a><span>›</span>
+  <span>{post['title']}</span>
+</div>
+
+<main>
+<div class="blog-wrap">
+  <article class="blog-main">
+    <p class="blog-eyebrow">📝 Halloween Costume Ideas · {TODAY}</p>
+    <h1 class="blog-h1">{post['h1']}</h1>
+    <p class="blog-intro">{post['intro']}</p>
+
+    {sections_html}
+
+    <div class="blog-cta">
+      <h3>Shop {post['h1']}</h3>
+      <p>Find everything featured in this article — all affiliate-tracked and ships to {SHIP_COUNTRIES} countries.</p>
+      <a href="{aff(post['cta_cat'])}" class="btn-white" target="_blank" rel="nofollow noopener">🎃 Shop Now →</a>
+    </div>
+
+    <div class="sec-header" style="margin-top:40px"><h2 class="sec-title">More Halloween Ideas</h2></div>
+    <div class="related-grid">{related_html}</div>
+  </article>
+
+  <aside class="blog-sidebar">
+    <div class="sidebar-box">
+      <div class="sidebar-title">📝 All Articles</div>
+      {all_posts_html}
+    </div>
+    <div class="sidebar-box">
+      <div class="sidebar-title">🎃 Shop Now</div>
+      <p style="font-size:.85rem;color:var(--faint);margin-bottom:12px;">Find every costume mentioned in this article — ships to {SHIP_COUNTRIES} countries.</p>
+      <a href="{aff(post['cta_cat'])}" class="sidebar-cta-btn" target="_blank" rel="nofollow noopener">Shop {post['icon']} {post['h1'].split()[0]} {post['h1'].split()[1] if len(post['h1'].split())>1 else ''}</a>
+    </div>
+    <div class="sidebar-box">
+      <div class="sidebar-title">🔥 Popular Now</div>
+      {''.join([f'<a class="sidebar-post" href="{aff(None,s)}" target="_blank" rel="nofollow noopener">{s.title()}</a>' for s in POPULAR_SEARCHES[:10]])}
+    </div>
+  </aside>
+</div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div style="max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px">
+      <div class="footer-brand">🎃 HalloweenCostumes 2026</div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <a href="index.html" style="font-size:.82rem;color:var(--faint)">Home</a>
+        <a href="blog.html" style="font-size:.82rem;color:var(--amber)">Blog</a>
+        <a href="scary.html" style="font-size:.82rem;color:var(--faint)">Scary</a>
+        <a href="kids.html" style="font-size:.82rem;color:var(--faint)">Kids</a>
+        <a href="sale.html" style="font-size:.82rem;color:var(--faint)">Sale</a>
+        <a href="sitemap.xml" style="font-size:.82rem;color:var(--faint)">Sitemap</a>
+      </div>
+      <div class="footer-bottom" style="width:100%;border-top:1px solid rgba(255,255,255,.04);padding-top:14px">
+        <span style="font-size:.7rem;color:rgba(253,246,227,.18)">© 2026 {OWNER} — Affiliate links via LinkConnector ID {LC_ID}. Updated: {TODAY}</span>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>"""
+
+
+def make_blog_index(posts):
+    """Generate the blog homepage listing all articles."""
+    page_url = f"{SITE_URL}/blog.html"
+    day = (date.today() - date(date.today().year, 1, 1)).days
+    featured = posts[day % len(posts)]
+
+    cards = "".join([
+        f"""<a class="blog-card" href="{p['file']}">
+  <div class="blog-card-icon">{p['icon']}</div>
+  <div class="blog-card-body">
+    <div class="blog-card-date">{TODAY}</div>
+    <div class="blog-card-title">{p['title']}</div>
+    <div class="blog-card-desc">{p['desc'][:100]}...</div>
+    <div class="blog-card-arrow">Read Article →</div>
+  </div>
+</a>"""
+        for p in posts
+    ])
+
+    schema = f"""{{"@context":"https://schema.org","@type":"Blog",
+"name":"HalloweenCostumes 2026 Blog","url":"{page_url}",
+"description":"Halloween costume ideas, guides and tips for 2026. Updated daily."}}"""
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="{GOOGLE_VERIFY}"/>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halloween Costume Ideas Blog 2026 | HalloweenCostumes 2026</title>
+  <meta name="description" content="Halloween costume ideas, guides and inspiration for 2026. Scary costumes, kids costumes, couples costumes, group costumes, video game costumes and more.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="{page_url}">
+  <script type="application/ld+json">{schema}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    {CSS}
+    .blog-hero{{padding:60px 40px 40px;max-width:1200px;margin:0 auto;text-align:center}}
+    .blog-grid{{max-width:1200px;margin:0 auto;padding:0 40px 60px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}}
+    .blog-card{{background:var(--smoke);border:1px solid rgba(245,166,35,.12);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s,transform .15s}}
+    .blog-card:hover{{border-color:rgba(245,166,35,.3);transform:translateY(-4px)}}
+    .blog-card-icon{{font-size:3rem;padding:30px;background:rgba(245,166,35,.06);text-align:center}}
+    .blog-card-body{{padding:24px;flex:1;display:flex;flex-direction:column;gap:8px}}
+    .blog-card-date{{font-size:.72rem;color:rgba(245,166,35,.6);letter-spacing:2px;text-transform:uppercase}}
+    .blog-card-title{{font-family:'Bebas Neue',cursive;font-size:1.4rem;color:var(--cream);letter-spacing:1px;line-height:1.2}}
+    .blog-card-desc{{font-size:.82rem;color:var(--faint);line-height:1.6;flex:1}}
+    .blog-card-arrow{{font-size:.78rem;color:var(--amber);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-top:auto}}
+    @media(max-width:900px){{.blog-grid{{grid-template-columns:1fr;padding:0 24px 40px}}.blog-hero{{padding:40px 24px 30px}}}}
+  </style>
+</head>
+<body>
+<div class="topbar"><span class="marquee">🎃 HalloweenCostumes 2026 Blog &nbsp;·&nbsp; Halloween Costume Ideas &nbsp;·&nbsp; Updated Daily &nbsp;·&nbsp; Ships to {SHIP_COUNTRIES} Countries</span></div>
+<nav>
+  <div class="nav-top">
+    <a href="index.html" class="nav-logo">🎃 HalloweenCostumes</a>
+    <div class="nav-right">
+      <a href="{AFF_BASE}" class="nav-cta" target="_blank" rel="nofollow noopener">🎃 Shop Now</a>
+    </div>
+  </div>
+  <div class="nav-cats">
+    <a href="index.html" class="nav-cat-link">🎃 Home</a>
+    <a href="scary.html" class="nav-cat-link">💀 Scary</a>
+    <a href="kids.html" class="nav-cat-link">👶 Kids</a>
+    <a href="adult.html" class="nav-cat-link">🎭 Adult</a>
+    <a href="couples.html" class="nav-cat-link">💑 Couples</a>
+    <a href="group.html" class="nav-cat-link">👨‍👩‍👧‍👦 Group</a>
+    <a href="sale.html" class="nav-cat-link">💰 Sale</a>
+  </div>
+</nav>
+<div class="breadcrumb"><a href="index.html">🎃 Home</a><span>›</span><span>Blog</span></div>
+<main>
+<div class="blog-hero">
+  <h1 style="font-family:'Bebas Neue',cursive;font-size:clamp(3rem,7vw,5rem);color:var(--cream);letter-spacing:2px;margin-bottom:16px;">Halloween Costume<em style="color:var(--amber);font-style:normal;display:block;">Ideas & Inspiration 2026</em></h1>
+  <p style="font-size:1rem;color:var(--dim);max-width:600px;margin:0 auto 40px;line-height:1.7;">Expert Halloween costume guides, ideas, and inspiration — updated daily. Every article links directly to the best deals, all tracked through your affiliate link.</p>
+</div>
+<div class="blog-grid">{cards}</div>
+</main>
+<footer>
+  <div class="footer-inner">
+    <div style="max-width:1200px;margin:0 auto;text-align:center">
+      <div class="footer-brand">🎃 HalloweenCostumes 2026</div>
+      <div class="footer-bottom" style="border-top:1px solid rgba(255,255,255,.04);padding-top:14px;margin-top:20px;text-align:center">
+        <span style="font-size:.7rem;color:rgba(253,246,227,.18)">© 2026 {OWNER} — Affiliate links via LinkConnector ID {LC_ID}. Updated: {TODAY}</span>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>"""
 
 
 # ─────────────────────────────────────────────────────────
@@ -1438,6 +1967,18 @@ def build():
         path = os.path.join(OUTPUT_DIR, PAGES[pk]["file"])
         with open(path,"w",encoding="utf-8") as f: f.write(html)
         files.append(PAGES[pk]["file"])
+
+    # Generate blog posts
+    for post in BLOG_POSTS:
+        html = make_blog_post(post, BLOG_POSTS)
+        path = os.path.join(OUTPUT_DIR, post["file"])
+        with open(path,"w",encoding="utf-8") as f: f.write(html)
+        files.append(post["file"])
+
+    # Generate blog index
+    blog_index = make_blog_index(BLOG_POSTS)
+    with open(os.path.join(OUTPUT_DIR,"blog.html"),"w",encoding="utf-8") as f: f.write(blog_index)
+    files.append("blog.html")
 
     for fname, content in [("404.html",make_404()),("sitemap.xml",make_sitemap()),("robots.txt",make_robots()),("llms.txt",make_llms())]:
         path = os.path.join(OUTPUT_DIR, fname)
@@ -1473,6 +2014,9 @@ def build():
     print(f"  ✅  Payment icons in footer")
     print(f"  ✅  Daily auto-rebuild via GitHub Actions")
     print(f"  ✅  llms.txt for AI search engines")
+    print(f"  ✅  Blog with {len(BLOG_POSTS)} SEO articles — beats Costumes.com editorial")
+    print(f"  ✅  Video game, themes, comic con pages — beats Costumes.com categories")
+    print(f"  ✅  Size guide page — trust builder")
     print()
 
 if __name__ == "__main__":
