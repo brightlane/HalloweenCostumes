@@ -3,194 +3,348 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Halloween Costumes 2026 | Best Deals</title>
-  <meta name="description" content="Halloween costumes 2026 deals: cheap, wholesale, and fun costumes for kids and adults. Auto‑updated landing page with daily‑rotating text.">
-  <meta name="keywords" content="halloween costumes,halloween costumes 2026,cheap halloween costumes,buy halloween costumes online,kids halloween costumes,adult halloween costumes,wholesale halloween costumes,halloween costume deals">
+  <title>Halloween Costumes 2026 | Best Deals Worldwide</title>
+  <meta name="description" content="Halloween costumes 2026 – best deals worldwide for kids, adults, groups and wholesale. Updated daily.">
+  <meta name="keywords" content="halloween costumes 2026,cheap halloween costumes,kids halloween costumes,adult halloween costumes,wholesale halloween costumes,halloween costume deals worldwide">
   <meta name="robots" content="index, follow">
-  //brightlane.github.io/HalloweenCostumes/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: system-ui, -apple-system, sans-serif;
-      background: linear-gradient(135deg, #000000, #4b0082);
-      color: #e6e6e6;
-      margin: 0;
-      padding: 20px 0;
+    :root {
+      --ink:   #0c0b09;
+      --amber: #f5a623;
+      --cream: #fdf6e3;
+      --red:   #e8321a;
+      --smoke: #1e1c18;
+      --muted: #6b6456;
     }
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 1rem;
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { font-family:'DM Sans',sans-serif; background:var(--ink); color:var(--cream); min-height:100vh; }
+    a { color:inherit; text-decoration:none; }
+
+    /* TOPBAR */
+    .topbar {
+      background:var(--amber); color:var(--ink);
+      font-weight:700; font-size:0.78rem; letter-spacing:2px; text-transform:uppercase;
+      text-align:center; padding:10px 16px;
     }
-    h1 {
-      text-align: center;
-      font-size: 2.8rem;
-      color: #ff6b35;
-      margin: 0 0 10px 0;
-      text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+
+    /* NAV */
+    nav {
+      background:var(--ink); border-bottom:1px solid rgba(245,166,35,.2);
+      padding:18px 40px; display:flex; align-items:center; justify-content:space-between;
+      position:sticky; top:0; z-index:100;
     }
+    .nav-logo { font-family:'Bebas Neue',cursive; font-size:1.8rem; color:var(--amber); letter-spacing:2px; }
+    .nav-cta {
+      background:var(--amber); color:var(--ink);
+      font-weight:700; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase;
+      padding:10px 24px; border-radius:4px; transition:background .15s;
+    }
+    .nav-cta:hover { background:#ffb733; }
+
+    /* HERO */
     .hero {
-      background: linear-gradient(135deg, #ff6b35, #db2b39);
-      padding: 40px 0;
-      border-radius: 20px;
-      margin: 20px auto;
-      max-width: 1000px;
-      text-align: center;
-      box-shadow: 0 15px 40px rgba(255,107,53,0.4);
+      padding:80px 40px 60px; max-width:1100px; margin:0 auto;
+      display:grid; grid-template-columns:1fr 340px; gap:60px; align-items:center;
     }
-    .tagline {
-      color: #e9ecef;
-      font-size: 1.1rem;
-      margin: 0 0 10px 0;
+    .hero-tag {
+      display:inline-block; background:var(--red); color:#fff;
+      font-size:0.72rem; font-weight:700; letter-spacing:3px; text-transform:uppercase;
+      padding:6px 14px; border-radius:2px; margin-bottom:24px;
     }
-    .highlight {
-      background: #000;
-      color: #ff6b35;
-      padding: 12px;
-      border-radius: 8px;
-      margin: 10px 0 0 0;
-      font-size: 1.1rem;
-      text-align: center;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    .hero h1 {
+      font-family:'Bebas Neue',cursive;
+      font-size:clamp(5rem,10vw,9rem); line-height:.92;
+      color:var(--cream); letter-spacing:2px; margin-bottom:28px;
     }
-    .btn {
-      display: block;
-      background: linear-gradient(45deg, #db2b39, #be123c);
-      color: white;
-      font-size: 1.2rem;
-      padding: 18px 30px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 30px;
-      margin: 20px auto 0;
-      max-width: 400px;
-      font-weight: 900;
-      box-shadow: 0 15px 40px rgba(219,43,57,0.6);
-      border: 0;
+    .hero h1 em { font-style:normal; color:var(--amber); display:block; }
+    .hero-desc { font-size:1.1rem; color:rgba(253,246,227,.65); line-height:1.7; max-width:480px; margin-bottom:36px; }
+    .hero-buttons { display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+    .btn-primary {
+      display:inline-block; background:var(--amber); color:var(--ink);
+      font-weight:700; font-size:1rem; letter-spacing:1px; text-transform:uppercase;
+      padding:18px 40px; border-radius:4px; transition:background .15s,transform .15s;
     }
-    .section {
-      margin: 30px 0;
-      background: rgba(255,255,255,0.1);
-      padding: 20px;
-      border-radius: 12px;
+    .btn-primary:hover { background:#ffb733; transform:translateY(-2px); }
+    .btn-ghost {
+      display:inline-block; border:2px solid rgba(253,246,227,.3); color:rgba(253,246,227,.7);
+      font-weight:500; font-size:.92rem; padding:16px 30px; border-radius:4px; transition:border-color .15s,color .15s;
     }
-    .section h2 {
-      color: #ff6b35;
-      margin-bottom: 10px;
-      font-size: 1.4rem;
+    .btn-ghost:hover { border-color:var(--amber); color:var(--amber); }
+    .hero-trust { margin-top:24px; display:flex; gap:20px; flex-wrap:wrap; }
+    .trust-item { font-size:.8rem; color:rgba(253,246,227,.45); display:flex; align-items:center; gap:6px; }
+    .trust-item::before { content:'✓'; color:var(--amber); font-weight:700; }
+
+    /* STAT BOX */
+    .hero-stat-box {
+      background:var(--smoke); border:1px solid rgba(245,166,35,.15); border-radius:12px; padding:36px 30px; text-align:center;
     }
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #999;
+    .stat-emoji { font-size:4rem; margin-bottom:16px; display:block; }
+    .stat-num { font-family:'Bebas Neue',cursive; font-size:4.5rem; color:var(--amber); line-height:1; letter-spacing:2px; }
+    .stat-label { font-size:.85rem; color:rgba(253,246,227,.5); margin-top:8px; letter-spacing:1px; text-transform:uppercase; }
+    .stat-divider { border:none; border-top:1px solid rgba(245,166,35,.1); margin:24px 0; }
+    .mini-stats { display:grid; grid-template-columns:1fr 1fr; gap:16px; text-align:center; }
+    .mini-stat-num { font-family:'Bebas Neue',cursive; font-size:2rem; color:var(--cream); letter-spacing:1px; }
+    .mini-stat-label { font-size:.72rem; color:rgba(253,246,227,.4); text-transform:uppercase; letter-spacing:1px; }
+
+    /* SECTION */
+    .section { max-width:1100px; margin:0 auto; padding:70px 40px; }
+    .section-header {
+      display:flex; align-items:baseline; justify-content:space-between;
+      margin-bottom:36px; border-bottom:1px solid rgba(245,166,35,.15); padding-bottom:16px;
+    }
+    .section-title { font-family:'Bebas Neue',cursive; font-size:3rem; color:var(--cream); letter-spacing:2px; }
+    .section-link { font-size:.82rem; color:var(--amber); font-weight:700; letter-spacing:1px; text-transform:uppercase; }
+
+    /* CATEGORY GRID */
+    .cat-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; }
+    .cat-card {
+      background:var(--smoke); padding:36px 24px; display:flex; flex-direction:column; gap:10px;
+      transition:background .15s; border:1px solid transparent;
+    }
+    .cat-card:hover { background:#28261f; border-color:rgba(245,166,35,.25); }
+    .cat-icon { font-size:2.2rem; }
+    .cat-name { font-family:'Bebas Neue',cursive; font-size:1.5rem; color:var(--cream); letter-spacing:1px; }
+    .cat-desc { font-size:.82rem; color:rgba(253,246,227,.45); line-height:1.5; }
+    .cat-arrow { margin-top:auto; font-size:.78rem; color:var(--amber); font-weight:700; letter-spacing:1px; text-transform:uppercase; }
+
+    /* FEATURES */
+    .features-row { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; margin-top:2px; }
+    .feature-card { background:var(--smoke); padding:28px 24px; display:flex; align-items:flex-start; gap:16px; }
+    .feature-icon { font-size:1.6rem; flex-shrink:0; }
+    .feature-title { font-weight:700; font-size:.92rem; color:var(--cream); margin-bottom:4px; }
+    .feature-desc { font-size:.8rem; color:rgba(253,246,227,.45); line-height:1.5; }
+
+    /* PROMO STRIPE */
+    .promo-stripe { background:var(--red); padding:48px 40px; text-align:center; }
+    .promo-stripe-inner { max-width:700px; margin:0 auto; }
+    .promo-kicker { font-size:.78rem; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,.65); margin-bottom:12px; }
+    .promo-headline { font-family:'Bebas Neue',cursive; font-size:clamp(2.5rem,5vw,4rem); color:#fff; letter-spacing:2px; margin-bottom:12px; }
+    .promo-sub { font-size:1rem; color:rgba(255,255,255,.75); margin-bottom:28px; }
+    .btn-white {
+      display:inline-block; background:#fff; color:var(--red);
+      font-weight:700; font-size:.95rem; letter-spacing:1px; text-transform:uppercase;
+      padding:16px 44px; border-radius:4px; transition:transform .15s,box-shadow .15s;
+    }
+    .btn-white:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.3); }
+
+    /* WORLDWIDE */
+    .world-section { background:var(--smoke); padding:70px 40px; }
+    .world-inner { max-width:1100px; margin:0 auto; }
+    .world-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; margin-top:40px; }
+    .world-text h3 { font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--cream); letter-spacing:1px; margin-bottom:16px; }
+    .world-text p { font-size:.95rem; color:rgba(253,246,227,.55); line-height:1.8; margin-bottom:24px; }
+    .flag-grid { display:flex; flex-wrap:wrap; gap:8px; }
+    .flag-chip { background:rgba(245,166,35,.08); border:1px solid rgba(245,166,35,.2); border-radius:4px; padding:6px 12px; font-size:.8rem; color:rgba(253,246,227,.7); }
+    .world-globe { font-size:10rem; text-align:center; line-height:1; filter:drop-shadow(0 0 40px rgba(245,166,35,.2)); }
+
+    /* STEPS */
+    .steps-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; }
+    .step-card { background:var(--smoke); padding:32px 24px; position:relative; overflow:hidden; }
+    .step-card::before { content:attr(data-n); font-family:'Bebas Neue',cursive; font-size:7rem; color:rgba(245,166,35,.06); position:absolute; bottom:-10px; right:10px; line-height:1; }
+    .step-icon { font-size:1.8rem; margin-bottom:16px; display:block; }
+    .step-title { font-family:'Bebas Neue',cursive; font-size:1.4rem; color:var(--amber); letter-spacing:1px; margin-bottom:10px; }
+    .step-desc { font-size:.85rem; color:rgba(253,246,227,.5); line-height:1.6; }
+
+    /* BOTTOM CTA */
+    .bottom-cta { background:linear-gradient(135deg,#1a1208,#0c0b09); border-top:3px solid var(--amber); padding:100px 40px; text-align:center; }
+    .bottom-cta-inner { max-width:700px; margin:0 auto; }
+    .bottom-cta h2 { font-family:'Bebas Neue',cursive; font-size:clamp(3.5rem,7vw,6rem); color:var(--cream); letter-spacing:2px; line-height:.95; margin-bottom:24px; }
+    .bottom-cta h2 span { color:var(--amber); }
+    .bottom-cta p { font-size:1.05rem; color:rgba(253,246,227,.55); margin-bottom:40px; line-height:1.7; }
+
+    /* FOOTER */
+    footer { background:#080706; border-top:1px solid rgba(245,166,35,.1); padding:40px; }
+    .footer-inner { max-width:1100px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px; }
+    .footer-logo-sm { font-family:'Bebas Neue',cursive; font-size:1.4rem; color:var(--amber); letter-spacing:2px; }
+    .footer-links-sm { display:flex; gap:24px; flex-wrap:wrap; }
+    .footer-links-sm a { font-size:.8rem; color:rgba(253,246,227,.35); transition:color .15s; }
+    .footer-links-sm a:hover { color:var(--amber); }
+    .footer-copy-sm { font-size:.72rem; color:rgba(253,246,227,.2); width:100%; }
+
+    /* RESPONSIVE */
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr;gap:40px;padding:50px 24px 40px;}
+      .hero-stat-box{display:none;}
+      .cat-grid{grid-template-columns:repeat(2,1fr);}
+      .steps-grid{grid-template-columns:repeat(2,1fr);}
+      .features-row{grid-template-columns:1fr;}
+      .world-grid{grid-template-columns:1fr;}
+      .world-globe{display:none;}
+      .section{padding:50px 24px;}
+      nav{padding:16px 24px;}
+    }
+    @media(max-width:520px){
+      .cat-grid{grid-template-columns:1fr;}
+      .steps-grid{grid-template-columns:1fr;}
+      .hero h1{font-size:4.5rem;}
+      .btn-ghost{display:none;}
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
+<div class="topbar">
+  🌍 Worldwide Shipping &nbsp;·&nbsp; 🎃 10,000+ Costumes &nbsp;·&nbsp; 🔥 Deals Updated Daily &nbsp;·&nbsp; 💸 Cheap &amp; Wholesale Prices
+</div>
 
-    <!-- HERO -->
-    <header class="hero">
-      <h1 id="halloween-headline">Halloween Costumes 2026</h1>
-      <p class="tagline">
-        Click below to go to the live Halloween costume deals powered by LinkConnector (ID 7949).
-      </p>
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge"
-         class="btn"
-         target="_blank"
-         rel="nofollow noopener">
-        👉 LIVE HALLOWEEN COSTUME DEALS
-      </a>
-      <p class="highlight">
-        Auto‑updated Halloween costume offers. Clickthroughs credited to your LinkConnector account (ID 7949).
-      </p>
-    </header>
+<nav>
+  <div class="nav-logo">🎃 HalloweenCostumes</div>
+  <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="nav-cta" target="_blank" rel="nofollow noopener">Shop All Costumes →</a>
+</nav>
 
-    <!-- ROTATING KEYWORD TEXT (every day) -->
-    <section class="section">
-      <h2>Best Halloween Costumes 2026</h2>
-      <p id="halloween-rotating-text">
-        Discover the best Halloween costumes 2026 for kids, adults, and groups on our auto‑updated landing page.
-      </p>
-      <p>
-        Thousands of scary, funny, and themed costumes are available via the LinkConnector widget above,
-        including kids’ sizes, adult sizes, plus‑size, and group outfits for parties and events.
-      </p>
-    </section>
-
-    <section class="section">
-      <h2>How This Works</h2>
-      <p>Every time a visitor opens this page:</p>
-      <ol>
-        >The headline “Halloween Costumes 2026” pulls from a rotation of eye‑catching text pieces (see JavaScript below).</li>
-        >The user reads the SEO‑rich paragraph and sees the big CTA button.</li>
-        >They click “LIVE HALLOWEEN COSTUME DEALS”.</li>
-        >They are redirected to:</li>
-      </ol>
-      <p style="text-align:center; font-size:1.1rem; background:#000; padding:10px; border-radius:8px;">
-        de>https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge</code>
-      </p>
-      <p>
-        All commissions flow back to your LinkConnector account (ID 7949) via cookies and tracking.
-      </p>
-    </section>
-
-    <section class="section">
-      <h2>Why Use This Forever‑Technology Landing Page</h2>
-      <p>This page is built for:</p>
-      <ul>
-        ><strong>Evergreen traffic funnels</strong> – send SEO, ads, email, or social to one clean URL.</li>
-        ><strong>No products owned by you</strong> – all Halloween costumes live on partner stores; you only host static HTML.</li>
-        ><strong>Stable Google rankings</strong> – themed, keyword‑rich text keeps it relevant for “Halloween costumes 2026”, “cheap Halloween costumes”, etc.</li>
-      </ul>
-    </section>
-
-    <footer class="footer">
-      &copy; 2026 Benny “Palmo Kid” Palmarino | Halloween Costume Forever Tech Landing Page
-    </footer>
-
+<section class="hero">
+  <div class="hero-left">
+    <span class="hero-tag">🌍 Global · Ships Everywhere · 2026</span>
+    <h1 id="hero-h1">Halloween<em>Costumes</em>2026</h1>
+    <p class="hero-desc" id="hero-desc">Thousands of scary, funny, and iconic costumes for kids, adults, families and wholesale — with deals refreshed every single day.</p>
+    <div class="hero-buttons">
+      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-primary" target="_blank" rel="nofollow noopener">🎃 Shop Costumes Now</a>
+      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-ghost" target="_blank" rel="nofollow noopener">View All Deals →</a>
+    </div>
+    <div class="hero-trust">
+      <span class="trust-item">Secure Checkout</span>
+      <span class="trust-item">Worldwide Shipping</span>
+      <span class="trust-item">10,000+ Costumes</span>
+    </div>
   </div>
+  <div class="hero-stat-box">
+    <span class="stat-emoji">🎭</span>
+    <div class="stat-num">10K+</div>
+    <div class="stat-label">Costume Styles</div>
+    <hr class="stat-divider">
+    <div class="mini-stats">
+      <div><div class="mini-stat-num">180+</div><div class="mini-stat-label">Countries</div></div>
+      <div><div class="mini-stat-num">Daily</div><div class="mini-stat-label">New Deals</div></div>
+      <div><div class="mini-stat-num">$10+</div><div class="mini-stat-label">Prices From</div></div>
+      <div><div class="mini-stat-num">All</div><div class="mini-stat-label">Sizes</div></div>
+    </div>
+  </div>
+</section>
 
-  <!-- FOREVER‑AUTO‑ROTATE TEXT -->
-  <script>
-    const HALLOWEEN_HEADLINES = [
-      "Halloween Costumes 2026 – The Best Costume Deals On The Web",
-      "Best Halloween Costumes 2026 For Kids, Adults, And Groups",
-      "Find Cheap Halloween Costumes 2026 And Spooky Party Outfits",
-      "Discover Top Halloween Costume Deals 2026 From Our LinkConnector Widget",
-      "Halloween Costume Sale 2026 – Discounts, Themes, And More"
-    ];
+<div class="section">
+  <div class="section-header">
+    <h2 class="section-title">Shop By Category</h2>
+    <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="section-link" target="_blank" rel="nofollow noopener">All Categories →</a>
+  </div>
+  <div class="cat-grid">
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">👶</span><div class="cat-name">Kids Costumes</div><div class="cat-desc">Superheroes, witches, animals and more for little ones</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">🧑</span><div class="cat-name">Adult Costumes</div><div class="cat-desc">Classic horror, pop culture and original designs</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">💀</span><div class="cat-name">Scary Costumes</div><div class="cat-desc">Terrifying monsters, zombies and haunted house looks</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">😂</span><div class="cat-name">Funny Costumes</div><div class="cat-desc">Hilarious outfits that win every costume contest</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">👨‍👩‍👧‍👦</span><div class="cat-name">Group &amp; Family</div><div class="cat-desc">Matching sets for the whole crew or office party</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">🛍️</span><div class="cat-name">Wholesale</div><div class="cat-desc">Bulk orders for events, schools and retail stores</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">🐾</span><div class="cat-name">Pet Costumes</div><div class="cat-desc">Adorable Halloween looks for dogs and cats</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
+      <span class="cat-icon">💎</span><div class="cat-name">Plus Size</div><div class="cat-desc">Every costume in every size — inclusive and stylish</div><div class="cat-arrow">Shop Now →</div>
+    </a>
+  </div>
+  <div class="features-row">
+    <div class="feature-card"><span class="feature-icon">🚀</span><div><div class="feature-title">Fast Global Shipping</div><div class="feature-desc">Ships to 180+ countries — arrive before Halloween night</div></div></div>
+    <div class="feature-card"><span class="feature-icon">💸</span><div><div class="feature-title">Cheap &amp; Wholesale Prices</div><div class="feature-desc">Individual and bulk orders at the lowest prices online</div></div></div>
+    <div class="feature-card"><span class="feature-icon">🔄</span><div><div class="feature-title">Daily Updated Deals</div><div class="feature-desc">New offers loaded every 24 hours — check back often</div></div></div>
+  </div>
+</div>
 
-    const HALLOWEEN_INTROS = [
-      "Discover the best Halloween costumes 2026 for kids, adults, and groups on our auto‑updated landing page.",
-      "Find cheap Halloween costumes 2026, scary deals, and fun party outfits in one LinkConnector‑powered landing.",
-      "Explore the top Halloween costume deals 2026 with discount offers that change every day.",
-      "Search for Halloween costumes near me deals and see how online stores compare via this forever page.",
-      "Check out the latest spooky costumes 2026, plus clearance and discount Halloween costume offers."
-    ];
+<div class="promo-stripe">
+  <div class="promo-stripe-inner">
+    <p class="promo-kicker">🔥 Today's Featured Offer</p>
+    <h2 class="promo-headline" id="promo-headline">Kids Costumes From Just $10</h2>
+    <p class="promo-sub" id="promo-sub">Affordable Halloween fun for the whole family — updated every day</p>
+    <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-white" target="_blank" rel="nofollow noopener">Claim This Deal →</a>
+  </div>
+</div>
 
-    function setHalloweenText() {
-      const now = new Date();
-      const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
-      const idx = dayOfYear % HALLOWEEN_HEADLINES.length;
+<div class="world-section">
+  <div class="world-inner">
+    <div class="section-header"><h2 class="section-title">🌍 Shipping Worldwide</h2></div>
+    <div class="world-grid">
+      <div class="world-text">
+        <h3>Halloween Has No Borders</h3>
+        <p>Whether you're celebrating in New York, London, Tokyo or São Paulo — we connect you to the best Halloween costume deals with fast, reliable worldwide delivery.</p>
+        <div class="flag-grid">
+          <span class="flag-chip">🇺🇸 USA</span><span class="flag-chip">🇬🇧 UK</span><span class="flag-chip">🇦🇺 Australia</span><span class="flag-chip">🇨🇦 Canada</span><span class="flag-chip">🇩🇪 Germany</span><span class="flag-chip">🇫🇷 France</span><span class="flag-chip">🇯🇵 Japan</span><span class="flag-chip">🇧🇷 Brazil</span><span class="flag-chip">🇲🇽 Mexico</span><span class="flag-chip">🇮🇳 India</span><span class="flag-chip">🇿🇦 South Africa</span><span class="flag-chip">+ 170 More</span>
+        </div>
+      </div>
+      <div class="world-globe">🌍</div>
+    </div>
+  </div>
+</div>
 
-      // Rotating headline
-      const headEl = document.getElementById("halloween-headline");
-      if (headEl) {
-        headEl.textContent = HALLOWEEN_HEADLINES[idx];
-      }
+<div class="section">
+  <div class="section-header"><h2 class="section-title">How It Works</h2></div>
+  <div class="steps-grid">
+    <div class="step-card" data-n="1"><span class="step-icon">🔍</span><div class="step-title">Browse Categories</div><p class="step-desc">Pick from kids, adult, scary, funny, wholesale or group costume categories updated daily.</p></div>
+    <div class="step-card" data-n="2"><span class="step-icon">👆</span><div class="step-title">Click Any Deal</div><p class="step-desc">Every link routes through our affiliate system to bring you verified live offers.</p></div>
+    <div class="step-card" data-n="3"><span class="step-icon">🎭</span><div class="step-title">Choose Your Costume</div><p class="step-desc">Pick from thousands of styles and sizes for the whole family, any theme, any budget.</p></div>
+    <div class="step-card" data-n="4"><span class="step-icon">📦</span><div class="step-title">Ship Anywhere</div><p class="step-desc">Get your costume delivered worldwide — in time for Halloween night.</p></div>
+  </div>
+</div>
 
-      // Rotating intro text
-      const textEl = document.getElementById("halloween-rotating-text");
-      if (textEl) {
-        textEl.textContent = HALLOWEEN_INTROS[idx];
-      }
-    }
+<div class="bottom-cta">
+  <div class="bottom-cta-inner">
+    <h2>Don't Miss<br><span>Halloween 2026</span></h2>
+    <p>Thousands of costumes. Worldwide shipping. Deals updated every single day. Find yours before they sell out.</p>
+    <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-primary" style="font-size:1.1rem;padding:22px 56px;" target="_blank" rel="nofollow noopener">🎃 Browse All Halloween Costumes</a>
+  </div>
+</div>
 
-    document.addEventListener("DOMContentLoaded", setHalloweenText);
-  </script>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo-sm">🎃 HalloweenCostumes 2026</div>
+    <div class="footer-links-sm">
+      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Kids</a>
+      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Adults</a>
+      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Groups</a>
+      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Wholesale</a>
+      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Best Deals</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Benny "Palmo Kid" Palmarino — Affiliate links use LinkConnector ID 7949. Commissions earned on qualifying purchases.</p>
+  </div>
+</footer>
 
+<script>
+  const HEADLINES = ["Halloween\u00A0Costumes\u00A02026","Best Halloween\u00A0Deals\u00A02026","Cheap Halloween\u00A0Costumes","Scary Halloween\u00A0Costumes","Find Your Perfect\u00A0Costume"];
+  const DESCS = [
+    "Thousands of scary, funny, and iconic costumes for kids, adults, families and wholesale — with deals refreshed every single day.",
+    "Find cheap Halloween costumes 2026 in every style, size, and theme — shipped worldwide with tracking.",
+    "Shop scary, funny, and themed Halloween costumes 2026 — fast global delivery to 180+ countries.",
+    "The best Halloween costume deals 2026 for kids, adults, families and wholesale buyers worldwide.",
+    "Explore top-rated Halloween costumes 2026 — updated daily with new offers and exclusive discounts."
+  ];
+  const PROMOS = [
+    ["Kids Costumes From Just $10","Affordable Halloween fun for the whole family — updated every day"],
+    ["Scary Deals — Up To 50% Off","The spookiest savings on costumes updated daily worldwide"],
+    ["Free Shipping On Orders $50+","Worldwide delivery on bulk and individual costume orders"],
+    ["Wholesale Prices Available","Bulk orders for schools, events, and retailers — ship globally"],
+    ["New Arrivals Added Daily 🎃","Fresh costume styles and deals every 24 hours — grab yours"]
+  ];
+  function init() {
+    const day = Math.floor((new Date() - new Date(new Date().getFullYear(),0,0)) / 86400000);
+    const i = day % HEADLINES.length;
+    const el = id => document.getElementById(id);
+    if(el('hero-h1')) el('hero-h1').textContent = HEADLINES[i];
+    if(el('hero-desc')) el('hero-desc').textContent = DESCS[i];
+    if(el('promo-headline')) el('promo-headline').textContent = PROMOS[i][0];
+    if(el('promo-sub')) el('promo-sub').textContent = PROMOS[i][1];
+  }
+  document.addEventListener('DOMContentLoaded', init);
+</script>
 </body>
 </html>
