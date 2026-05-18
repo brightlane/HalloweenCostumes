@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (69 total)
+## Pages (78 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -81,6 +81,15 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Cosplay Shoes & Boots 2026](https://brightlane.github.io/HalloweenCostumes/cosplayshoes.html): Cosplay shoes and boots 2026 — character-accurate footwear for anime, gaming, movie and Halloween co
 - [Convention Cosplay Guide 2026](https://brightlane.github.io/HalloweenCostumes/convention.html): Convention cosplay guide 2026 — what to wear to Comic Con, Anime Expo, PAX, Dragon Con and more. Bes
 - [Lolita Fashion Costumes 2026](https://brightlane.github.io/HalloweenCostumes/lolita.html): Lolita fashion costumes 2026 — gothic lolita, sweet lolita, classic lolita and EGL fashion costumes 
+- [Cosplay Swimsuits & Anime Swimwear 2026](https://brightlane.github.io/HalloweenCostumes/swimwear.html): Cosplay swimsuits and anime swimwear 2026 — character-inspired swimsuits, anime bikinis, Jinx, Nami,
+- [Kawaii Fashion Costumes 2026](https://brightlane.github.io/HalloweenCostumes/kawaii.html): Kawaii fashion costumes 2026 — cute Japanese street fashion, Harajuku styles, kawaii accessories, pa
+- [Anime Casual Wear 2026](https://brightlane.github.io/HalloweenCostumes/casualwear.html): Anime-inspired casual wear 2026 — character-inspired hoodies, dresses, streetwear and everyday fashi
+- [NieR:Automata Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/nier.html): NieR:Automata cosplay costumes 2026 — 2B YoRHa No.2 Type B, A2, 9S and NieR:Replicant character cost
+- [Cyberpunk 2077 & Edgerunners Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/cyberpunk.html): Cyberpunk 2077 and Edgerunners cosplay costumes 2026 — V, Johnny Silverhand, Lucy, David Martinez an
+- [Legend of Zelda Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/zelda.html): Legend of Zelda cosplay costumes 2026 — Link, Princess Zelda, Ganondorf, Tears of the Kingdom and Br
+- [Devil May Cry Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/devilmaycry.html): Devil May Cry cosplay costumes 2026 — Dante, Vergil, Lady, Nero and DMC5 character costumes. Fast US
+- [Weekly Halloween Costume Deals 2026](https://brightlane.github.io/HalloweenCostumes/weeklydeals.html): Weekly Halloween costume deals 2026 — new discounts and sale prices on costumes, accessories and cos
+- [Pre-Order Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/preorder.html): Pre-order Halloween costumes 2026 — upcoming costume releases based on the latest movies, games and 
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
