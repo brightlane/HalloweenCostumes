@@ -1,0 +1,60 @@
+# ═══════════════════════════════════════════════════════════
+# .github/workflows/daily-build.yml
+#
+# HalloweenCostumes 2026 — Daily Auto-Build
+# Runs build.py every day at 00:01 UTC
+# Rebuilds all 13 files and commits them to the repo
+# GitHub Pages then serves the fresh files automatically
+#
+# Also runs on every push to main (so manual edits rebuild too)
+# ═══════════════════════════════════════════════════════════
+
+name: Daily Site Build
+
+on:
+  # Run every day at 00:01 UTC (just after midnight)
+  schedule:
+    - cron: '1 0 * * *'
+
+  # Also run whenever you push to main
+  push:
+    branches:
+      - main
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit rebuilt files back
+
+    steps:
+
+      # 1. Check out the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3. Run the build script — generates all 13 files
+      - name: Build site
+        run: python3 build.py
+
+      # 4. Commit and push the rebuilt files back to the repo
+      #    GitHub Pages picks them up automatically
+      - name: Commit rebuilt files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          # Only commit if something actually changed
+          git diff --cached --quiet || git commit -m "🎃 Daily rebuild $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
