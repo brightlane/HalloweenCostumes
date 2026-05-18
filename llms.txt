@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (38 total)
+## Pages (50 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -50,6 +50,18 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Halloween Costume Themes 2026](https://brightlane.github.io/HalloweenCostumes/themes.html): Halloween costume themes 2026 — horror, sci-fi, fantasy, historical, decade themes and more. Find co
 - [Comic Con & Convention Costumes 2026](https://brightlane.github.io/HalloweenCostumes/comiccon.html): Comic Con and convention costumes 2026 — cosplay costumes, superhero suits, anime costumes and conve
 - [Halloween Costume Size Guide 2026](https://brightlane.github.io/HalloweenCostumes/sizeguide.html): Halloween costume size guide 2026 — size charts for kids, adults, plus size and pet costumes. Find y
+- [Addams Family Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/addamsfamily.html): Addams Family Halloween costumes 2026 — Wednesday, Morticia, Gomez, Pugsley, Uncle Fester and Thing 
+- [Beetlejuice Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/beetlejuice.html): Beetlejuice Halloween costumes 2026 — Beetlejuice, Lydia Deetz, Astrid and Bob costumes from the cla
+- [Horror Movie Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/horror.html): Horror movie Halloween costumes 2026 — Freddy Krueger, Jason Voorhees, Pennywise, The Nun, Billy fro
+- [Five Nights at Freddy's Costumes 2026](https://brightlane.github.io/HalloweenCostumes/fnaf.html): Five Nights at Freddy's Halloween costumes 2026 — Freddy Fazbear, Foxy, Bonnie, Glamrock Freddy and 
+- [Scooby-Doo Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/scooby.html): Scooby-Doo Halloween costumes 2026 — Scooby-Doo, Shaggy, Velma, Daphne and Fred costumes for groups,
+- [Harry Potter Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/harrypotter.html): Harry Potter Halloween costumes 2026 — Harry, Hermione, Ron, Dumbledore, Voldemort and Hogwarts hous
+- [Decade Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/decades.html): Decade Halloween costumes 2026 — 1950s, 1960s, 1970s, 1980s and 1990s themed costumes for adults and
+- [Occupation & Career Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/occupation.html): Occupation and career Halloween costumes 2026 — nurse, police officer, firefighter, doctor, chef, pi
+- [Fantasy Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/fantasy.html): Fantasy Halloween costumes 2026 — fairy, angel, wizard, elf, mermaid, unicorn and magical creature c
+- [Halloween Party Supplies 2026](https://brightlane.github.io/HalloweenCostumes/partysupplies.html): Halloween party supplies 2026 — tableware, plates, cups, balloons, banners, centerpieces and complet
+- [K-Pop Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/kpop.html): K-Pop Halloween costumes 2026 — K-Pop idol costumes, K-Pop Demon Hunter looks and Korean pop star st
+- [DIY Halloween Costume Ideas 2026](https://brightlane.github.io/HalloweenCostumes/diy.html): DIY Halloween costume ideas 2026 — accessories, costume kits and building blocks to create your own 
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
