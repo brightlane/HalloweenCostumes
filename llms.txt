@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (50 total)
+## Pages (57 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -62,6 +62,13 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Halloween Party Supplies 2026](https://brightlane.github.io/HalloweenCostumes/partysupplies.html): Halloween party supplies 2026 — tableware, plates, cups, balloons, banners, centerpieces and complet
 - [K-Pop Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/kpop.html): K-Pop Halloween costumes 2026 — K-Pop idol costumes, K-Pop Demon Hunter looks and Korean pop star st
 - [DIY Halloween Costume Ideas 2026](https://brightlane.github.io/HalloweenCostumes/diy.html): DIY Halloween costume ideas 2026 — accessories, costume kits and building blocks to create your own 
+- [Anime Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/anime.html): Anime Halloween costumes 2026 — Naruto, Dragon Ball Z, My Hero Academia, Demon Slayer, One Piece, At
+- [Gamer Halloween Costumes & Gifts 2026](https://brightlane.github.io/HalloweenCostumes/gamer.html): Gamer Halloween costumes and gifts 2026 — video game character costumes, gaming accessories, gamer g
+- [Halloween & Pop Culture Gift Ideas 2026](https://brightlane.github.io/HalloweenCostumes/gifts.html): Halloween and pop culture gift ideas 2026 — costumes, accessories, collectibles and novelty gifts fo
+- [Movie Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/movies.html): Movie Halloween costumes 2026 — characters from the biggest films of 2026 and all-time classics. Mar
+- [TV Show Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/tvshows.html): TV show Halloween costumes 2026 — Wednesday, Stranger Things, The Office, Game of Thrones, Breaking 
+- [Halloween Clothing & Apparel 2026](https://brightlane.github.io/HalloweenCostumes/clothing.html): Halloween clothing and apparel 2026 — Halloween t-shirts, sweaters, pajamas, socks and themed clothi
+- [Halloween Year-Round 2026](https://brightlane.github.io/HalloweenCostumes/yearround.html): Shop Halloween year-round — costumes, collectibles, decorations, clothing and horror merchandise ava
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
