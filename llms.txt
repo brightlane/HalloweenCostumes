@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (82 total)
+## Pages (87 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -94,6 +94,11 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Piggyback Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/piggyback.html): Piggyback Halloween costumes 2026 — hilarious illusion costumes that make it look like you're riding
 - [Digital & Tech Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/digital.html): Digital and tech Halloween costumes 2026 — animated costumes, LED light-up suits, digital display co
 - [Full Body Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/fullbody.html): Full body Halloween costumes 2026 — complete head-to-toe costume sets, full character suits, morphsu
+- [Halloween Fashion 2026](https://brightlane.github.io/HalloweenCostumes/halloweenfashion.html): Halloween fashion 2026 — Halloween themed clothing, outfits and fashion for people who want to celeb
+- [Halloween Pajamas 2026](https://brightlane.github.io/HalloweenCostumes/halloweenpajamas.html): Halloween pajamas 2026 — spooky sleepwear, Halloween PJ sets, matching family Halloween pajamas and 
+- [Matching Family Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/matchingfamily.html): Matching family Halloween costumes 2026 — coordinated costume sets for the whole family from baby to
+- [Halloween Sweaters 2026](https://brightlane.github.io/HalloweenCostumes/halloweensweaters.html): Halloween sweaters 2026 — spooky Halloween sweaters, ugly Halloween sweaters, Halloween knit tops an
+- [Halloween Dresses 2026](https://brightlane.github.io/HalloweenCostumes/halloweendresses.html): Halloween dresses 2026 — witch dresses, gothic dresses, sequin Halloween dresses, costume dresses an
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
