@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (25 total)
+## Pages (34 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -37,6 +37,15 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Halloween Decorations 2026](https://brightlane.github.io/HalloweenCostumes/decorations.html): Halloween decorations 2026 — indoor and outdoor Halloween decor, yard decorations, props, lights and
 - [Halloween Costumes on Sale 2026](https://brightlane.github.io/HalloweenCostumes/sale.html): Halloween costumes on sale 2026 — cheap Halloween costumes, discounted deals and clearance costumes.
 - [Last Minute Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/lastminute.html): Last minute Halloween costumes 2026 — fast delivery costumes for when Halloween is around the corner
+- [Halloween Animatronics 2026](https://brightlane.github.io/HalloweenCostumes/animatronics.html): Halloween animatronics 2026 — life-size moving props, scary figures, sound-activated animatronics an
+- [Halloween Props 2026](https://brightlane.github.io/HalloweenCostumes/props.html): Halloween props 2026 — skulls, skeletons, coffins, cauldrons, tombstones, fog machines and professio
+- [Indoor Halloween Decorations 2026](https://brightlane.github.io/HalloweenCostumes/indoordecor.html): Indoor Halloween decorations 2026 — tabletop decor, hanging props, window clings, string lights, cau
+- [Outdoor Halloween Decorations 2026](https://brightlane.github.io/HalloweenCostumes/outdoordecor.html): Outdoor Halloween decorations 2026 — yard decorations, lawn stakes, inflatables, string lights, tomb
+- [Officially Licensed Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/licensed.html): Officially licensed Halloween costumes 2026 — authentic Spider-Man, Batman, Disney, Star Wars, Ghost
+- [Inflatable Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/inflatable.html): Inflatable Halloween costumes 2026 — hilarious blow-up costumes for adults and kids. T-Rex, dinosaur
+- [Halloween Collectibles 2026](https://brightlane.github.io/HalloweenCostumes/collectibles.html): Halloween collectibles 2026 — Funko POP figures, horror collectibles, Halloween statues, limited edi
+- [Tween Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/tween.html): Tween Halloween costumes 2026 — cool costumes for ages 8-12. Pop culture, scary, funny and trendy st
+- [Medieval & Renaissance Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/medieval.html): Medieval and renaissance Halloween costumes 2026 — knights, princesses, wizards, jesters, Vikings an
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
