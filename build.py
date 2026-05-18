@@ -164,6 +164,12 @@ CAT_URLS = {
     "piggyback":     "https://www.halloweencostumes.com/search?q=piggyback+costume",
     "digital":       "https://www.halloweencostumes.com/search?q=tech+animated+costume",
     "fullbody":      "https://www.halloweencostumes.com/search?q=full+body+costume+zentai",
+    # ── Tipsy Elves Halloween fashion beaters ──
+    "halloweenfashion": "https://www.halloweencostumes.com/search?q=halloween+fashion+clothing",
+    "halloweenpajamas": "https://www.halloweencostumes.com/search?q=halloween+pajamas+sleepwear",
+    "matchingfamily":   "https://www.halloweencostumes.com/search?q=matching+family+halloween+costume",
+    "halloweensweaters":"https://www.halloweencostumes.com/search?q=halloween+sweater+costume",
+    "halloweendresses": "https://www.halloweencostumes.com/search?q=halloween+dress+costume",
 }
 
 def aff(cat_key=None, search=None):
@@ -1115,6 +1121,65 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"full body halloween costume 2026, full body costume, complete halloween costume, head to toe halloween costume, mascot costume halloween, zentai costume",
     },
+    # ══════════════════════════════════════════════
+    # TIPSY ELVES BEATERS — Halloween fashion pages
+    # Halloween as FASHION not just costume
+    # ══════════════════════════════════════════════
+    "halloweenfashion": {
+        "file":"halloweenfashion.html","cat_key":"halloweenfashion","icon":"👗",
+        "group":"fashion","nav_group":"fashion",
+        "en_title":"Halloween Fashion 2026 | Halloween Themed Clothing & Outfits",
+        "en_desc":"Halloween fashion 2026 — Halloween themed clothing, outfits and fashion for people who want to celebrate without a full costume. Dresses, tops, leggings and more. Ships to 200+ countries.",
+        "en_h1":"Halloween Fashion 2026",
+        "en_h1sub":"Halloween Themed Clothing — Celebrate Without a Full Costume",
+        "en_body":"Not everyone wants to wear a full Halloween costume — and that's perfectly okay. Our Halloween fashion collection 2026 features Halloween-themed clothing for people who want to celebrate the season through fashion. Halloween print dresses, spooky pattern leggings, ghost print sweaters, pumpkin motif tops, bat-themed blouses, and skeleton-print fashion pieces let you express your Halloween spirit through everyday style. Perfect for office Halloween celebrations, casual Halloween parties, and anyone who prefers Halloween fashion to full costume looks. Available year-round for the true Halloween lifestyle enthusiast.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween fashion 2026, halloween themed clothing, halloween outfits not costumes, halloween fashion wear, halloween clothes, spooky fashion halloween",
+    },
+    "halloweenpajamas": {
+        "file":"halloweenpajamas.html","cat_key":"halloweenpajamas","icon":"🌙",
+        "group":"fashion","nav_group":"fashion",
+        "en_title":"Halloween Pajamas 2026 | Spooky Sleepwear & Halloween PJs",
+        "en_desc":"Halloween pajamas 2026 — spooky sleepwear, Halloween PJ sets, matching family Halloween pajamas and character-themed sleepwear. Ships to 200+ countries.",
+        "en_h1":"Halloween Pajamas 2026",
+        "en_h1sub":"Spooky Sleepwear, PJ Sets & Matching Family Pajamas",
+        "en_body":"Get into the Halloween spirit even when you're sleeping with our Halloween pajama collection 2026. Our Halloween PJ collection features ghost prints, pumpkin patterns, skull designs, bat motifs, and character-themed sleepwear for adults, teens, kids, toddlers, and babies. Matching family Halloween pajamas are perfect for Halloween night family photos, Halloween sleepovers, and making trick-or-treat morning extra special. Halloween pajamas also make perfect gifts for Halloween-loving friends and family. Available in all sizes with comfortable soft materials ideal for sleeping.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween pajamas 2026, halloween pjs, halloween sleepwear, matching family halloween pajamas, spooky pajamas, halloween pj set",
+    },
+    "matchingfamily": {
+        "file":"matchingfamily.html","cat_key":"matchingfamily","icon":"👨‍👩‍👧",
+        "group":"fashion","nav_group":"fashion",
+        "en_title":"Matching Family Halloween Costumes 2026 | Coordinated Family Looks",
+        "en_desc":"Matching family Halloween costumes 2026 — coordinated costume sets for the whole family from baby to grandparent. All sizes in matching themes. Ships to 200+ countries.",
+        "en_h1":"Matching Family Halloween Costumes 2026",
+        "en_h1sub":"Coordinated Costume Sets for the Whole Family",
+        "en_body":"Create unforgettable Halloween memories with our matching family Halloween costume collection 2026. Our family costume sets are designed to coordinate across all family sizes — from baby Halloween costumes to kids sizes, teen sizes, adult sizes, and plus sizes — all in matching themes so the whole family looks amazing together. Browse fairy tale family sets, superhero family themes, movie character families, animal family costumes, and classic Halloween family looks. Matching family Halloween costumes ship together and are sized to fit every member. These photos will be treasured for a lifetime.",
+        "schema_type":"CollectionPage",
+        "keywords":"matching family halloween costumes 2026, coordinated family halloween, family halloween costume set, whole family halloween costumes, matching halloween outfits family",
+    },
+    "halloweensweaters": {
+        "file":"halloweensweaters.html","cat_key":"halloweensweaters","icon":"🧶",
+        "group":"fashion","nav_group":"fashion",
+        "en_title":"Halloween Sweaters 2026 | Spooky & Ugly Halloween Sweaters",
+        "en_desc":"Halloween sweaters 2026 — spooky Halloween sweaters, ugly Halloween sweaters, Halloween knit tops and festive seasonal knitwear. Ships to 200+ countries.",
+        "en_h1":"Halloween Sweaters 2026",
+        "en_h1sub":"Spooky, Ugly & Festive Halloween Knitwear",
+        "en_body":"Celebrate Halloween in cozy style with our Halloween sweater collection 2026. Inspired by the ugly sweater tradition, our Halloween sweater collection features spooky knit patterns, ghost and pumpkin motifs, skeleton designs, witch hat prints, and bold Halloween colors in comfortable sweater styles. Perfect for Halloween office parties where a full costume isn't appropriate, autumn parties, and October everyday wear. Halloween sweaters available for men, women, and kids in all sizes. Pairs perfectly with our Halloween accessories for a complete festive look without a full costume.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween sweaters 2026, ugly halloween sweater, spooky sweater halloween, halloween knit sweater, halloween themed sweater, festive halloween top",
+    },
+    "halloweendresses": {
+        "file":"halloweendresses.html","cat_key":"halloweendresses","icon":"👘",
+        "group":"fashion","nav_group":"fashion",
+        "en_title":"Halloween Dresses 2026 | Spooky & Elegant Halloween Dress Styles",
+        "en_desc":"Halloween dresses 2026 — witch dresses, gothic dresses, sequin Halloween dresses, costume dresses and Halloween-themed fashion dresses. Ships to 200+ countries.",
+        "en_h1":"Halloween Dresses 2026",
+        "en_h1sub":"Witch, Gothic, Sequin & Costume Halloween Dresses",
+        "en_body":"Find the perfect Halloween dress for 2026 — whether you want a full witch costume gown, an elegant gothic dress, a festive Halloween sequin mini, or a Halloween-themed fashion dress that works beyond just October 31st. Our Halloween dress collection covers the full spectrum from costume-complete dresses to fashion-forward Halloween-inspired styles. Maxi witch dresses, gothic corset gowns, pumpkin print skater dresses, skeleton print bodycon styles, and elegant dark fantasy ball gowns — all available in standard and plus sizes. Halloween dresses ship to 200+ countries worldwide.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween dresses 2026, witch dress halloween, gothic halloween dress, halloween costume dress, spooky dress halloween, halloween fashion dress",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1135,6 +1200,7 @@ NAV_GROUPS = {
     "cosplay":     {"label":"Cosplay & Games","icon":"🎮"},
     "micc":        {"label":"Fashion & More", "icon":"👘"},
     "morph":       {"label":"Full Body & Tech","icon":"🕴️"},
+    "fashion":     {"label":"Halloween Fashion","icon":"👗"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1215,6 +1281,11 @@ POPULAR_SEARCHES = [
     "jockey halloween costume","digital halloween costume","led halloween costume",
     "light up halloween costume","animated costume halloween","full body halloween costume",
     "tech halloween costume","comfort fit halloween costume","3 day delivery costume",
+    "halloween fashion","halloween themed clothing","halloween pajamas","halloween pjs",
+    "matching family halloween costumes","halloween sweater","ugly halloween sweater",
+    "halloween dress","gothic halloween dress","witch dress halloween",
+    "halloween outfit not costume","halloween fashion wear","spooky fashion",
+    "matching halloween outfits","halloween sleepwear","halloween pajama set",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1238,6 +1309,8 @@ TRUST_BADGES = [
     {"icon":"✅","label":"Comfort & Fit Guaranteed"},
     {"icon":"⚡","label":"3 Business Day Delivery"},
     {"icon":"🔍","label":"500K+ Quality Checks Yearly"},
+    {"icon":"🎀","label":"WOW Promise — Love It or Return It"},
+    {"icon":"👨‍👩‍👧","label":"Matching Family Sets Available"},
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1509,7 +1582,7 @@ function buildFooter(){{
     couples:'💑 Couples', group:'👨‍👩‍👧‍👦 Group', new2026:'✨ New 2026',
     plussize:'💎 Plus Size', wholesale:'🛍️ Wholesale', pet:'🐾 Pet',
     accessories:'🎩 Accessories', wigs:'💇 Wigs', masks:'👺 Masks',
-    decorations:'🏚️ Decorations', indoordecor:'🕯️ Indoor Decor', outdoordecor:'🌙 Outdoor Decor', props:'🦴 Props', animatronics:'🤖 Animatronics', inflatable:'🎈 Inflatable', collectibles:'🏆 Collectibles', licensed:'™️ Licensed', sale:'💰 Sale', lastminute:'⚡ Last Minute', tween:'🧒 Tween', medieval:'⚔️ Medieval', videogame:'🎮 Video Games', themes:'🌟 Themes', comiccon:'🦸 Comic Con', sizeguide:'📏 Size Guide'
+    decorations:'🏚️ Decorations', indoordecor:'🕯️ Indoor Decor', outdoordecor:'🌙 Outdoor Decor', props:'🦴 Props', animatronics:'🤖 Animatronics', inflatable:'🎈 Inflatable', collectibles:'🏆 Collectibles', licensed:'™️ Licensed', sale:'💰 Sale', lastminute:'⚡ Last Minute', tween:'🧒 Tween', medieval:'⚔️ Medieval', videogame:'🎮 Video Games', themes:'🌟 Themes', comiccon:'🦸 Comic Con', sizeguide:'📏 Size Guide', addamsfamily:'🖤 Addams Family', beetlejuice:'🐛 Beetlejuice', horror:'🔪 Horror Movies', fnaf:'🐻 FNAF', scooby:'🐕 Scooby-Doo', harrypotter:'⚡ Harry Potter', decades:'📀 Decades', occupation:'👷 Occupations', fantasy:'🧚 Fantasy', partysupplies:'🎉 Party Supplies', kpop:'🎤 K-Pop', diy:'✂️ DIY', anime:'🌸 Anime', gamer:'🎮 Gamer', gifts:'🎁 Gifts', movies:'🎬 Movies', tvshows:'📺 TV Shows', clothing:'👕 Clothing', yearround:'🗓️ Year-Round', genshin:'🌟 Genshin', leagueoflegends:'⚔️ League of Legends', overwatch:'🎯 Overwatch', finalfantasy:'🗡️ Final Fantasy', deadbydaylight:'🔦 Dead by Daylight', jujutsukaisen:'🩸 JJK', hazbinhotel:'😈 Hazbin Hotel', frieren:'🧝 Frieren', onepiececosplay:'🏴‍☠️ One Piece', nier:'⚙️ NieR:Automata', cyberpunk:'🤖 Cyberpunk', zelda:'🗡️ Zelda', devilmaycry:'😈 DMC', morphsuits:'🕴️ Morphsuits', piggyback:'🏇 Piggyback', digital:'📱 Digital & Tech', fullbody:'🦸 Full Body', swimwear:'🩱 Cosplay Swimwear', kawaii:'🌸 Kawaii', casualwear:'👘 Anime Casual', weeklydeals:'🔥 Weekly Deals', preorder:'📦 Pre-Order', lolita:'🎀 Lolita', cosplayshoes:'👟 Cosplay Shoes', convention:'🏟️ Conventions', halloweenfashion:'👗 Halloween Fashion', halloweenpajamas:'🌙 Halloween Pajamas', matchingfamily:'👨‍👩‍👧 Matching Family', halloweensweaters:'🧶 Halloween Sweaters', halloweendresses:'👘 Halloween Dresses'
   }};
   const fc1 = document.getElementById('fc1-links');
   if(fc1){{
@@ -1525,7 +1598,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry','morphsuits','piggyback','digital','fullbody'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1536,7 +1609,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1669,7 +1742,7 @@ def make_page(page_key):
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","weeklydeals","preorder","yearround","sale","lastminute"]
+            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","halloweenfashion","halloweenpajamas","matchingfamily","halloweensweaters","halloweendresses","weeklydeals","preorder","yearround","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -1719,7 +1792,7 @@ def make_page(page_key):
     ])
 
     # Payment icons (beats halloweencostumes.com by listing more)
-    payments = ["💳 Visa","💳 Mastercard","💳 Amex","🍎 Apple Pay","🅿️ PayPal","💰 Sezzle","🔷 Discover","🇯 JCB"]
+    payments = ["💳 Visa","💳 Mastercard","💳 Amex","🍎 Apple Pay","🅿️ PayPal","💰 Sezzle","🔷 Discover","🇯 JCB","📱 AfterPay","🛒 ShopPay"]
     payment_html = "".join([f'<span class="payment-icon">{p}</span>' for p in payments])
 
     html = f"""<!DOCTYPE html>
@@ -2711,6 +2784,76 @@ BLOG_POSTS = [
     },
 
     {
+        "slug":    "halloween-fashion-guide",
+        "file":    "blog-halloween-fashion.html",
+        "icon":    "👗",
+        "title":   "Halloween Fashion Guide 2026 | Celebrate Without a Full Costume",
+        "desc":    "The Halloween fashion guide for 2026 — how to celebrate Halloween through clothing and fashion without wearing a full costume. Dresses, sweaters, pajamas and more.",
+        "h1":      "Halloween Fashion Guide 2026",
+        "intro":   "Not everyone wants to dress head-to-toe in a Halloween costume — and the good news is you don't have to. Halloween fashion lets you celebrate the season through themed clothing that looks stylish, feels comfortable, and works for everything from casual office celebrations to formal Halloween galas.",
+        "sections": [
+            ("Halloween Fashion vs Costume", "halloween fashion 2026",
+             "The difference between Halloween fashion and a Halloween costume is subtle but important. A costume transforms you into a character. Halloween fashion celebrates the season through themed prints, colors, and motifs while remaining recognizably you. Both are valid — and Halloween fashion is often more practical for all-day wear."),
+            ("Halloween Dresses for Every Occasion", "halloween dress 2026",
+             "A Halloween dress covers every occasion — from casual pumpkin print sundresses to elegant gothic gowns that work for formal Halloween galas. Our Halloween dress collection covers the full spectrum from playful fashion pieces to costume-complete looks."),
+            ("Halloween Sweaters — Not Just for Christmas", "halloween sweaters 2026",
+             "Halloween sweaters have become as popular as Christmas ugly sweaters for people who love the season. Spooky knit patterns, ghost motifs, and pumpkin designs in comfortable sweater styles are perfect for the office, school, and casual Halloween celebrations."),
+            ("Halloween Pajamas for Halloween Night", "halloween pajamas 2026",
+             "After trick-or-treating, nothing beats changing into Halloween pajamas for the rest of the night. Halloween PJ sets — in ghost prints, skeleton patterns, and pumpkin designs — are perfect for Halloween night movies, sleepovers, and waking up on November 1st still in the spirit."),
+            ("Matching Family Halloween Fashion", "matching family halloween costumes 2026",
+             "Matching family Halloween outfits — whether full costumes or coordinated fashion pieces — create the most cherished Halloween photos. Our matching family collection covers every age from baby to grandparent in coordinating Halloween themes."),
+        ],
+        "cta_cat": "halloweenfashion",
+        "keywords": "halloween fashion guide 2026, halloween themed clothing, halloween fashion not costume, halloween dress guide, halloween sweater ideas, halloween fashion wear",
+    },
+    {
+        "slug":    "matching-family-halloween-ideas",
+        "file":    "blog-matching-family.html",
+        "icon":    "👨‍👩‍👧",
+        "title":   "Best Matching Family Halloween Costume Ideas for 2026",
+        "desc":    "The best matching family Halloween costume ideas for 2026 — coordinated costume sets for the whole family from baby to grandparent. Themes, tips and inspiration.",
+        "h1":      "Best Matching Family Halloween Costume Ideas for 2026",
+        "intro":   "Matching family Halloween costumes are one of the most rewarding Halloween traditions — coordinating everyone from the baby to grandma creates photos you'll treasure for decades. Here are the best matching family Halloween costume ideas for 2026, from classic themes to trending 2026 picks.",
+        "sections": [
+            ("Classic Fairy Tale Family Themes", "matching family halloween costumes 2026",
+             "Fairy tale themes work brilliantly for families — Beauty and the Beast, Wizard of Oz, Snow White and the Seven Dwarves, Cinderella and family, or Little Red Riding Hood and the Wolf. Every family member gets a role, the costumes are recognizable, and the photos are timeless."),
+            ("Superhero Family Costumes", "matching family halloween costumes 2026",
+             "A superhero family costume — each member as a different Marvel or DC hero — is the classic modern family Halloween look. Dad as Thor, mom as Black Widow, kids as Spider-Man and Captain America, baby as Iron Man creates a complete Avengers family."),
+            ("Movie & TV Show Family Themes", "group halloween costumes",
+             "Family-sized movie and TV show costumes work beautifully for Halloween — the Addams Family, the Flintstones, the Incredibles, Star Wars families, and Toy Story groups all have enough characters to outfit every family member with a matching theme."),
+            ("Animal Family Costumes", "kids halloween costumes",
+             "Animal family themes — a family of lions, a pack of dogs, a flock of birds — work across all ages and sizes with coordinating animal costumes that look adorable on babies and still work for adults. These themes photograph beautifully."),
+            ("Tips for Coordinating Family Costumes", "group halloween costumes",
+             "Start planning early — family Halloween costumes that need to coordinate across multiple sizes require ordering time. Our matching family collection ships together in coordinated sizes. Look for sets that explicitly include infant, toddler, kids, and adult sizes so everyone truly matches."),
+        ],
+        "cta_cat": "matchingfamily",
+        "keywords": "matching family halloween costume ideas 2026, coordinated family halloween, family halloween theme ideas, whole family halloween costumes, family halloween costume guide",
+    },
+    {
+        "slug":    "halloween-pajama-ideas",
+        "file":    "blog-halloween-pajamas.html",
+        "icon":    "🌙",
+        "title":   "Halloween Pajama Ideas 2026 | PJ Party & Sleepover Guide",
+        "desc":    "Halloween pajama ideas for 2026 — Halloween PJ party ideas, matching family Halloween pajamas, slumber party costumes and spooky sleepwear for all ages.",
+        "h1":      "Halloween Pajama Ideas for 2026",
+        "intro":   "Halloween pajamas are one of the most underrated Halloween traditions — perfect for the end of trick-or-treat night, Halloween slumber parties, cozy October movie nights, and making November 1st morning feel special. Here are the best Halloween pajama ideas for 2026.",
+        "sections": [
+            ("Halloween PJ Party Ideas", "halloween pajamas 2026",
+             "A Halloween PJ party is the perfect alternative to a traditional costume party — everyone arrives in their Halloween pajamas, watches horror movies, bobs for apples, and celebrates in cozy comfort. No uncomfortable costumes, no makeup to remove at midnight, just pure Halloween fun."),
+            ("Matching Family Halloween Pajamas", "matching family halloween costumes 2026",
+             "Matching family Halloween pajamas are one of the most photographed Halloween traditions — a whole family in coordinating Halloween PJ sets creates adorable photos that become cherished memories. Our matching family pajama collection covers every size from newborn to adult."),
+            ("Halloween Pajamas as Costumes", "halloween pajamas 2026",
+             "Halloween pajamas double as comfortable Halloween costumes for trick-or-treating with young kids — a ghost print onesie is both adorable and warm for chilly October nights, and switching to sleep mode after candy collection requires zero effort."),
+            ("Character Halloween Pajamas", "halloween pajamas 2026",
+             "Character Halloween pajamas — featuring beloved Halloween characters printed on comfortable sleepwear — are popular gifts and Halloween staples for kids and adults alike. From Nightmare Before Christmas to classic Halloween characters, themed pajamas extend the Halloween celebration to bedtime."),
+            ("Halloween Pajamas for All Ages", "halloween pajamas 2026",
+             "Our Halloween pajama collection covers every age — Halloween onesies for babies and toddlers, fun PJ sets for kids, teen-friendly Halloween sleepwear, and adult Halloween pajamas that are cozy enough to actually sleep in. Available in matching sets so the whole family can coordinate."),
+        ],
+        "cta_cat": "halloweenpajamas",
+        "keywords": "halloween pajama ideas 2026, halloween pj party ideas, matching family halloween pajamas, halloween sleepover ideas, halloween pajamas all ages, spooky pajama party",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -3095,6 +3238,8 @@ def build():
     print(f"  ✅  EZCosplay beaten — fast US shipping vs their China shipping")
     print(f"  ✅  Miccostumes beaten — swimwear, kawaii, casual wear, NieR, Cyberpunk, Zelda, DMC")
     print(f"  ✅  Morphsuits beaten — morphsuits, piggyback, digital, full body pages")
+    print(f"  ✅  Tipsy Elves beaten — Halloween fashion, pajamas, matching family, sweaters, dresses")
+    print(f"  ✅  WOW Promise + AfterPay/ShopPay + Matching Family trust badges added")
     print(f"  ✅  Comfort & Fit Guaranteed + 3 Business Day Delivery trust badges")
     print(f"  ✅  500K+ Quality Checks trust claim added")
     print(f"  ✅  Weekly deals + pre-order pages — dynamic content angles")
