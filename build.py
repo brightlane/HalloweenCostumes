@@ -134,6 +134,21 @@ CAT_URLS = {
     "tvshows":    "https://www.halloweencostumes.com/search?q=tv+show+costume",
     "clothing":   "https://www.halloweencostumes.com/halloween-costume-accessories.html",
     "yearround":  "https://www.halloweencostumes.com/",
+    # ── EZCosplay beaters — specific game titles ──
+    "genshin":       "https://www.halloweencostumes.com/search?q=genshin+impact+costume",
+    "leagueoflegends":"https://www.halloweencostumes.com/search?q=league+of+legends+costume",
+    "overwatch":     "https://www.halloweencostumes.com/search?q=overwatch+costume",
+    "finalfantasy":  "https://www.halloweencostumes.com/search?q=final+fantasy+costume",
+    "deadbydaylight":"https://www.halloweencostumes.com/search?q=dead+by+daylight+costume",
+    # ── Specific anime titles ──
+    "jujutsukaisen": "https://www.halloweencostumes.com/search?q=jujutsu+kaisen+costume",
+    "hazbinhotel":   "https://www.halloweencostumes.com/search?q=hazbin+hotel+costume",
+    "frieren":       "https://www.halloweencostumes.com/search?q=frieren+costume",
+    "onepiececosplay":"https://www.halloweencostumes.com/search?q=one+piece+costume",
+    # ── Cosplay specialist pages ──
+    "cosplayshoes":  "https://www.halloweencostumes.com/search?q=costume+shoes+boots",
+    "convention":    "https://www.halloweencostumes.com/search?q=convention+cosplay+costume",
+    "lolita":        "https://www.halloweencostumes.com/search?q=lolita+costume",
 }
 
 def aff(cat_key=None, search=None):
@@ -797,6 +812,144 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"halloween year round, shop halloween all year, halloween merchandise year round, horror lifestyle, halloween fans year round shopping",
     },
+    # ══════════════════════════════════════════════
+    # EZCOSPLAY BEATERS — Specific game title pages
+    # US shipping advantage vs EZCosplay China ships
+    # ══════════════════════════════════════════════
+    "genshin": {
+        "file":"genshin.html","cat_key":"genshin","icon":"🌟",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Genshin Impact Cosplay Costumes 2026 | Hu Tao, Raiden, Ayaka & More",
+        "en_desc":"Genshin Impact cosplay costumes 2026 — Hu Tao, Raiden Shogun, Ayaka, Ganyu, Zhongli, Venti and all Genshin characters. Fast US shipping. Ships to 200+ countries.",
+        "en_h1":"Genshin Impact Costumes 2026",
+        "en_h1sub":"Hu Tao, Raiden, Ayaka, Ganyu & All Characters",
+        "en_body":"Find the best Genshin Impact cosplay costumes 2026 with fast US shipping — unlike Chinese cosplay sites that take weeks to deliver, our Genshin Impact costume collection ships quickly from US warehouses. We carry costumes for all the most popular Genshin Impact characters — Hu Tao, Raiden Shogun, Ayaka, Ganyu, Zhongli, Venti, Diluc, Fischl, Keqing, Kazuha, and the full Teyvat roster. Perfect for Halloween, anime conventions, Comic Con, and gaming events. Genshin Impact costumes available in all sizes for adults, teens, and kids.",
+        "schema_type":"CollectionPage",
+        "keywords":"genshin impact cosplay costume, genshin impact halloween costume 2026, hu tao costume, raiden shogun costume, ayaka cosplay costume",
+    },
+    "leagueoflegends": {
+        "file":"leagueoflegends.html","cat_key":"leagueoflegends","icon":"⚔️",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"League of Legends Cosplay Costumes 2026 | Jinx, Arcane & More",
+        "en_desc":"League of Legends cosplay costumes 2026 — Jinx, Vi, Ekko, Caitlyn from Arcane Season 2 plus classic LoL champions. Fast US shipping. Ships to 200+ countries.",
+        "en_h1":"League of Legends Costumes 2026",
+        "en_h1sub":"Jinx, Vi, Arcane Season 2 & Classic Champions",
+        "en_body":"Shop League of Legends and Arcane cosplay costumes 2026 with fast US shipping. The massive success of Arcane Season 2 on Netflix has made Jinx, Vi, Ekko, Caitlyn, and Jayce some of the most sought-after cosplay costumes of the year. Our LoL costume collection also covers classic League champions — Ahri, Lux, Ezreal, Yasuo, Zed, and hundreds more. Fast US shipping means you get your costume in days, not the weeks it takes from Chinese cosplay sites.",
+        "schema_type":"CollectionPage",
+        "keywords":"league of legends cosplay costume, arcane costume 2026, jinx costume, vi costume, arcane season 2 costume, lol halloween costume",
+    },
+    "overwatch": {
+        "file":"overwatch.html","cat_key":"overwatch","icon":"🎯",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Overwatch 2 Cosplay Costumes 2026 | Kiriko, Tracer & More",
+        "en_desc":"Overwatch 2 cosplay costumes 2026 — Kiriko, Tracer, D.Va, Mercy, Widowmaker, Genji and all OW2 heroes. Fast US shipping. Ships to 200+ countries.",
+        "en_h1":"Overwatch 2 Costumes 2026",
+        "en_h1sub":"Kiriko, Tracer, D.Va, Mercy & All Heroes",
+        "en_body":"Gear up with our Overwatch 2 cosplay costume collection 2026, featuring fast US shipping that gets your costume to you in days. Our OW2 collection covers all the most popular heroes — Kiriko, Tracer, D.Va, Mercy, Widowmaker, Genji, Hanzo, Pharah, Ana, and the full Overwatch 2 roster. Overwatch costumes are perfect for Halloween parties, gaming conventions, and cosplay events. Available in all sizes with accessories including props, wigs, and complete character sets.",
+        "schema_type":"CollectionPage",
+        "keywords":"overwatch 2 cosplay costume, overwatch halloween costume 2026, kiriko costume, tracer costume, dva costume, mercy cosplay costume",
+    },
+    "finalfantasy": {
+        "file":"finalfantasy.html","cat_key":"finalfantasy","icon":"🗡️",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Final Fantasy Cosplay Costumes 2026 | FF7 Rebirth, Cloud, Tifa & More",
+        "en_desc":"Final Fantasy cosplay costumes 2026 — FF7 Rebirth Cloud, Tifa, Aerith, Sephiroth, plus FF14, FF16 and classic Final Fantasy costumes. Fast US shipping.",
+        "en_h1":"Final Fantasy Costumes 2026",
+        "en_h1sub":"FF7 Rebirth, Cloud, Tifa, Aerith & More",
+        "en_body":"Shop Final Fantasy cosplay costumes 2026 with fast US shipping. Final Fantasy VII Rebirth has renewed massive interest in Cloud, Tifa, Aerith, Sephiroth, and the Midgar crew — making FF7 costumes some of the hottest cosplay choices of the year. Our Final Fantasy costume collection also covers FF14 Warrior of Light armor, FF16 Clive Rosfield, and classic characters from across the entire Final Fantasy series. Fast US warehouse shipping vs weeks of waiting from overseas sites.",
+        "schema_type":"CollectionPage",
+        "keywords":"final fantasy cosplay costume, ff7 rebirth costume, cloud strife costume, tifa lockhart costume, aerith costume, sephiroth costume 2026",
+    },
+    "deadbydaylight": {
+        "file":"deadbydaylight.html","cat_key":"deadbydaylight","icon":"🔦",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Dead by Daylight Cosplay Costumes 2026 | Killer & Survivor Costumes",
+        "en_desc":"Dead by Daylight cosplay costumes 2026 — Ghostface, Trapper, Nurse, Huntress, Myers, and survivor costumes from DBD. Fast US shipping. Ships to 200+ countries.",
+        "en_h1":"Dead by Daylight Costumes 2026",
+        "en_h1sub":"Killers, Survivors & Licensed Horror Characters",
+        "en_body":"Escape the trial in style with our Dead by Daylight cosplay costumes 2026. DBD features licensed horror characters from major franchises — Ghostface from Scream, Michael Myers, Freddy Krueger, Pinhead, and Alien alongside original killers like The Trapper, The Nurse, and The Huntress. Our Dead by Daylight costume collection covers both killers and survivors for Halloween, gaming conventions, and cosplay events. Fast US shipping — your DBD costume arrives in days, not weeks.",
+        "schema_type":"CollectionPage",
+        "keywords":"dead by daylight cosplay costume, dbd halloween costume 2026, ghostface dbd costume, trapper costume, dbd killer costume, dead by daylight halloween",
+    },
+    # ── Specific anime title pages ──
+    "jujutsukaisen": {
+        "file":"jujutsukaisen.html","cat_key":"jujutsukaisen","icon":"🩸",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Jujutsu Kaisen Cosplay Costumes 2026 | Gojo, Itadori & More",
+        "en_desc":"Jujutsu Kaisen cosplay costumes 2026 — Gojo Satoru, Yuji Itadori, Megumi Fushiguro, Nobara and more JJK character costumes. Fast US shipping. Ships to 200+ countries.",
+        "en_h1":"Jujutsu Kaisen Costumes 2026",
+        "en_h1sub":"Gojo, Itadori, Megumi, Nobara & More",
+        "en_body":"Shop Jujutsu Kaisen cosplay costumes 2026 with fast US shipping. JJK is one of the biggest anime series in the world — making Gojo Satoru, Yuji Itadori, Megumi Fushiguro, Nobara Kugisaki, and the cursed spirits some of the most popular cosplay choices for Halloween and conventions. Our JJK costume collection includes the iconic Jujutsu Tech uniforms, Gojo's blindfold and infinity look, cursed spirit designs, and accessories for complete character accuracy.",
+        "schema_type":"CollectionPage",
+        "keywords":"jujutsu kaisen cosplay costume, jjk costume halloween, gojo satoru costume, yuji itadori costume, megumi fushiguro costume 2026",
+    },
+    "hazbinhotel": {
+        "file":"hazbinhotel.html","cat_key":"hazbinhotel","icon":"😈",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Hazbin Hotel Cosplay Costumes 2026 | Alastor, Charlie & More",
+        "en_desc":"Hazbin Hotel cosplay costumes 2026 — Alastor, Charlie, Vaggie, Angel Dust, Lucifer and more Hazbin Hotel character costumes. Fast US shipping.",
+        "en_h1":"Hazbin Hotel Costumes 2026",
+        "en_h1sub":"Alastor, Charlie, Lucifer & The Hell Hotel Crew",
+        "en_body":"Check in to the best Hazbin Hotel cosplay costumes 2026 with fast US shipping. The Amazon Prime animated series became a massive hit, making Alastor the Radio Demon, Charlie Magne, Vaggie, Angel Dust, and Lucifer Morningstar some of the most requested cosplay costumes of the year. Our Hazbin Hotel costume collection covers all the main characters with detailed designs that capture the show's distinctive animation style. Perfect for Halloween, anime conventions, and cosplay events.",
+        "schema_type":"CollectionPage",
+        "keywords":"hazbin hotel cosplay costume, hazbin hotel halloween costume 2026, alastor costume, charlie hazbin hotel costume, lucifer morningstar costume",
+    },
+    "frieren": {
+        "file":"frieren.html","cat_key":"frieren","icon":"🧝",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Frieren Cosplay Costumes 2026 | Frieren & Fern Costumes",
+        "en_desc":"Frieren: Beyond Journey's End cosplay costumes 2026 — Frieren, Fern, Stark, Himmel and more Sousou no Frieren character costumes. Fast US shipping.",
+        "en_h1":"Frieren Costumes 2026",
+        "en_h1sub":"Frieren, Fern, Stark & Beyond Journey's End",
+        "en_body":"Shop Frieren: Beyond Journey's End cosplay costumes 2026 with fast US shipping. Sousou no Frieren became one of the most critically acclaimed anime of its era — making Frieren's distinctive elf mage look and Fern's purple robes highly sought-after cosplay costumes for conventions and Halloween. Our Frieren costume collection includes authentic recreations of the characters' outfits with attention to the series' unique fantasy aesthetic.",
+        "schema_type":"CollectionPage",
+        "keywords":"frieren cosplay costume, frieren beyond journeys end costume, sousou no frieren costume, fern cosplay costume 2026, frieren halloween costume",
+    },
+    "onepiececosplay": {
+        "file":"onepiececosplay.html","cat_key":"onepiececosplay","icon":"🏴‍☠️",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"One Piece Cosplay Costumes 2026 | Luffy, Zoro & Straw Hat Crew",
+        "en_desc":"One Piece cosplay costumes 2026 — Luffy, Zoro, Nami, Robin, Sanji, Gear 5 Luffy and the full Straw Hat crew. Fast US shipping. Ships to 200+ countries.",
+        "en_h1":"One Piece Costumes 2026",
+        "en_h1sub":"Luffy, Zoro, Nami, Robin & The Straw Hat Crew",
+        "en_body":"Set sail with our One Piece cosplay costumes 2026, featuring fast US shipping for the world's most popular manga. The Netflix live-action series and Gear 5 Luffy have brought One Piece to a massive global audience — making Monkey D. Luffy, Roronoa Zoro, Nami, Nico Robin, Sanji, and the Straw Hat crew some of the most popular cosplay choices for 2026. Our One Piece costume collection covers the full crew with accurate character designs for Halloween and conventions.",
+        "schema_type":"CollectionPage",
+        "keywords":"one piece cosplay costume, luffy costume 2026, zoro costume, gear 5 luffy costume, straw hat crew costume, one piece halloween costume",
+    },
+    # ── Cosplay specialist pages ──
+    "cosplayshoes": {
+        "file":"cosplayshoes.html","cat_key":"cosplayshoes","icon":"👟",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Cosplay Shoes & Boots 2026 | Halloween Costume Footwear",
+        "en_desc":"Cosplay shoes and boots 2026 — character-accurate footwear for anime, gaming, movie and Halloween costumes. Fast US shipping. Ships to 200+ countries.",
+        "en_h1":"Cosplay Shoes & Boots 2026",
+        "en_h1sub":"Character-Accurate Footwear for Every Costume",
+        "en_body":"Complete your cosplay with the right shoes and boots from our cosplay footwear collection 2026. The right footwear makes the difference between a good costume and a great one — our cosplay shoe collection includes platform boots, character-accurate footwear, themed boots, shoe covers, and specialty footwear for anime, gaming, movie, and Halloween costumes. Fast US shipping — your cosplay shoes arrive in days, not the weeks it takes from Chinese cosplay sites. Cosplay shoes available in all sizes.",
+        "schema_type":"CollectionPage",
+        "keywords":"cosplay shoes 2026, cosplay boots, halloween costume shoes, anime costume footwear, character shoes cosplay",
+    },
+    "convention": {
+        "file":"convention.html","cat_key":"convention","icon":"🏟️",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Convention Cosplay Guide 2026 | Comic Con, Anime Expo & More",
+        "en_desc":"Convention cosplay guide 2026 — what to wear to Comic Con, Anime Expo, PAX, Dragon Con and more. Best convention cosplay costumes with fast US shipping.",
+        "en_h1":"Convention Cosplay Guide 2026",
+        "en_h1sub":"Comic Con, Anime Expo, PAX & Dragon Con",
+        "en_body":"Planning your convention cosplay for 2026? Our convention cosplay guide covers everything you need — the most popular costume choices for Comic Con, Anime Expo, PAX, Dragon Con, MegaCon, and local anime and gaming conventions. We cover trending characters, group costume ideas for convention crews, prop regulations, comfort considerations for all-day wearing, and the fastest shipping options to get your costume before the event. Convention cosplay costumes with fast US shipping available.",
+        "schema_type":"WebPage",
+        "keywords":"convention cosplay 2026, comic con costume, anime expo costume, pax cosplay, dragon con costume, convention costume guide",
+    },
+    "lolita": {
+        "file":"lolita.html","cat_key":"lolita","icon":"🎀",
+        "group":"cosplay","nav_group":"cosplay",
+        "en_title":"Lolita Fashion Costumes 2026 | Gothic, Sweet & Classic Lolita",
+        "en_desc":"Lolita fashion costumes 2026 — gothic lolita, sweet lolita, classic lolita and EGL fashion costumes for Halloween, conventions and cosplay. Ships to 200+ countries.",
+        "en_h1":"Lolita Fashion Costumes 2026",
+        "en_h1sub":"Gothic, Sweet & Classic Lolita Styles",
+        "en_body":"Discover the elegant world of lolita fashion with our lolita costume collection 2026. Lolita fashion — including gothic lolita, sweet lolita, classic lolita, and elegant gothic lolita (EGL) — has become one of the most distinctive and beloved cosplay styles worldwide. Our lolita costume collection features elaborate petticoat dresses, Victorian-inspired designs, and accessories for every lolita substyle. Perfect for Halloween, anime conventions, Harajuku fashion events, and anyone who appreciates the artistry of lolita fashion.",
+        "schema_type":"CollectionPage",
+        "keywords":"lolita costume 2026, gothic lolita costume, sweet lolita costume, lolita fashion halloween, lolita cosplay costume",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -814,6 +967,7 @@ NAV_GROUPS = {
     "extra":       {"label":"Themes & More", "icon":"🌟"},
     "franchise":   {"label":"By Character",  "icon":"🎬"},
     "yearround":   {"label":"Year-Round",    "icon":"🗓️"},
+    "cosplay":     {"label":"Cosplay & Games","icon":"🎮"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -875,6 +1029,13 @@ POPULAR_SEARCHES = [
     "stranger things costume","wednesday costume","the office costume",
     "halloween gifts","horror gifts","pop culture gifts","halloween clothing",
     "halloween pajamas","halloween t-shirt","year round halloween",
+    "genshin impact costume","league of legends costume","arcane jinx costume",
+    "overwatch costume","kiriko costume","final fantasy costume","ff7 costume",
+    "cloud strife costume","tifa lockhart costume","dead by daylight costume",
+    "jujutsu kaisen costume","gojo satoru costume","hazbin hotel costume",
+    "alastor costume","frieren costume","one piece costume","luffy costume",
+    "cosplay shoes","convention costume","lolita costume","gothic lolita",
+    "anime convention costume","fast us shipping cosplay","us warehouse cosplay",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -891,6 +1052,8 @@ TRUST_BADGES = [
     {"icon":"🎃","label":"Updated Daily"},
     {"icon":"🚀","label":"Same-Day Delivery Available"},
     {"icon":"🎉","label":"Party Supplies Too"},
+    {"icon":"🇺🇸","label":"Fast US Shipping — Not China"},
+    {"icon":"📅","label":"Days Not Weeks Delivery"},
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1178,7 +1341,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1189,7 +1352,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1322,7 +1485,7 @@ def make_page(page_key):
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","yearround","sale","lastminute"]
+            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","cosplayshoes","convention","lolita","yearround","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -2108,6 +2271,99 @@ BLOG_POSTS = [
     },
 
     {
+        "slug":    "genshin-impact-costume-guide",
+        "file":    "blog-genshin-costumes.html",
+        "icon":    "🌟",
+        "title":   "Best Genshin Impact Cosplay Costume Guide for 2026",
+        "desc":    "The ultimate Genshin Impact cosplay costume guide for 2026 — Hu Tao, Raiden Shogun, Ayaka, Ganyu, Zhongli and more. Fast US shipping vs Chinese sites.",
+        "h1":      "Genshin Impact Cosplay Guide 2026",
+        "intro":   "Genshin Impact has become one of the most popular sources of cosplay inspiration worldwide. With its stunning character designs, diverse roster, and passionate fanbase — Genshin Impact cosplay is everywhere at conventions and Halloween events in 2026. Here's your complete guide to the best Genshin Impact costumes, with the crucial advantage of fast US shipping.",
+        "sections": [
+            ("Why US Shipping Matters for Cosplay", "genshin impact costume",
+             "Most Genshin Impact cosplay sites ship from China — meaning 3-6 weeks of waiting for your costume. Our collection ships from US warehouses, getting your Genshin Impact costume to you in days, not weeks. Perfect for last-minute conventions or Halloween deadlines."),
+            ("Most Popular Genshin Impact Characters", "genshin impact costume",
+             "The most cosplayed Genshin characters in 2026 include Hu Tao (the popular Ghost girl), Raiden Shogun (the Electro Archon), Ayaka (the Cryo princess), Ganyu (the half-adepti archer), and Zhongli (the Geo Archon). Each character has distinctive designs that translate beautifully to cosplay."),
+            ("Genshin Impact Group Cosplay", "anime cosplay halloween",
+             "Genshin Impact group cosplay is a major trend at conventions — assembling a party of four characters from the same region, element team, or lore group. Mondstadt, Liyue, Inazuma, Sumeru, and Fontaine each offer distinct aesthetic themes for group costumes."),
+            ("Genshin Impact Wigs & Accessories", "halloween wigs 2026",
+             "Getting the hair right is crucial for Genshin Impact cosplay. Most characters have distinctive colored hair that requires a quality wig. Our wig collection includes the specific colors needed for the most popular Genshin characters."),
+            ("Genshin Impact for Halloween", "anime halloween costumes 2026",
+             "Genshin Impact characters make spectacular Halloween costumes — even for people who don't play the game. The elaborate fantasy designs stand out at any Halloween party and earn instant recognition from gaming fans."),
+        ],
+        "cta_cat": "genshin",
+        "keywords": "genshin impact cosplay guide 2026, genshin impact costume, hu tao cosplay, raiden shogun costume, genshin impact halloween",
+    },
+    {
+        "slug":    "convention-cosplay-guide",
+        "file":    "blog-convention-guide.html",
+        "icon":    "🏟️",
+        "title":   "Convention Cosplay Guide 2026 | Comic Con, Anime Expo & More",
+        "desc":    "The complete convention cosplay guide for 2026 — what to wear to Comic Con, Anime Expo, PAX, Dragon Con. Trending characters, fast US shipping, prop tips.",
+        "h1":      "Convention Cosplay Guide for 2026",
+        "intro":   "Convention season is here, and your cosplay needs to be ready. Whether you're attending Comic Con, Anime Expo, PAX East, Dragon Con, or your local anime convention — this guide covers everything from choosing the right costume to getting it delivered in time. With fast US shipping, you don't have to plan weeks in advance like you do with Chinese cosplay sites.",
+        "sections": [
+            ("Choosing Your Convention Costume", "cosplay convention costume",
+             "The best convention cosplay balances recognition, comfort, and originality. Choose a character people will recognize but not everyone else is wearing. Consider comfort for all-day wear — you'll be in costume for 8-10 hours. Our convention-ready costume collection prioritizes both."),
+            ("Trending Characters for 2026 Conventions", "anime costume 2026",
+             "The most popular cosplay characters at 2026 conventions include: Gojo Satoru from Jujutsu Kaisen, Jinx from Arcane Season 2, Hu Tao from Genshin Impact, Alastor from Hazbin Hotel, Frieren from Sousou no Frieren, and returning favorites like Demon Slayer's Tanjiro and MHA characters."),
+            ("Group Convention Cosplay Ideas", "group halloween costumes",
+             "Group cosplay at conventions gets maximum attention. The Straw Hat crew from One Piece, the Jujutsu Tech students, the Arcane cast, or the Addams Family all make spectacular group convention costumes that turn heads in every hallway."),
+            ("Convention Prop Tips", "halloween costume accessories",
+             "Most conventions allow props under a certain size with specific safety requirements. Soft props, foam weapons, and lightweight accessories are convention-safe options. Our accessories collection includes convention-friendly props for the most popular characters."),
+            ("Fast US Shipping for Conventions", "last minute halloween costumes",
+             "Convention deadlines sneak up on you. Our fast US shipping means you can order your costume days before the event and still receive it in time — unlike Chinese cosplay sites where 3-6 weeks of shipping time makes last-minute orders impossible."),
+        ],
+        "cta_cat": "convention",
+        "keywords": "convention cosplay guide 2026, comic con costume guide, anime expo cosplay, best convention costumes, dragon con cosplay 2026",
+    },
+    {
+        "slug":    "gaming-cosplay-guide",
+        "file":    "blog-gaming-cosplay.html",
+        "icon":    "🎮",
+        "title":   "Best Gaming Cosplay Costumes 2026 | Video Game Character Guide",
+        "desc":    "The best gaming cosplay costumes for 2026 — Genshin Impact, League of Legends, Overwatch, Final Fantasy, Dead by Daylight and more. Fast US shipping.",
+        "h1":      "Best Gaming Cosplay Costumes for 2026",
+        "intro":   "Gaming cosplay has exploded in 2026. From massive open-world RPGs to competitive shooters and indie darlings — video game characters provide some of the most creative and visually stunning cosplay opportunities available. Here's our guide to the best gaming cosplay costumes for 2026.",
+        "sections": [
+            ("Why Gaming Cosplay is Booming", "gamer costume",
+             "Gaming has reached cultural mainstream status — Genshin Impact has over 60 million players, League of Legends is a global esport, and Final Fantasy VII Rebirth won game of the year awards. Gaming cosplay is now as mainstream as anime cosplay and growing fast."),
+            ("Top Gaming Cosplay Choices for 2026", "video game costumes",
+             "The most popular gaming cosplay characters for 2026 include: Jinx and Vi from Arcane/LoL, Hu Tao from Genshin Impact, Kiriko from Overwatch 2, Tifa from FF7 Rebirth, and Ghostface from Dead by Daylight. Our collection covers all of these with fast US shipping."),
+            ("Genshin Impact Cosplay", "genshin impact costume",
+             "Genshin Impact's diverse character roster — spanning multiple nations with distinct visual aesthetics — makes it one of the most prolific sources of gaming cosplay. The elaborate fantasy designs translate beautifully into real costumes."),
+            ("Competitive Game Cosplay — LoL & OW2", "league of legends costume",
+             "League of Legends and Overwatch 2 have passionate global communities that show up hard at conventions. Arcane Season 2 characters like Jinx and Vi, and OW2 heroes like Kiriko are consistently among the top-requested costumes at gaming events."),
+            ("US Shipping Advantage", "fast halloween costumes",
+             "Most gaming cosplay sites ship from China with 3-6 week delivery times. Our gaming costume collection ships from US warehouses — meaning you get your costume in days, not weeks. Perfect for last-minute conventions, Halloween deadlines, and gaming events."),
+        ],
+        "cta_cat": "gamer",
+        "keywords": "gaming cosplay costumes 2026, video game cosplay guide, best gaming costumes, genshin impact cosplay, league of legends cosplay, overwatch cosplay 2026",
+    },
+    {
+        "slug":    "cosplay-tips-beginners",
+        "file":    "blog-cosplay-tips.html",
+        "icon":    "✨",
+        "title":   "Cosplay Tips for Beginners 2026 | How to Cosplay Guide",
+        "desc":    "Cosplay tips for beginners 2026 — how to choose your character, buy vs make your costume, wigs, shoes, accessories and convention tips. Complete beginner guide.",
+        "h1":      "Cosplay Tips for Beginners 2026",
+        "intro":   "New to cosplay? Welcome to one of the most creative and welcoming communities in the world. Cosplay — the art of dressing as your favorite characters from anime, games, movies, and TV — is for everyone. This beginner's guide covers everything you need to know to start cosplaying in 2026.",
+        "sections": [
+            ("Choosing Your First Cosplay Character", "anime costume 2026",
+             "Your first cosplay should be a character you love — not necessarily the most popular or most complex. Start with a character whose design you know well, that excites you, and whose costume is achievable for a beginner. Simple designs executed well look better than complex designs done poorly."),
+            ("Buy vs Make Your Costume", "halloween costume accessories",
+             "For beginners, buying a ready-made costume is the easiest path. Pre-made cosplay costumes have improved dramatically in quality and are available for thousands of characters. Our costume collection offers ready-to-wear options that look great without any sewing skill required."),
+            ("Getting the Wig Right", "halloween wigs 2026",
+             "A quality wig transforms any cosplay. Even a simple costume looks professional with the right hair. Buy a wig specific to your character's color and style — our wig collection includes styles for the most popular cosplay characters."),
+            ("Shoes and Accessories Matter", "cosplay shoes 2026",
+             "Don't neglect your feet and accessories — they complete the look. Character-accurate shoes, props, and accessories elevate your cosplay from good to great. Our cosplay accessories collection covers the finishing touches for every major character."),
+            ("Fast US Shipping for Cosplay", "last minute halloween costumes",
+             "One of the biggest frustrations in cosplay is ordering from overseas sites and waiting 3-6 weeks. Our collection ships from US warehouses — so you get your cosplay costume in days, not weeks. Perfect for convention prep and Halloween deadlines."),
+        ],
+        "cta_cat": "comiccon",
+        "keywords": "cosplay tips beginners 2026, how to cosplay guide, beginner cosplay tips, first cosplay advice, cosplay for beginners",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -2489,6 +2745,10 @@ def build():
     print(f"  ✅  {len(BLOG_POSTS)} blog articles — year-round SEO traffic")
     print(f"  ✅  Year-round pages: Anime, Gamer, Gifts, Movies, TV Shows, Clothing")
     print(f"  ✅  Fun.com beaten — year-round traffic, 12 languages, daily rebuild")
+    print(f"  ✅  EZCosplay beaten — fast US shipping vs their China shipping")
+    print(f"  ✅  Specific game pages: Genshin, LoL, OW2, FF7, DBD, JJK, Hazbin Hotel, Frieren, One Piece")
+    print(f"  ✅  Cosplay specialist pages: Shoes, Conventions, Lolita")
+    print(f"  ✅  {len(BLOG_POSTS)} total blog articles — year-round SEO dominance")
     print()
 
 if __name__ == "__main__":
