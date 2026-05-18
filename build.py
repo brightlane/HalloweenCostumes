@@ -96,6 +96,16 @@ CAT_URLS = {
     "decorations": "https://www.halloweencostumes.com/halloween-decorations.html",
     "sale":        "https://www.halloweencostumes.com/sale-halloween-costumes.html",
     "lastminute":  "https://www.halloweencostumes.com/last-minute-halloween-costumes.html",
+    # ── New pages beating Spirit Halloween ──
+    "animatronics": "https://www.halloweencostumes.com/halloween-animatronics.html",
+    "props":        "https://www.halloweencostumes.com/halloween-props.html",
+    "indoordecor":  "https://www.halloweencostumes.com/indoor-halloween-decorations.html",
+    "outdoordecor": "https://www.halloweencostumes.com/outdoor-halloween-decorations.html",
+    "licensed":     "https://www.halloweencostumes.com/officially-licensed-halloween-costumes.html",
+    "inflatable":   "https://www.halloweencostumes.com/inflatable-halloween-costumes.html",
+    "collectibles": "https://www.halloweencostumes.com/halloween-collectibles.html",
+    "tween":        "https://www.halloweencostumes.com/tween-halloween-costumes.html",
+    "medieval":     "https://www.halloweencostumes.com/renaissance-medieval-costumes.html",
 }
 
 def aff(cat_key=None, search=None):
@@ -393,6 +403,108 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"last minute halloween costumes, fast halloween costumes 2026, quick halloween costumes",
     },
+    # ══════════════════════════════════════════
+    # SPIRIT HALLOWEEN BEATERS — 9 new pages
+    # ══════════════════════════════════════════
+    "animatronics": {
+        "file":"animatronics.html","cat_key":"animatronics","icon":"🤖",
+        "group":"spirit","nav_group":"spirit",
+        "en_title":"Halloween Animatronics 2026 | Scary Moving Props & Figures",
+        "en_desc":"Halloween animatronics 2026 — life-size moving props, scary figures, sound-activated animatronics and haunted house displays. Ships to 200+ countries.",
+        "en_h1":"Halloween Animatronics 2026",
+        "en_h1sub":"Life-Size Moving Props & Haunted House Figures",
+        "en_body":"Transform your home into a haunted attraction with our Halloween animatronics 2026. We carry life-size moving animatronic figures, sound-activated props, light-up animatronics, and complete haunted house display pieces. From terrifying clown animatronics to zombie figures, skeleton props and ghost displays — our animatronic collection covers every horror theme. Perfect for haunted houses, Halloween parties, yard displays and retail stores. Halloween animatronics available in sizes from 1 foot to over 7 feet tall.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween animatronics 2026, animatronic halloween props, moving halloween figures, haunted house animatronics",
+    },
+    "props": {
+        "file":"props.html","cat_key":"props","icon":"🦴",
+        "group":"spirit","nav_group":"spirit",
+        "en_title":"Halloween Props 2026 | Haunted House Props & Decorations",
+        "en_desc":"Halloween props 2026 — skulls, skeletons, coffins, cauldrons, tombstones, fog machines and professional haunted house props. Ships to 200+ countries.",
+        "en_h1":"Halloween Props 2026",
+        "en_h1sub":"Skulls, Coffins, Fog Machines & Haunted House Supplies",
+        "en_body":"Create the ultimate haunted house with our Halloween props 2026. We carry professional-grade and consumer haunted house props — skulls, skeleton displays, coffins, cauldrons, tombstones, fog machines, spooky lighting, cobwebs, and complete scene-setter kits. Whether you want a single statement piece or a full haunted attraction setup — our Halloween props collection has everything to make this the scariest Halloween yet. Props available for indoor and outdoor use.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween props 2026, haunted house props, halloween decorating props, fog machine halloween",
+    },
+    "indoordecor": {
+        "file":"indoordecor.html","cat_key":"indoordecor","icon":"🕯️",
+        "group":"spirit","nav_group":"spirit",
+        "en_title":"Indoor Halloween Decorations 2026 | Home Decor",
+        "en_desc":"Indoor Halloween decorations 2026 — tabletop decor, hanging props, window clings, string lights, cauldrons and spooky home decor. Ships to 200+ countries.",
+        "en_h1":"Indoor Halloween Decorations 2026",
+        "en_h1sub":"Tabletop, Hanging & Window Halloween Decor",
+        "en_body":"Decorate every room with our indoor Halloween decorations 2026. Our indoor decor collection includes tabletop centerpieces, hanging decorations, window clings, string lights, cauldrons, candelabras, spooky mirrors, scene setters and wall decorations. Transform your living room, dining room, front door and every corner of your home into a haunted house with our massive indoor Halloween decoration selection. New indoor decor added daily.",
+        "schema_type":"CollectionPage",
+        "keywords":"indoor halloween decorations 2026, halloween home decor, halloween tabletop decorations, indoor halloween decor",
+    },
+    "outdoordecor": {
+        "file":"outdoordecor.html","cat_key":"outdoordecor","icon":"🌙",
+        "group":"spirit","nav_group":"spirit",
+        "en_title":"Outdoor Halloween Decorations 2026 | Yard & Garden Decor",
+        "en_desc":"Outdoor Halloween decorations 2026 — yard decorations, lawn stakes, inflatables, string lights, tombstones and outdoor haunted house displays. Ships to 200+ countries.",
+        "en_h1":"Outdoor Halloween Decorations 2026",
+        "en_h1sub":"Yard Stakes, Inflatables & Outdoor Haunted Displays",
+        "en_body":"Make your yard the scariest on the street with our outdoor Halloween decorations 2026. We carry yard inflatables, lawn stakes, tombstones, skeleton displays, hanging ghosts, pathway lights, witch silhouettes, spider webs, and complete outdoor haunted house kits. Our outdoor Halloween decoration collection covers front porches, gardens, driveways and yards of every size. Durable weather-resistant materials built for outdoor use. New outdoor decor added daily.",
+        "schema_type":"CollectionPage",
+        "keywords":"outdoor halloween decorations 2026, halloween yard decorations, halloween lawn decor, outdoor halloween decor",
+    },
+    "licensed": {
+        "file":"licensed.html","cat_key":"licensed","icon":"™️",
+        "group":"spirit","nav_group":"spirit",
+        "en_title":"Officially Licensed Halloween Costumes 2026 | Character Costumes",
+        "en_desc":"Officially licensed Halloween costumes 2026 — authentic Spider-Man, Batman, Disney, Star Wars, Ghostbusters and 100s more licensed character costumes. Ships to 200+ countries.",
+        "en_h1":"Officially Licensed Halloween Costumes 2026",
+        "en_h1sub":"Authentic Spider-Man, Disney, Star Wars & More",
+        "en_body":"Wear the real deal with our officially licensed Halloween costumes 2026. Our licensed costume collection features authentic, studio-approved costumes from the biggest franchises in entertainment — Marvel Spider-Man, Batman, Disney princesses, Star Wars characters, Ghostbusters, Terrifier, Trick r Treat, and hundreds more officially licensed designs. These are the real licensed costumes that look exactly like the characters from your favorite movies, TV shows and comics. Licensed costumes available for kids, teens, and adults.",
+        "schema_type":"CollectionPage",
+        "keywords":"officially licensed halloween costumes, licensed character costumes 2026, authentic halloween costumes, spider-man costume licensed",
+    },
+    "inflatable": {
+        "file":"inflatable.html","cat_key":"inflatable","icon":"🎈",
+        "group":"spirit","nav_group":"spirit",
+        "en_title":"Inflatable Halloween Costumes 2026 | Funny Blow Up Costumes",
+        "en_desc":"Inflatable Halloween costumes 2026 — hilarious blow-up costumes for adults and kids. T-Rex, dinosaur, sumo, unicorn and more. Ships to 200+ countries.",
+        "en_h1":"Inflatable Halloween Costumes 2026",
+        "en_h1sub":"Hilarious Blow-Up Costumes for Adults & Kids",
+        "en_body":"Be the life of the Halloween party with our inflatable Halloween costumes 2026. Our blow-up costume collection features the funniest and most eye-catching inflatable styles — T-Rex dinosaur costumes, sumo wrestler suits, unicorn costumes, shark costumes, chicken suits and dozens more hilarious inflatable looks. These fan-powered inflatable costumes are easy to wear, instantly recognizable, and guaranteed to win every costume contest. Inflatable Halloween costumes available for adults and kids.",
+        "schema_type":"CollectionPage",
+        "keywords":"inflatable halloween costumes, blow up halloween costumes 2026, funny inflatable costumes, t-rex inflatable costume",
+    },
+    "collectibles": {
+        "file":"collectibles.html","cat_key":"collectibles","icon":"🏆",
+        "group":"spirit","nav_group":"spirit",
+        "en_title":"Halloween Collectibles 2026 | Funko POPs, Figures & More",
+        "en_desc":"Halloween collectibles 2026 — Funko POP figures, horror collectibles, Halloween statues, limited edition items and spooky memorabilia. Ships to 200+ countries.",
+        "en_h1":"Halloween Collectibles 2026",
+        "en_h1sub":"Funko POPs, Horror Figures & Limited Edition Items",
+        "en_body":"Complete your Halloween collection with our Halloween collectibles 2026. We carry Funko POP Halloween figures, horror character statues, limited edition collectible items, Halloween memorabilia, spooky figurines, and exclusive collector pieces. Perfect for Halloween enthusiasts, horror fans, and collectors who want something beyond costumes. Our Halloween collectibles include items from iconic horror franchises, classic Halloween characters, and exclusive limited-run designs.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween collectibles 2026, funko pop halloween, horror collectibles, halloween figurines",
+    },
+    "tween": {
+        "file":"tween.html","cat_key":"tween","icon":"🧒",
+        "group":"age","nav_group":"age",
+        "en_title":"Tween Halloween Costumes 2026 | Ages 8-12 Costumes",
+        "en_desc":"Tween Halloween costumes 2026 — cool costumes for ages 8-12. Pop culture, scary, funny and trendy styles for tweens. Ships to 200+ countries.",
+        "en_h1":"Tween Halloween Costumes 2026",
+        "en_h1sub":"Cool Costumes for Ages 8-12",
+        "en_body":"Find the perfect tween Halloween costume 2026 for ages 8-12 — the in-between age that wants to look cool, not babyish, but isn't quite ready for adult styles. Our tween costume collection includes the latest pop culture characters, age-appropriate scary looks, funny costumes, and trendy Halloween styles sized for tweens. We carry tween sizes that fit perfectly for ages 8-12, with styles for both girls and boys that they'll actually want to wear.",
+        "schema_type":"CollectionPage",
+        "keywords":"tween halloween costumes, halloween costumes ages 8-12, tween costumes 2026, halloween costumes tweens",
+    },
+    "medieval": {
+        "file":"medieval.html","cat_key":"medieval","icon":"⚔️",
+        "group":"type","nav_group":"type",
+        "en_title":"Medieval & Renaissance Halloween Costumes 2026 | Knight & Princess",
+        "en_desc":"Medieval and renaissance Halloween costumes 2026 — knights, princesses, wizards, jesters, Vikings and renaissance fair costumes. Ships to 200+ countries.",
+        "en_h1":"Medieval & Renaissance Costumes 2026",
+        "en_h1sub":"Knights, Princesses, Wizards & Renaissance Fair",
+        "en_body":"Step back in time with our medieval and renaissance Halloween costumes 2026. Our collection includes authentic-looking knight armor costumes, princess gowns, wizard robes, jester suits, Viking warrior costumes, court jester outfits, and complete renaissance fair costumes for men, women, and kids. Perfect for Halloween parties, renaissance fairs, medieval events, and historical costume contests. New medieval and renaissance costume styles added regularly.",
+        "schema_type":"CollectionPage",
+        "keywords":"medieval halloween costumes, renaissance halloween costumes 2026, knight costume, princess medieval costume, renaissance fair costume",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -406,6 +518,7 @@ NAV_GROUPS = {
     "accessories": {"label":"Accessories",  "icon":"🎩"},
     "deals":       {"label":"Deals",        "icon":"💰"},
     "home":        {"label":"Home & Decor", "icon":"🏚️"},
+    "spirit":      {"label":"Props & More",  "icon":"🤖"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -448,7 +561,11 @@ POPULAR_SEARCHES = [
     "devil costume","mummy costume","inflatable costume","couples costume",
     "baby costume","plus size costume","nurse costume","cat costume",
     "batman costume","joker costume","Wednesday Addams costume","Mandalorian costume",
-    "renaissance costume","fairy costume","angel costume","devil costume",
+    "renaissance costume","fairy costume","angel costume","knight costume",
+    "animatronic halloween","haunted house props","fog machine","t-rex costume",
+    "ghostbusters costume","star wars costume","disney costume","licensed costume",
+    "tween costume","medieval costume","viking costume","kpop costume",
+    "funko pop halloween","inflatable t-rex","art the clown costume","terrifier costume",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -734,12 +851,12 @@ function buildFooter(){{
     couples:'💑 Couples', group:'👨‍👩‍👧‍👦 Group', new2026:'✨ New 2026',
     plussize:'💎 Plus Size', wholesale:'🛍️ Wholesale', pet:'🐾 Pet',
     accessories:'🎩 Accessories', wigs:'💇 Wigs', masks:'👺 Masks',
-    decorations:'🏚️ Decorations', sale:'💰 Sale', lastminute:'⚡ Last Minute'
+    decorations:'🏚️ Decorations', indoordecor:'🕯️ Indoor Decor', outdoordecor:'🌙 Outdoor Decor', props:'🦴 Props', animatronics:'🤖 Animatronics', inflatable:'🎈 Inflatable', collectibles:'🏆 Collectibles', licensed:'™️ Licensed', sale:'💰 Sale', lastminute:'⚡ Last Minute', tween:'🧒 Tween', medieval:'⚔️ Medieval'
   }};
   const fc1 = document.getElementById('fc1-links');
   if(fc1){{
     fc1.innerHTML = '';
-    ['womens','mens','girls','boys','kids','teen','toddler','baby'].forEach(pk => {{
+    ['womens','mens','girls','boys','kids','tween','teen','toddler','baby'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -761,7 +878,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['accessories','wigs','masks','decorations','sale','lastminute'].forEach(pk => {{
+    ['accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -884,17 +1001,17 @@ def make_page(page_key):
         # Gender grid
         gender_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["womens","mens","girls","boys","kids"]
+            for pk in ["womens","mens","girls","boys","kids","tween","teen","toddler","baby"]
         ])
         # Type grid
         type_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["adult","scary","funny","sexy","couples","group","new2026","plussize","wholesale","pet"]
+            for pk in ["adult","scary","funny","sexy","couples","group","new2026","plussize","wholesale","pet","licensed","inflatable","medieval"]
         ])
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["accessories","wigs","masks","decorations","sale","lastminute"]
+            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -1343,7 +1460,7 @@ def build():
     print("="*58)
     print()
     print("  BEATS HALLOWEENCOSTUMES.COM WITH:")
-    print(f"  ✅  {len(PAGES)} pages vs their single site")
+    print(f"  ✅  {len(PAGES)} pages vs Spirit Halloween English-only site")
     print(f"  ✅  Women's, Men's, Girls', Boys' gender pages")
     print(f"  ✅  Teen, Toddler, Baby age-specific pages")
     print(f"  ✅  Sexy, Couples, New 2026 style pages")
