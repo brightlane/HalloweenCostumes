@@ -45,6 +45,49 @@
     }
     .nav-cta:hover { background:#ffb733; }
 
+    /* SEARCH BAR */
+    .search-wrap {
+      background: var(--smoke);
+      border-bottom: 1px solid rgba(245,166,35,.15);
+      padding: 18px 40px;
+    }
+    .search-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      gap: 10px;
+    }
+    .search-input {
+      flex: 1;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(245,166,35,.3);
+      border-radius: 6px;
+      color: var(--cream);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      padding: 14px 20px;
+      outline: none;
+      transition: border-color .15s;
+    }
+    .search-input::placeholder { color: rgba(253,246,227,.35); }
+    .search-input:focus { border-color: var(--amber); }
+    .search-btn {
+      background: var(--amber);
+      color: var(--ink);
+      border: none;
+      border-radius: 6px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 14px 28px;
+      cursor: pointer;
+      transition: background .15s, transform .15s;
+      white-space: nowrap;
+    }
+    .search-btn:hover { background: #ffb733; transform: translateY(-1px); }
+
     /* HERO */
     .hero {
       padding:80px 40px 60px; max-width:1100px; margin:0 auto;
@@ -103,7 +146,7 @@
     .cat-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; }
     .cat-card {
       background:var(--smoke); padding:36px 24px; display:flex; flex-direction:column; gap:10px;
-      transition:background .15s; border:1px solid transparent;
+      transition:background .15s; border:1px solid transparent; cursor:pointer;
     }
     .cat-card:hover { background:#28261f; border-color:rgba(245,166,35,.25); }
     .cat-icon { font-size:2.2rem; }
@@ -149,6 +192,22 @@
     .step-title { font-family:'Bebas Neue',cursive; font-size:1.4rem; color:var(--amber); letter-spacing:1px; margin-bottom:10px; }
     .step-desc { font-size:.85rem; color:rgba(253,246,227,.5); line-height:1.6; }
 
+    /* POPULAR SEARCHES */
+    .popular-wrap { max-width:1100px; margin:0 auto; padding:0 40px 60px; }
+    .popular-title { font-family:'Bebas Neue',cursive; font-size:1.6rem; color:rgba(253,246,227,.4); letter-spacing:2px; margin-bottom:14px; }
+    .popular-tags { display:flex; flex-wrap:wrap; gap:8px; }
+    .pop-tag {
+      background: rgba(245,166,35,.08);
+      border: 1px solid rgba(245,166,35,.2);
+      border-radius: 100px;
+      padding: 8px 18px;
+      font-size: .82rem;
+      color: rgba(253,246,227,.65);
+      cursor: pointer;
+      transition: background .15s, color .15s, border-color .15s;
+    }
+    .pop-tag:hover { background: rgba(245,166,35,.2); color: var(--amber); border-color: var(--amber); }
+
     /* BOTTOM CTA */
     .bottom-cta { background:linear-gradient(135deg,#1a1208,#0c0b09); border-top:3px solid var(--amber); padding:100px 40px; text-align:center; }
     .bottom-cta-inner { max-width:700px; margin:0 auto; }
@@ -176,6 +235,8 @@
       .world-globe{display:none;}
       .section{padding:50px 24px;}
       nav{padding:16px 24px;}
+      .search-wrap{padding:14px 24px;}
+      .popular-wrap{padding:0 24px 40px;}
     }
     @media(max-width:520px){
       .cat-grid{grid-template-columns:1fr;}
@@ -193,8 +254,22 @@
 
 <nav>
   <div class="nav-logo">🎃 HalloweenCostumes</div>
-  <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="nav-cta" target="_blank" rel="nofollow noopener">Shop All Costumes →</a>
+  <a id="nav-shop-btn" href="#" class="nav-cta" target="_blank" rel="nofollow noopener">Shop All Costumes →</a>
 </nav>
+
+<!-- SEARCH BAR -->
+<div class="search-wrap">
+  <div class="search-inner">
+    <input
+      class="search-input"
+      id="costume-search"
+      type="text"
+      placeholder='Search costumes e.g. "spider costume", "witch", "pirate"…'
+      autocomplete="off"
+    />
+    <button class="search-btn" id="search-go-btn">🔍 Find Costume</button>
+  </div>
+</div>
 
 <section class="hero">
   <div class="hero-left">
@@ -202,8 +277,8 @@
     <h1 id="hero-h1">Halloween<em>Costumes</em>2026</h1>
     <p class="hero-desc" id="hero-desc">Thousands of scary, funny, and iconic costumes for kids, adults, families and wholesale — with deals refreshed every single day.</p>
     <div class="hero-buttons">
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-primary" target="_blank" rel="nofollow noopener">🎃 Shop Costumes Now</a>
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-ghost" target="_blank" rel="nofollow noopener">View All Deals →</a>
+      <a id="hero-shop-btn" href="#" class="btn-primary" target="_blank" rel="nofollow noopener">🎃 Shop Costumes Now</a>
+      <a id="hero-deals-btn" href="#" class="btn-ghost" target="_blank" rel="nofollow noopener">View All Deals →</a>
     </div>
     <div class="hero-trust">
       <span class="trust-item">Secure Checkout</span>
@@ -228,33 +303,10 @@
 <div class="section">
   <div class="section-header">
     <h2 class="section-title">Shop By Category</h2>
-    <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="section-link" target="_blank" rel="nofollow noopener">All Categories →</a>
+    <a id="all-cat-link" href="#" class="section-link" target="_blank" rel="nofollow noopener">All Categories →</a>
   </div>
-  <div class="cat-grid">
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">👶</span><div class="cat-name">Kids Costumes</div><div class="cat-desc">Superheroes, witches, animals and more for little ones</div><div class="cat-arrow">Shop Now →</div>
-    </a>
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">🧑</span><div class="cat-name">Adult Costumes</div><div class="cat-desc">Classic horror, pop culture and original designs</div><div class="cat-arrow">Shop Now →</div>
-    </a>
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">💀</span><div class="cat-name">Scary Costumes</div><div class="cat-desc">Terrifying monsters, zombies and haunted house looks</div><div class="cat-arrow">Shop Now →</div>
-    </a>
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">😂</span><div class="cat-name">Funny Costumes</div><div class="cat-desc">Hilarious outfits that win every costume contest</div><div class="cat-arrow">Shop Now →</div>
-    </a>
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">👨‍👩‍👧‍👦</span><div class="cat-name">Group &amp; Family</div><div class="cat-desc">Matching sets for the whole crew or office party</div><div class="cat-arrow">Shop Now →</div>
-    </a>
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">🛍️</span><div class="cat-name">Wholesale</div><div class="cat-desc">Bulk orders for events, schools and retail stores</div><div class="cat-arrow">Shop Now →</div>
-    </a>
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">🐾</span><div class="cat-name">Pet Costumes</div><div class="cat-desc">Adorable Halloween looks for dogs and cats</div><div class="cat-arrow">Shop Now →</div>
-    </a>
-    <a class="cat-card" href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">
-      <span class="cat-icon">💎</span><div class="cat-name">Plus Size</div><div class="cat-desc">Every costume in every size — inclusive and stylish</div><div class="cat-arrow">Shop Now →</div>
-    </a>
+  <div class="cat-grid" id="cat-grid">
+    <!-- Injected by JS so every href uses the affiliate builder -->
   </div>
   <div class="features-row">
     <div class="feature-card"><span class="feature-icon">🚀</span><div><div class="feature-title">Fast Global Shipping</div><div class="feature-desc">Ships to 180+ countries — arrive before Halloween night</div></div></div>
@@ -268,7 +320,7 @@
     <p class="promo-kicker">🔥 Today's Featured Offer</p>
     <h2 class="promo-headline" id="promo-headline">Kids Costumes From Just $10</h2>
     <p class="promo-sub" id="promo-sub">Affordable Halloween fun for the whole family — updated every day</p>
-    <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-white" target="_blank" rel="nofollow noopener">Claim This Deal →</a>
+    <a id="promo-btn" href="#" class="btn-white" target="_blank" rel="nofollow noopener">Claim This Deal →</a>
   </div>
 </div>
 
@@ -291,10 +343,18 @@
 <div class="section">
   <div class="section-header"><h2 class="section-title">How It Works</h2></div>
   <div class="steps-grid">
-    <div class="step-card" data-n="1"><span class="step-icon">🔍</span><div class="step-title">Browse Categories</div><p class="step-desc">Pick from kids, adult, scary, funny, wholesale or group costume categories updated daily.</p></div>
-    <div class="step-card" data-n="2"><span class="step-icon">👆</span><div class="step-title">Click Any Deal</div><p class="step-desc">Every link routes through our affiliate system to bring you verified live offers.</p></div>
+    <div class="step-card" data-n="1"><span class="step-icon">🔍</span><div class="step-title">Search or Browse</div><p class="step-desc">Type any costume name or pick a category — every result is affiliate-tracked to your account.</p></div>
+    <div class="step-card" data-n="2"><span class="step-icon">👆</span><div class="step-title">Click Any Deal</div><p class="step-desc">Every link routes through LinkConnector ID 7949 so all commissions come to you.</p></div>
     <div class="step-card" data-n="3"><span class="step-icon">🎭</span><div class="step-title">Choose Your Costume</div><p class="step-desc">Pick from thousands of styles and sizes for the whole family, any theme, any budget.</p></div>
     <div class="step-card" data-n="4"><span class="step-icon">📦</span><div class="step-title">Ship Anywhere</div><p class="step-desc">Get your costume delivered worldwide — in time for Halloween night.</p></div>
+  </div>
+</div>
+
+<!-- POPULAR SEARCHES -->
+<div class="popular-wrap">
+  <div class="popular-title">Popular Searches</div>
+  <div class="popular-tags" id="popular-tags">
+    <!-- Injected by JS -->
   </div>
 </div>
 
@@ -302,50 +362,191 @@
   <div class="bottom-cta-inner">
     <h2>Don't Miss<br><span>Halloween 2026</span></h2>
     <p>Thousands of costumes. Worldwide shipping. Deals updated every single day. Find yours before they sell out.</p>
-    <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" class="btn-primary" style="font-size:1.1rem;padding:22px 56px;" target="_blank" rel="nofollow noopener">🎃 Browse All Halloween Costumes</a>
+    <a id="bottom-cta-btn" href="#" class="btn-primary" style="font-size:1.1rem;padding:22px 56px;" target="_blank" rel="nofollow noopener">🎃 Browse All Halloween Costumes</a>
   </div>
 </div>
 
 <footer>
   <div class="footer-inner">
     <div class="footer-logo-sm">🎃 HalloweenCostumes 2026</div>
-    <div class="footer-links-sm">
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Kids</a>
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Adults</a>
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Groups</a>
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Wholesale</a>
-      <a href="https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge" target="_blank" rel="nofollow noopener">Best Deals</a>
+    <div class="footer-links-sm" id="footer-links">
+      <!-- Injected by JS -->
     </div>
     <p class="footer-copy">&copy; 2026 Benny "Palmo Kid" Palmarino — Affiliate links use LinkConnector ID 7949. Commissions earned on qualifying purchases.</p>
   </div>
 </footer>
 
 <script>
-  const HEADLINES = ["Halloween\u00A0Costumes\u00A02026","Best Halloween\u00A0Deals\u00A02026","Cheap Halloween\u00A0Costumes","Scary Halloween\u00A0Costumes","Find Your Perfect\u00A0Costume"];
-  const DESCS = [
-    "Thousands of scary, funny, and iconic costumes for kids, adults, families and wholesale — with deals refreshed every single day.",
-    "Find cheap Halloween costumes 2026 in every style, size, and theme — shipped worldwide with tracking.",
-    "Shop scary, funny, and themed Halloween costumes 2026 — fast global delivery to 180+ countries.",
-    "The best Halloween costume deals 2026 for kids, adults, families and wholesale buyers worldwide.",
-    "Explore top-rated Halloween costumes 2026 — updated daily with new offers and exclusive discounts."
+// ─────────────────────────────────────────────
+// AFFILIATE LINK BUILDER
+// All traffic passes through LinkConnector ID 7949
+// halloweencostumes.com search uses ?q= parameter
+// ─────────────────────────────────────────────
+
+const AFF_BASE = "https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge";
+
+// Build a keyword-targeted affiliate URL.
+// LinkConnector passes extra URL params through to the merchant.
+// We append a merchant-side search so users land on the right page.
+function affLink(keyword) {
+  if (!keyword) return AFF_BASE;
+  // URL-encode the search term and append as a passthrough param.
+  // This tells halloweencostumes.com what to search while keeping
+  // the LinkConnector cookie/tracking intact.
+  const encoded = encodeURIComponent(keyword.trim());
+  return AFF_BASE + "&url=https%3A%2F%2Fwww.halloweencostumes.com%2Fsearch%3Fq%3D" + encoded;
+}
+
+// ─────────────────────────────────────────────
+// CATEGORIES — each has its own search keyword
+// ─────────────────────────────────────────────
+const CATEGORIES = [
+  { icon:"👶", name:"Kids Costumes",   desc:"Superheroes, witches, animals and more for little ones",   kw:"kids costumes" },
+  { icon:"🧑", name:"Adult Costumes",  desc:"Classic horror, pop culture and original designs",          kw:"adult costumes" },
+  { icon:"💀", name:"Scary Costumes",  desc:"Terrifying monsters, zombies and haunted house looks",      kw:"scary costumes" },
+  { icon:"😂", name:"Funny Costumes",  desc:"Hilarious outfits that win every costume contest",          kw:"funny costumes" },
+  { icon:"👨‍👩‍👧‍👦",name:"Group & Family", desc:"Matching sets for the whole crew or office party",        kw:"group family costumes" },
+  { icon:"🛍️",name:"Wholesale",        desc:"Bulk orders for events, schools and retail stores",         kw:"wholesale costumes" },
+  { icon:"🐾", name:"Pet Costumes",    desc:"Adorable Halloween looks for dogs and cats",                kw:"pet dog cat costumes" },
+  { icon:"💎", name:"Plus Size",       desc:"Every costume in every size — inclusive and stylish",       kw:"plus size costumes" },
+];
+
+// ─────────────────────────────────────────────
+// POPULAR SEARCH TAGS
+// ─────────────────────────────────────────────
+const POPULAR = [
+  "Spider-Man costume","witch costume","vampire costume","pirate costume",
+  "zombie costume","clown costume","skeleton costume","superhero costume",
+  "Disney princess costume","werewolf costume","ninja costume","dinosaur costume",
+  "nurse costume","devil costume","ghost costume","mummy costume",
+  "inflatable costume","couples costume","baby costume","last minute costume"
+];
+
+// ─────────────────────────────────────────────
+// ROTATING DAILY CONTENT
+// ─────────────────────────────────────────────
+const HEADLINES = [
+  "Halloween\u00A0Costumes\u00A02026",
+  "Best Halloween\u00A0Deals\u00A02026",
+  "Cheap Halloween\u00A0Costumes",
+  "Scary Halloween\u00A0Costumes\u00A02026",
+  "Find Your Perfect\u00A0Costume"
+];
+const DESCS = [
+  "Thousands of scary, funny, and iconic costumes for kids, adults, families and wholesale — deals refreshed every single day.",
+  "Find cheap Halloween costumes 2026 in every style, size, and theme — shipped worldwide with tracking.",
+  "Shop scary, funny, and themed Halloween costumes 2026 — fast global delivery to 180+ countries.",
+  "The best Halloween costume deals 2026 for kids, adults, families and wholesale buyers worldwide.",
+  "Explore top-rated Halloween costumes 2026 — updated daily with new offers and exclusive discounts."
+];
+const PROMOS = [
+  { headline:"Kids Costumes From Just $10",   sub:"Affordable Halloween fun for the whole family — updated every day",    kw:"kids costumes" },
+  { headline:"Scary Deals — Up To 50% Off",   sub:"The spookiest savings on costumes updated daily worldwide",            kw:"scary costumes" },
+  { headline:"Free Shipping On Orders $50+",  sub:"Worldwide delivery on bulk and individual costume orders",             kw:"halloween costumes" },
+  { headline:"Wholesale Prices Available",    sub:"Bulk orders for schools, events and retailers — ship globally",        kw:"wholesale costumes" },
+  { headline:"New Arrivals Added Daily 🎃",   sub:"Fresh costume styles and deals every 24 hours — grab yours",          kw:"new halloween costumes 2026" },
+];
+
+// ─────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────
+function init() {
+  const day = Math.floor((new Date() - new Date(new Date().getFullYear(),0,0)) / 86400000);
+  const i   = day % HEADLINES.length;
+  const el  = id => document.getElementById(id);
+
+  // Hero rotating text
+  if(el('hero-h1'))    el('hero-h1').textContent = HEADLINES[i];
+  if(el('hero-desc'))  el('hero-desc').textContent = DESCS[i];
+
+  // All generic "shop all" links
+  const genericLink = AFF_BASE;
+  el('nav-shop-btn').href    = genericLink;
+  el('hero-shop-btn').href   = genericLink;
+  el('hero-deals-btn').href  = genericLink;
+  el('all-cat-link').href    = genericLink;
+  el('bottom-cta-btn').href  = genericLink;
+
+  // Promo stripe (rotating, keyword-targeted)
+  const promo = PROMOS[i % PROMOS.length];
+  if(el('promo-headline')) el('promo-headline').textContent = promo.headline;
+  if(el('promo-sub'))      el('promo-sub').textContent      = promo.sub;
+  if(el('promo-btn'))      el('promo-btn').href             = affLink(promo.kw);
+
+  // Build category cards
+  const grid = el('cat-grid');
+  CATEGORIES.forEach(cat => {
+    const a = document.createElement('a');
+    a.className = 'cat-card';
+    a.href      = affLink(cat.kw);
+    a.target    = '_blank';
+    a.rel       = 'nofollow noopener';
+    a.innerHTML = `
+      <span class="cat-icon">${cat.icon}</span>
+      <div class="cat-name">${cat.name}</div>
+      <div class="cat-desc">${cat.desc}</div>
+      <div class="cat-arrow">Shop Now →</div>
+    `;
+    grid.appendChild(a);
+  });
+
+  // Build popular search tags
+  const tagsWrap = el('popular-tags');
+  POPULAR.forEach(term => {
+    const span = document.createElement('span');
+    span.className   = 'pop-tag';
+    span.textContent = term;
+    span.addEventListener('click', () => goSearch(term));
+    tagsWrap.appendChild(span);
+  });
+
+  // Build footer links
+  const footerLinks = el('footer-links');
+  const fLinks = [
+    {label:"Kids",       kw:"kids costumes"},
+    {label:"Adults",     kw:"adult costumes"},
+    {label:"Scary",      kw:"scary costumes"},
+    {label:"Funny",      kw:"funny costumes"},
+    {label:"Groups",     kw:"group family costumes"},
+    {label:"Wholesale",  kw:"wholesale costumes"},
+    {label:"Best Deals", kw:"halloween costumes"},
   ];
-  const PROMOS = [
-    ["Kids Costumes From Just $10","Affordable Halloween fun for the whole family — updated every day"],
-    ["Scary Deals — Up To 50% Off","The spookiest savings on costumes updated daily worldwide"],
-    ["Free Shipping On Orders $50+","Worldwide delivery on bulk and individual costume orders"],
-    ["Wholesale Prices Available","Bulk orders for schools, events, and retailers — ship globally"],
-    ["New Arrivals Added Daily 🎃","Fresh costume styles and deals every 24 hours — grab yours"]
-  ];
-  function init() {
-    const day = Math.floor((new Date() - new Date(new Date().getFullYear(),0,0)) / 86400000);
-    const i = day % HEADLINES.length;
-    const el = id => document.getElementById(id);
-    if(el('hero-h1')) el('hero-h1').textContent = HEADLINES[i];
-    if(el('hero-desc')) el('hero-desc').textContent = DESCS[i];
-    if(el('promo-headline')) el('promo-headline').textContent = PROMOS[i][0];
-    if(el('promo-sub')) el('promo-sub').textContent = PROMOS[i][1];
+  fLinks.forEach(f => {
+    const a = document.createElement('a');
+    a.href   = affLink(f.kw);
+    a.target = '_blank';
+    a.rel    = 'nofollow noopener';
+    a.textContent = f.label;
+    footerLinks.appendChild(a);
+  });
+}
+
+// ─────────────────────────────────────────────
+// SEARCH FUNCTION
+// Takes whatever the user typed and sends them
+// to halloweencostumes.com with that search term,
+// all tracked through your affiliate ID.
+// ─────────────────────────────────────────────
+function goSearch(term) {
+  const query = (term || document.getElementById('costume-search').value).trim();
+  if (!query) {
+    // No search term — go to generic affiliate link
+    window.open(AFF_BASE, '_blank', 'noopener,noreferrer');
+    return;
   }
-  document.addEventListener('DOMContentLoaded', init);
+  window.open(affLink(query), '_blank', 'noopener,noreferrer');
+}
+
+// Wire up search button and Enter key
+document.addEventListener('DOMContentLoaded', () => {
+  init();
+
+  document.getElementById('search-go-btn').addEventListener('click', () => goSearch());
+
+  document.getElementById('costume-search').addEventListener('keydown', e => {
+    if (e.key === 'Enter') goSearch();
+  });
+});
 </script>
 </body>
 </html>
