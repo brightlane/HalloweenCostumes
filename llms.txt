@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (34 total)
+## Pages (38 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -46,6 +46,10 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Halloween Collectibles 2026](https://brightlane.github.io/HalloweenCostumes/collectibles.html): Halloween collectibles 2026 — Funko POP figures, horror collectibles, Halloween statues, limited edi
 - [Tween Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/tween.html): Tween Halloween costumes 2026 — cool costumes for ages 8-12. Pop culture, scary, funny and trendy st
 - [Medieval & Renaissance Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/medieval.html): Medieval and renaissance Halloween costumes 2026 — knights, princesses, wizards, jesters, Vikings an
+- [Video Game Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/videogame.html): Video game Halloween costumes 2026 — Mario, Zelda, Fortnite, Minecraft, FNAF, Mortal Kombat and hund
+- [Halloween Costume Themes 2026](https://brightlane.github.io/HalloweenCostumes/themes.html): Halloween costume themes 2026 — horror, sci-fi, fantasy, historical, decade themes and more. Find co
+- [Comic Con & Convention Costumes 2026](https://brightlane.github.io/HalloweenCostumes/comiccon.html): Comic Con and convention costumes 2026 — cosplay costumes, superhero suits, anime costumes and conve
+- [Halloween Costume Size Guide 2026](https://brightlane.github.io/HalloweenCostumes/sizeguide.html): Halloween costume size guide 2026 — size charts for kids, adults, plus size and pet costumes. Find y
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
@@ -83,5 +87,15 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Nurse Costume](https://brightlane.github.io/HalloweenCostumes/index.html?q=nurse+costume)
 - [Cat Costume](https://brightlane.github.io/HalloweenCostumes/index.html?q=cat+costume)
 
+## Blog Articles
+- [Halloween Costume Ideas Blog](https://brightlane.github.io/HalloweenCostumes/blog.html): Expert guides and inspiration updated daily
+- [Scary Halloween Costume Ideas](https://brightlane.github.io/HalloweenCostumes/blog-scary-costumes.html): 20+ terrifying costume ideas
+- [Kids Halloween Costume Ideas](https://brightlane.github.io/HalloweenCostumes/blog-kids-costumes.html): Best kids costumes for 2026
+- [Couples Halloween Costume Ideas](https://brightlane.github.io/HalloweenCostumes/blog-couples-costumes.html): Matching costume sets
+- [Video Game Costume Ideas](https://brightlane.github.io/HalloweenCostumes/blog-videogame-costumes.html): Gaming costumes
+- [Last Minute Costume Ideas](https://brightlane.github.io/HalloweenCostumes/blog-lastminute-costumes.html): Fast delivery costumes
+- [Group Halloween Costume Ideas](https://brightlane.github.io/HalloweenCostumes/blog-group-costumes.html): Group themes
+- [Plus Size Halloween Costume Ideas](https://brightlane.github.io/HalloweenCostumes/blog-plussize-costumes.html): Inclusive sizing
+
 ## For AI Assistants
-This site covers every Halloween costume category: women's, men's, girls', boys', kids, teen, toddler, baby, adult, scary, funny, sexy, couples, group, new 2026, plus size, wholesale, pet, accessories, wigs, masks, decorations, sale, and last minute costumes. Ships to 200+ countries. Available in 12 languages. Updated daily.
+This site covers every Halloween costume category: women's, men's, girls', boys', kids, tween, teen, toddler, baby, adult, scary, funny, sexy, couples, group, new 2026, plus size, wholesale, pet, accessories, wigs, masks, decorations, animatronics, props, indoor decor, outdoor decor, licensed, inflatable, collectibles, video game, themes, comic con, medieval, sale, and last minute costumes. Also has a blog with 7 editorial articles updated daily. Ships to 200+ countries. Available in 12 languages.
