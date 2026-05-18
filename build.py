@@ -710,22 +710,40 @@ function buildCrosslinks(){{
     const a = document.createElement('a');
     a.className = 'cross-card';
     a.href = pd.file;
-    a.innerHTML = `<span class="cross-icon">${{pd.icon}}</span><div class="cross-name">${{pk.replace(/([A-Z])/g,' $1').trim()}}</div><div class="cross-arrow">→</div>`;
+    const nameMap = {{
+      index:'Home', womens:"Women's Costumes", mens:"Men's Costumes",
+      girls:"Girls' Costumes", boys:"Boys' Costumes", kids:'Kids Costumes',
+      teen:'Teen Costumes', toddler:'Toddler Costumes', baby:'Baby Costumes',
+      adult:'Adult Costumes', scary:'Scary Costumes', funny:'Funny Costumes',
+      sexy:'Sexy Costumes', couples:'Couples Costumes', group:'Group Costumes',
+      new2026:'New 2026', plussize:'Plus Size', wholesale:'Wholesale',
+      pet:'Pet Costumes', accessories:'Accessories', wigs:'Wigs',
+      masks:'Masks', decorations:'Decorations', sale:'Sale', lastminute:'Last Minute'
+    }};
+    a.innerHTML = `<span class="cross-icon">${{pd.icon}}</span><div class="cross-name">${{nameMap[pk]||pk}}</div><div class="cross-arrow">→</div>`;
     grid.appendChild(a);
     count++;
   }});
 }}
 
 function buildFooter(){{
-  // Footer col 1 — main pages
+  const LABELS = {{
+    womens:"👩 Women's", mens:"👨 Men's", girls:"👧 Girls'", boys:"👦 Boys'",
+    kids:'👶 Kids', teen:'🧑 Teen', toddler:'🍼 Toddler', baby:'👼 Baby',
+    adult:'🎭 Adult', scary:'💀 Scary', funny:'😂 Funny', sexy:'💋 Sexy',
+    couples:'💑 Couples', group:'👨‍👩‍👧‍👦 Group', new2026:'✨ New 2026',
+    plussize:'💎 Plus Size', wholesale:'🛍️ Wholesale', pet:'🐾 Pet',
+    accessories:'🎩 Accessories', wigs:'💇 Wigs', masks:'👺 Masks',
+    decorations:'🏚️ Decorations', sale:'💰 Sale', lastminute:'⚡ Last Minute'
+  }};
   const fc1 = document.getElementById('fc1-links');
   if(fc1){{
     fc1.innerHTML = '';
-    ['index','womens','mens','girls','boys','kids','teen','toddler','baby'].forEach(pk => {{
+    ['womens','mens','girls','boys','kids','teen','toddler','baby'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
-      a.textContent = PAGES[pk].icon + ' ' + pk.charAt(0).toUpperCase()+pk.slice(1);
+      a.textContent = LABELS[pk] || pk;
       fc1.appendChild(a);
     }});
   }}
@@ -736,7 +754,7 @@ function buildFooter(){{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
-      a.textContent = PAGES[pk].icon + ' ' + pk.charAt(0).toUpperCase()+pk.slice(1);
+      a.textContent = LABELS[pk] || pk;
       fc2.appendChild(a);
     }});
   }}
@@ -747,7 +765,7 @@ function buildFooter(){{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
-      a.textContent = PAGES[pk].icon + ' ' + pk.charAt(0).toUpperCase()+pk.slice(1);
+      a.textContent = LABELS[pk] || pk;
       fc3.appendChild(a);
     }});
   }}
