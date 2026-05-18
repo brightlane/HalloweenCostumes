@@ -159,6 +159,11 @@ CAT_URLS = {
     "devilmaycry":   "https://www.halloweencostumes.com/search?q=devil+may+cry+costume",
     "weeklydeals":   "https://www.halloweencostumes.com/sale-halloween-costumes.html",
     "preorder":      "https://www.halloweencostumes.com/new-halloween-costumes.html",
+    # ── Morphsuits beaters ──
+    "morphsuits":    "https://www.halloweencostumes.com/search?q=morphsuit+full+body+costume",
+    "piggyback":     "https://www.halloweencostumes.com/search?q=piggyback+costume",
+    "digital":       "https://www.halloweencostumes.com/search?q=tech+animated+costume",
+    "fullbody":      "https://www.halloweencostumes.com/search?q=full+body+costume+zentai",
 }
 
 def aff(cat_key=None, search=None):
@@ -1062,6 +1067,54 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"pre-order halloween costumes 2026, upcoming halloween costumes, reserve halloween costume, new release halloween costume 2026",
     },
+    # ══════════════════════════════════════════════
+    # MORPHSUITS BEATERS — 4 unique pages
+    # Morphsuit / Piggyback / Digital / Full Body
+    # ══════════════════════════════════════════════
+    "morphsuits": {
+        "file":"morphsuits.html","cat_key":"morphsuits","icon":"🕴️",
+        "group":"morph","nav_group":"morph",
+        "en_title":"Morphsuit Costumes 2026 | Full Body Spandex & Zentai Suits",
+        "en_desc":"Morphsuit costumes 2026 — full body spandex suits, zentai costumes, character morphsuits and patterned bodysuits for Halloween. Comfort & fit guaranteed. Ships to 200+ countries.",
+        "en_h1":"Morphsuit Costumes 2026",
+        "en_h1sub":"Full Body Spandex Suits, Zentai & Character Morphsuits",
+        "en_body":"Transform completely with our morphsuit and full body spandex costume collection 2026. Morphsuits — full-body lycra spandex suits that cover you head to toe — are one of the most versatile, comfortable, and visually striking Halloween costume options available. Available in solid colors, wild patterns, character designs, skeleton prints, galaxy patterns, and licensed character styles — a morphsuit can become any character with the right accessories on top. Morphsuits are breathable, comfortable for all-night wear, and easy to use the bathroom in (just pull down from the waist). Comfort and fit guaranteed. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"morphsuit costume 2026, full body spandex costume, zentai suit halloween, morphsuit halloween, full body halloween costume, character morphsuit",
+    },
+    "piggyback": {
+        "file":"piggyback.html","cat_key":"piggyback","icon":"🏇",
+        "group":"morph","nav_group":"morph",
+        "en_title":"Piggyback Halloween Costumes 2026 | Illusion Riding Costumes",
+        "en_desc":"Piggyback Halloween costumes 2026 — hilarious illusion costumes that make it look like you're riding on someone or being carried. Jockey, horse, alien rider and more. Ships to 200+ countries.",
+        "en_h1":"Piggyback Costumes 2026",
+        "en_h1sub":"Hilarious Riding & Carrying Illusion Costumes",
+        "en_body":"Turn heads and win every costume contest with our piggyback Halloween costume collection 2026. Piggyback illusion costumes create the hilarious visual of being carried by someone, riding on a person, or being ridden — creating a double-take optical illusion that makes for the most memorable Halloween costume at any party. Our piggyback costume collection includes jockey riding a horse, cowboy on a horse, alien riding a human, giant baby being carried, and dozens more hilarious illusion costume concepts. These viral costumes are perfect for adults who want maximum laughs and social media moments. Comfort and fit guaranteed. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"piggyback halloween costume 2026, illusion halloween costume, riding costume halloween, jockey costume halloween, funny illusion costume, viral halloween costume",
+    },
+    "digital": {
+        "file":"digital.html","cat_key":"digital","icon":"📱",
+        "group":"morph","nav_group":"morph",
+        "en_title":"Digital & Tech Halloween Costumes 2026 | Animated Costumes",
+        "en_desc":"Digital and tech Halloween costumes 2026 — animated costumes, LED light-up suits, digital display costumes and tech-powered Halloween looks. Ships to 200+ countries.",
+        "en_h1":"Digital & Tech Halloween Costumes 2026",
+        "en_h1sub":"Animated, LED Light-Up & Digital Display Costumes",
+        "en_body":"Take your Halloween costume into the future with our digital and tech costume collection 2026. Technology has revolutionized Halloween costumes — from Digital Dudz-style animated costumes with moving images, to LED light-up suits, EL wire costumes, fiber optic displays, and app-controlled animated costume effects. These tech-powered Halloween costumes are guaranteed to go viral at any Halloween party and generate social media moments that traditional costumes never could. Our digital costume collection covers LED bodysuits, light-up skeleton costumes, animated face costumes, and the most technologically impressive Halloween looks available. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"digital halloween costume 2026, tech halloween costume, animated costume, led halloween costume, light up halloween costume, digital dudz costume",
+    },
+    "fullbody": {
+        "file":"fullbody.html","cat_key":"fullbody","icon":"🦸",
+        "group":"morph","nav_group":"morph",
+        "en_title":"Full Body Halloween Costumes 2026 | Complete Head-to-Toe Looks",
+        "en_desc":"Full body Halloween costumes 2026 — complete head-to-toe costume sets, full character suits, morphsuits, mascot costumes and total transformation looks. Ships to 200+ countries.",
+        "en_h1":"Full Body Halloween Costumes 2026",
+        "en_h1sub":"Complete Head-to-Toe Character Suits & Total Transformation",
+        "en_body":"Go all-in on Halloween with our full body costume collection 2026. Full body Halloween costumes provide complete head-to-toe transformation — no mixing and matching accessories, no incomplete looks. Our full body costume collection includes full character mascot suits, morphsuits and zentai bodysuit costumes, inflatable full-body costumes, animal onesie suits, and complete character costumes that cover every inch. Comfort and fit are guaranteed across our full body collection — breathable materials, easy to wear all night, and designed for maximum visual impact. Full body costumes available for adults, teens, and kids. Comfort & Fit Guaranteed. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"full body halloween costume 2026, full body costume, complete halloween costume, head to toe halloween costume, mascot costume halloween, zentai costume",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1081,6 +1134,7 @@ NAV_GROUPS = {
     "yearround":   {"label":"Year-Round",    "icon":"🗓️"},
     "cosplay":     {"label":"Cosplay & Games","icon":"🎮"},
     "micc":        {"label":"Fashion & More", "icon":"👘"},
+    "morph":       {"label":"Full Body & Tech","icon":"🕴️"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1156,6 +1210,11 @@ POPULAR_SEARCHES = [
     "devil may cry costume","dante costume","vergil costume",
     "weekly deals halloween","pre-order halloween costume","kawaii fashion",
     "gothic corset costume","anime lingerie cosplay","sexy cosplay costume",
+    "morphsuit costume","full body spandex costume","zentai suit halloween",
+    "piggyback costume","riding costume halloween","illusion halloween costume",
+    "jockey halloween costume","digital halloween costume","led halloween costume",
+    "light up halloween costume","animated costume halloween","full body halloween costume",
+    "tech halloween costume","comfort fit halloween costume","3 day delivery costume",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1176,6 +1235,9 @@ TRUST_BADGES = [
     {"icon":"📅","label":"Days Not Weeks Delivery"},
     {"icon":"⭐","label":"50,000+ Customer Reviews"},
     {"icon":"✋","label":"Handcrafted Quality Costumes"},
+    {"icon":"✅","label":"Comfort & Fit Guaranteed"},
+    {"icon":"⚡","label":"3 Business Day Delivery"},
+    {"icon":"🔍","label":"500K+ Quality Checks Yearly"},
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1463,7 +1525,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry','morphsuits','piggyback','digital','fullbody'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1474,7 +1536,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1607,7 +1669,7 @@ def make_page(page_key):
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","weeklydeals","preorder","yearround","sale","lastminute"]
+            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","weeklydeals","preorder","yearround","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -2579,6 +2641,76 @@ BLOG_POSTS = [
     },
 
     {
+        "slug":    "morphsuit-costume-guide",
+        "file":    "blog-morphsuit-guide.html",
+        "icon":    "🕴️",
+        "title":   "Morphsuit Costume Guide 2026 | Full Body Spandex Halloween",
+        "desc":    "The complete morphsuit costume guide for 2026 — how to choose, wear and style a morphsuit for Halloween. Full body spandex, zentai suits and character morphsuits.",
+        "h1":      "Morphsuit Costume Guide 2026",
+        "intro":   "Morphsuits are the ultimate Halloween costume hack — a full body spandex suit that transforms you completely, works under any accessories, and is surprisingly comfortable to wear all night. Here's everything you need to know about choosing and wearing a morphsuit in 2026.",
+        "sections": [
+            ("What is a Morphsuit?", "morphsuit costume 2026",
+             "A morphsuit is a full-body lycra spandex costume that covers you from head to toe — including your face. The thin spandex material is see-through from the inside but opaque from the outside, so you can see and breathe normally while appearing as a complete colored or patterned figure. Morphsuits come in solid colors, wild patterns, skeleton designs, galaxy prints, and licensed character styles."),
+            ("Morphsuit Sizing & Comfort", "full body halloween costume",
+             "Morphsuits are sized by height and weight for a snug but comfortable fit. The lycra material stretches to fit a range of body types and is designed to be worn for hours without discomfort. Comfort and fit guaranteed — a well-fitted morphsuit moves with you naturally and doesn't restrict movement."),
+            ("Character Morphsuits", "full body spandex costume",
+             "Character morphsuits feature printed designs of popular characters — superheroes, movie characters, animals, and iconic Halloween figures printed on the full body suit. The result is a seamless all-over character look that no regular costume can match."),
+            ("Morphsuit + Accessories", "halloween costume accessories",
+             "The real magic of a morphsuit is how it works as a base for additional accessories. A black morphsuit plus a skeleton print equals a skeleton costume. A green morphsuit plus a superhero cape equals a superhero costume. The morphsuit provides the base; your accessories tell the story."),
+            ("Morphsuit for Groups", "group halloween costumes",
+             "A matching-color group of morphsuits creates one of the most visually striking and easy-to-coordinate group Halloween costumes available. Choose a theme color, add coordinating accessories, and your whole group looks amazing with minimal effort."),
+        ],
+        "cta_cat": "morphsuits",
+        "keywords": "morphsuit costume guide 2026, morphsuit halloween, full body spandex costume guide, zentai suit halloween, morphsuit character costume",
+    },
+    {
+        "slug":    "piggyback-costume-ideas",
+        "file":    "blog-piggyback-costumes.html",
+        "icon":    "🏇",
+        "title":   "Best Piggyback Halloween Costume Ideas for 2026",
+        "desc":    "The funniest piggyback Halloween costume ideas for 2026 — illusion riding costumes, jockey on horse, alien rider and more viral double-take costume looks.",
+        "h1":      "Best Piggyback Halloween Costume Ideas for 2026",
+        "intro":   "Piggyback Halloween costumes are the kings of the costume contest — the illusion of being carried, riding, or performing an impossible physical feat creates double-takes, photos, and social media moments that no other costume type delivers. Here are the best piggyback costume ideas for 2026.",
+        "sections": [
+            ("How Piggyback Costumes Work", "piggyback costume",
+             "Piggyback costumes use clever costume construction to create the illusion of two people where there's only one — a pair of fake legs, a fake upper body, or a reversed costume design creates the visual trick. The most popular version makes it look like you're being carried by or riding on another person."),
+            ("Jockey on a Horse", "piggyback costume",
+             "The jockey-on-horse piggyback costume is the most classic illusion — you appear to be a jockey riding a horse, with realistic-looking fake horse legs visible below your costume. This costume wins races at every Halloween party."),
+            ("Alien Abduction Costume", "funny halloween costumes",
+             "The alien abduction piggyback costume — where it looks like a giant alien hand is lifting you off the ground — is one of the most creative and visually stunning illusion costume designs for 2026. It wins every costume contest it enters."),
+            ("Baby Being Carried", "funny halloween costumes",
+             "Dress as a giant baby being carried by a fake adult — complete with fake adult legs and hands holding you up. This costume is hilarious, recognizable, and perfect for people who want maximum laughs."),
+            ("Piggyback Couples Costumes", "couples halloween costumes",
+             "Piggyback-style couples costumes — where two people appear to be riding or carrying each other — create spectacular interactive couples costume looks that are far more engaging than side-by-side matching outfits."),
+        ],
+        "cta_cat": "piggyback",
+        "keywords": "piggyback halloween costume ideas 2026, illusion halloween costume, jockey costume halloween, riding halloween costume, funny piggyback costume, viral halloween costume 2026",
+    },
+    {
+        "slug":    "unique-viral-halloween-costumes",
+        "file":    "blog-funny-unique.html",
+        "icon":    "🦄",
+        "title":   "Most Unique & Viral Halloween Costume Ideas for 2026",
+        "desc":    "The most unique, funny and viral Halloween costume ideas for 2026 — morphsuits, piggyback costumes, digital LED costumes and creative looks that break the internet.",
+        "h1":      "Most Unique & Viral Halloween Costume Ideas for 2026",
+        "intro":   "The best Halloween costume isn't always the most expensive or most elaborate — it's the one that makes people stop, stare, photograph, and talk about for years. These are the most unique, creative, and viral Halloween costume ideas for 2026 — guaranteed to win every contest.",
+        "sections": [
+            ("Full Body Morphsuit Looks", "morphsuit costume 2026",
+             "A well-executed morphsuit costume instantly stands out in any crowd. Full body spandex in bold colors or character prints creates a visual impact that traditional costumes can't match — and the comfort factor means you'll be the last person standing at the party."),
+            ("Piggyback Illusion Costumes", "piggyback costume",
+             "Nothing creates more double-takes and social media moments than a perfectly executed piggyback illusion costume. The jockey, alien abduction, giant baby, and other illusion styles guarantee photographer attention and costume contest victories."),
+            ("Digital & LED Costumes", "led halloween costume",
+             "Tech-powered Halloween costumes — LED light-up suits, animated digital displays, and app-controlled costume effects — are the most shareable Halloween looks of 2026. They photograph spectacularly and look otherworldly in video."),
+            ("Inflatable Costumes", "inflatable halloween costumes",
+             "The T-Rex inflatable costume remains one of the most recognizable and beloved viral costume concepts ever created. Our inflatable costume collection covers T-Rex, dinosaurs, sumo wrestlers, unicorns, and dozens of other fan-powered inflatable looks."),
+            ("Why Unique Costumes Win", "funny halloween costumes",
+             "The most awarded and photographed Halloween costumes are never the most expected ones. A creative, original, or technically impressive costume — whether it's a morphsuit character, piggyback illusion, or digital LED spectacle — earns more recognition than any off-the-shelf purchase. These unique costume categories are where Halloween magic happens."),
+        ],
+        "cta_cat": "funny",
+        "keywords": "unique halloween costume ideas 2026, viral halloween costumes, most creative halloween costume, funny halloween costume 2026, best halloween costume ideas unique",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -2962,6 +3094,9 @@ def build():
     print(f"  ✅  Fun.com beaten — year-round traffic, 12 languages, daily rebuild")
     print(f"  ✅  EZCosplay beaten — fast US shipping vs their China shipping")
     print(f"  ✅  Miccostumes beaten — swimwear, kawaii, casual wear, NieR, Cyberpunk, Zelda, DMC")
+    print(f"  ✅  Morphsuits beaten — morphsuits, piggyback, digital, full body pages")
+    print(f"  ✅  Comfort & Fit Guaranteed + 3 Business Day Delivery trust badges")
+    print(f"  ✅  500K+ Quality Checks trust claim added")
     print(f"  ✅  Weekly deals + pre-order pages — dynamic content angles")
     print(f"  ✅  50,000+ reviews trust badge + handcrafted quality messaging")
     print(f"  ✅  Specific game pages: Genshin, LoL, OW2, FF7, DBD, JJK, Hazbin Hotel, Frieren, One Piece")
