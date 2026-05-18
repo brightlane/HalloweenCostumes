@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (78 total)
+## Pages (82 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -90,6 +90,10 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Devil May Cry Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/devilmaycry.html): Devil May Cry cosplay costumes 2026 — Dante, Vergil, Lady, Nero and DMC5 character costumes. Fast US
 - [Weekly Halloween Costume Deals 2026](https://brightlane.github.io/HalloweenCostumes/weeklydeals.html): Weekly Halloween costume deals 2026 — new discounts and sale prices on costumes, accessories and cos
 - [Pre-Order Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/preorder.html): Pre-order Halloween costumes 2026 — upcoming costume releases based on the latest movies, games and 
+- [Morphsuit Costumes 2026](https://brightlane.github.io/HalloweenCostumes/morphsuits.html): Morphsuit costumes 2026 — full body spandex suits, zentai costumes, character morphsuits and pattern
+- [Piggyback Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/piggyback.html): Piggyback Halloween costumes 2026 — hilarious illusion costumes that make it look like you're riding
+- [Digital & Tech Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/digital.html): Digital and tech Halloween costumes 2026 — animated costumes, LED light-up suits, digital display co
+- [Full Body Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/fullbody.html): Full body Halloween costumes 2026 — complete head-to-toe costume sets, full character suits, morphsu
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
