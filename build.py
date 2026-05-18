@@ -113,6 +113,19 @@ CAT_URLS = {
     "sizeguide":    "https://www.halloweencostumes.com/size-charts.html",
     "couples2":     "https://www.halloweencostumes.com/couples-halloween-costumes.html",
     "celebrations": "https://www.halloweencostumes.com/",
+    # ── Party City beaters ──
+    "addamsfamily":  "https://www.halloweencostumes.com/search?q=addams+family+costume",
+    "beetlejuice":   "https://www.halloweencostumes.com/search?q=beetlejuice+costume",
+    "horror":        "https://www.halloweencostumes.com/scary-halloween-costumes.html",
+    "fnaf":          "https://www.halloweencostumes.com/search?q=five+nights+at+freddys+costume",
+    "scooby":        "https://www.halloweencostumes.com/search?q=scooby+doo+costume",
+    "harrypotter":   "https://www.halloweencostumes.com/search?q=harry+potter+costume",
+    "decades":       "https://www.halloweencostumes.com/search?q=decade+costumes",
+    "occupation":    "https://www.halloweencostumes.com/search?q=occupation+career+costumes",
+    "fantasy":       "https://www.halloweencostumes.com/search?q=fantasy+fairy+angel+costume",
+    "partysupplies": "https://www.halloweencostumes.com/halloween-decorations.html",
+    "diy":           "https://www.halloweencostumes.com/halloween-costume-accessories.html",
+    "kpop":          "https://www.halloweencostumes.com/search?q=kpop+costume",
 }
 
 def aff(cat_key=None, search=None):
@@ -559,6 +572,142 @@ PAGES = {
         "schema_type":"WebPage",
         "keywords":"halloween costume size guide, halloween costume size chart, how to measure halloween costume, plus size halloween costume sizing",
     },
+    # ══════════════════════════════════════════
+    # PARTY CITY BEATERS — Franchise pages
+    # ══════════════════════════════════════════
+    "addamsfamily": {
+        "file":"addamsfamily.html","cat_key":"addamsfamily","icon":"🖤",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Addams Family Halloween Costumes 2026 | Wednesday, Morticia & More",
+        "en_desc":"Addams Family Halloween costumes 2026 — Wednesday, Morticia, Gomez, Pugsley, Uncle Fester and Thing costumes for adults and kids. Ships to 200+ countries.",
+        "en_h1":"Addams Family Costumes 2026",
+        "en_h1sub":"Wednesday, Morticia, Gomez & The Whole Family",
+        "en_body":"Dress as the world's creepiest family with our Addams Family Halloween costumes 2026. Whether you want to be the iconic Wednesday Addams, the glamorous Morticia, the debonair Gomez, or the lovable Uncle Fester — our Addams Family costume collection has every character for solo, couples, and group Halloween costumes. Perfect for family Halloween parties, costume contests, and fans of both the classic TV show and the hit Wednesday Netflix series. Available in kids, teen, and adult sizes.",
+        "schema_type":"CollectionPage",
+        "keywords":"addams family halloween costumes, wednesday addams costume, morticia addams costume, gomez addams costume, wednesday costume 2026",
+    },
+    "beetlejuice": {
+        "file":"beetlejuice.html","cat_key":"beetlejuice","icon":"🐛",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Beetlejuice Halloween Costumes 2026 | Beetlejuice, Lydia & More",
+        "en_desc":"Beetlejuice Halloween costumes 2026 — Beetlejuice, Lydia Deetz, Astrid and Bob costumes from the classic film and Beetlejuice 2. Ships to 200+ countries.",
+        "en_h1":"Beetlejuice Costumes 2026",
+        "en_h1sub":"Beetlejuice, Lydia, Astrid & Bob",
+        "en_body":"It's showtime! Shop our Beetlejuice Halloween costumes 2026 featuring the ghost with the most and his spooky friends. Our Beetlejuice collection includes classic black and white striped Beetlejuice suits, Lydia Deetz gothic looks, and characters from Beetlejuice Beetlejuice (2024). Perfect for couples costumes, group Halloween themes, and fans of Tim Burton's iconic franchise. Beetlejuice costumes available for adults, teens, and kids.",
+        "schema_type":"CollectionPage",
+        "keywords":"beetlejuice halloween costume, beetlejuice costume 2026, lydia deetz costume, beetlejuice beetlejuice costume",
+    },
+    "horror": {
+        "file":"horror.html","cat_key":"horror","icon":"🔪",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Horror Movie Halloween Costumes 2026 | Freddy, Jason, Pennywise & More",
+        "en_desc":"Horror movie Halloween costumes 2026 — Freddy Krueger, Jason Voorhees, Pennywise, The Nun, Billy from Saw, Michael Myers and more. Ships to 200+ countries.",
+        "en_h1":"Horror Movie Costumes 2026",
+        "en_h1sub":"Freddy, Jason, Pennywise, The Nun & More",
+        "en_body":"Become your favorite horror movie villain with our horror Halloween costumes 2026. Our horror movie costume collection features the most terrifying characters in cinema history — Freddy Krueger's iconic striped sweater, Jason Voorhees' hockey mask, Pennywise the Dancing Clown, The Nun from The Conjuring, Billy from Saw, Michael Myers, Leatherface, Ghostface from Scream, Art the Clown from Terrifier, and dozens more. Horror costumes available for adults and teens in all sizes.",
+        "schema_type":"CollectionPage",
+        "keywords":"horror movie halloween costumes, freddy krueger costume, jason voorhees costume, pennywise costume, the nun costume, michael myers costume 2026",
+    },
+    "fnaf": {
+        "file":"fnaf.html","cat_key":"fnaf","icon":"🐻",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Five Nights at Freddy's Costumes 2026 | FNAF Halloween Costumes",
+        "en_desc":"Five Nights at Freddy's Halloween costumes 2026 — Freddy Fazbear, Foxy, Bonnie, Glamrock Freddy and more FNAF character costumes. Ships to 200+ countries.",
+        "en_h1":"FNAF Costumes 2026",
+        "en_h1sub":"Freddy Fazbear, Foxy, Bonnie & Glamrock Freddy",
+        "en_body":"Survive the night in style with our Five Nights at Freddy's Halloween costumes 2026. Our FNAF costume collection features Freddy Fazbear, Foxy the Pirate, Bonnie, Chica, Glamrock Freddy from Security Breach, and other beloved characters from the iconic horror game franchise. FNAF costumes are among the most popular Halloween choices for kids, teens, and adult gaming fans. Available in masks, full suits, and accessory kits for every character.",
+        "schema_type":"CollectionPage",
+        "keywords":"five nights at freddys costume, fnaf halloween costume 2026, freddy fazbear costume, foxy costume, glamrock freddy costume",
+    },
+    "scooby": {
+        "file":"scooby.html","cat_key":"scooby","icon":"🐕",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Scooby-Doo Halloween Costumes 2026 | Scooby, Shaggy, Velma & More",
+        "en_desc":"Scooby-Doo Halloween costumes 2026 — Scooby-Doo, Shaggy, Velma, Daphne and Fred costumes for groups, couples and solo. Ships to 200+ countries.",
+        "en_h1":"Scooby-Doo Costumes 2026",
+        "en_h1sub":"Scooby, Shaggy, Velma, Daphne & Fred",
+        "en_body":"Solve some spooky mysteries in style with our Scooby-Doo Halloween costumes 2026. Our Mystery Machine crew collection is perfect for group Halloween costumes — dress the whole gang as Scooby-Doo, Shaggy, Velma, Daphne, and Fred for the most recognizable group costume at any Halloween party. Scooby-Doo costumes available for kids, teens, and adults in all sizes. Perfect for families, friend groups, and office Halloween parties.",
+        "schema_type":"CollectionPage",
+        "keywords":"scooby doo halloween costume, shaggy costume, velma costume, scooby doo group costume 2026",
+    },
+    "harrypotter": {
+        "file":"harrypotter.html","cat_key":"harrypotter","icon":"⚡",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Harry Potter Halloween Costumes 2026 | Hogwarts Character Costumes",
+        "en_desc":"Harry Potter Halloween costumes 2026 — Harry, Hermione, Ron, Dumbledore, Voldemort and Hogwarts house robes. Ships to 200+ countries.",
+        "en_h1":"Harry Potter Costumes 2026",
+        "en_h1sub":"Harry, Hermione, Ron & All Hogwarts Houses",
+        "en_body":"Enter the wizarding world with our Harry Potter Halloween costumes 2026. Our Hogwarts collection features Harry Potter, Hermione Granger, Ron Weasley, Dumbledore, Voldemort, Draco Malfoy, and Hogwarts house robes for Gryffindor, Slytherin, Ravenclaw, and Hufflepuff. Harry Potter costumes are perfect for solo looks, couples costumes, and complete Hogwarts group themes. Available for kids, teens, and adults with accessories including wands, scarves, and glasses.",
+        "schema_type":"CollectionPage",
+        "keywords":"harry potter halloween costume, hermione granger costume, hogwarts costume 2026, wizard halloween costume, dumbledore costume",
+    },
+    # ── Occasion/Theme pages (Party City angle) ──
+    "decades": {
+        "file":"decades.html","cat_key":"decades","icon":"📀",
+        "group":"extra","nav_group":"extra",
+        "en_title":"Decade Halloween Costumes 2026 | 50s 70s 80s 90s Costumes",
+        "en_desc":"Decade Halloween costumes 2026 — 1950s, 1960s, 1970s, 1980s and 1990s themed costumes for adults and kids. Ships to 200+ countries.",
+        "en_h1":"Decade Costumes 2026",
+        "en_h1sub":"50s, 60s, 70s, 80s & 90s Themed Looks",
+        "en_body":"Step back in time with our decade Halloween costumes 2026. Our collection covers every era — from 1950s sock hop costumes and 1960s mod looks to 1970s disco fever, 1980s neon pop stars, and 1990s grunge and hip-hop styles. Decade theme costumes are perfect for Halloween parties, decade nights, and group themes where everyone picks their favorite era. Decade costumes available for adults, teens, and kids with complete era-accurate accessories.",
+        "schema_type":"CollectionPage",
+        "keywords":"decade halloween costumes, 80s halloween costume, 70s halloween costume, 90s halloween costume, 50s halloween costume 2026",
+    },
+    "occupation": {
+        "file":"occupation.html","cat_key":"occupation","icon":"👷",
+        "group":"extra","nav_group":"extra",
+        "en_title":"Occupation & Career Halloween Costumes 2026 | Nurse, Police & More",
+        "en_desc":"Occupation and career Halloween costumes 2026 — nurse, police officer, firefighter, doctor, chef, pilot, construction and more. Ships to 200+ countries.",
+        "en_h1":"Occupation & Career Costumes 2026",
+        "en_h1sub":"Nurse, Police, Firefighter, Chef & More",
+        "en_body":"Find the perfect career or occupation Halloween costume 2026. Our occupation costume collection covers every profession — nurse costumes, police officer costumes, firefighter costumes, doctor costumes, chef costumes, pilot uniforms, construction worker outfits, military looks, and dozens more career-themed Halloween costumes. Occupation costumes work for solo looks, couples themes, and group office party costumes. Available for adults, teens, and kids in all sizes.",
+        "schema_type":"CollectionPage",
+        "keywords":"occupation halloween costumes, nurse halloween costume, police halloween costume, firefighter costume 2026, career halloween costumes",
+    },
+    "fantasy": {
+        "file":"fantasy.html","cat_key":"fantasy","icon":"🧚",
+        "group":"extra","nav_group":"extra",
+        "en_title":"Fantasy Halloween Costumes 2026 | Fairy, Angel, Wizard & More",
+        "en_desc":"Fantasy Halloween costumes 2026 — fairy, angel, wizard, elf, mermaid, unicorn and magical creature costumes. Ships to 200+ countries.",
+        "en_h1":"Fantasy Costumes 2026",
+        "en_h1sub":"Fairy, Angel, Wizard, Mermaid & More",
+        "en_body":"Enter a world of magic with our fantasy Halloween costumes 2026. Our fantasy costume collection includes fairy costumes with beautiful wings, angel costumes in white and gold, wizard robes and staffs, elf costumes, mermaid tail outfits, unicorn costumes, dragon costumes, and enchanted forest creature looks. Fantasy costumes are perfect for Halloween parties, Renaissance fairs, and anyone who prefers magical elegance over horror. Fantasy costumes available for adults, teens, kids, and even pets.",
+        "schema_type":"CollectionPage",
+        "keywords":"fantasy halloween costumes, fairy halloween costume, angel halloween costume, wizard costume 2026, mermaid halloween costume",
+    },
+    "partysupplies": {
+        "file":"partysupplies.html","cat_key":"partysupplies","icon":"🎉",
+        "group":"home","nav_group":"home",
+        "en_title":"Halloween Party Supplies 2026 | Tableware, Balloons & Decor",
+        "en_desc":"Halloween party supplies 2026 — tableware, plates, cups, balloons, banners, centerpieces and complete party kits. Ships to 200+ countries.",
+        "en_h1":"Halloween Party Supplies 2026",
+        "en_h1sub":"Tableware, Balloons, Banners & Complete Party Kits",
+        "en_body":"Throw the ultimate Halloween party with our Halloween party supplies 2026. We carry everything you need to set the scene — Halloween-themed plates, cups, napkins, tablecloths, balloons, banners, centerpieces, goodie bags, candy bowls, and complete Halloween party kits. Whether you're hosting a kids Halloween party, adult costume party, or office Halloween event — our party supplies make it easy to create an amazing atmosphere. Halloween party supplies available in all themes from spooky to fun.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween party supplies 2026, halloween tableware, halloween balloons, halloween party kits, halloween party decorations",
+    },
+    "kpop": {
+        "file":"kpop.html","cat_key":"kpop","icon":"🎤",
+        "group":"type","nav_group":"type",
+        "en_title":"K-Pop Halloween Costumes 2026 | K-Pop Idol & Demon Hunter Costumes",
+        "en_desc":"K-Pop Halloween costumes 2026 — K-Pop idol costumes, K-Pop Demon Hunter looks and Korean pop star styles for Halloween. Ships to 200+ countries.",
+        "en_h1":"K-Pop Costumes 2026",
+        "en_h1sub":"K-Pop Idol, Demon Hunter & Korean Pop Star Styles",
+        "en_body":"Unleash your inner K-Pop star with our K-Pop Halloween costumes 2026. The K-Pop Demon Hunter trend has taken Halloween by storm — combining fierce K-Pop idol aesthetics with supernatural demon hunter styling for one of the most talked-about costume trends of 2026. Our K-Pop costume collection includes full idol outfit sets, demon hunter gear, and K-Pop inspired accessories. Perfect for Halloween parties, fan conventions, and anyone who wants a bold, fashion-forward Halloween look.",
+        "schema_type":"CollectionPage",
+        "keywords":"kpop halloween costume 2026, kpop demon hunter costume, kpop idol costume halloween, korean pop star halloween costume",
+    },
+    "diy": {
+        "file":"diy.html","cat_key":"diy","icon":"✂️",
+        "group":"special","nav_group":"special",
+        "en_title":"DIY Halloween Costume Ideas 2026 | Build Your Own Look",
+        "en_desc":"DIY Halloween costume ideas 2026 — accessories, costume kits and building blocks to create your own unique Halloween look. Ships to 200+ countries.",
+        "en_h1":"DIY Halloween Costume Ideas 2026",
+        "en_h1sub":"Build Your Own Unique Halloween Look",
+        "en_body":"Create a one-of-a-kind Halloween costume with our DIY costume accessories and kits 2026. Our DIY Halloween collection includes individual accessories — wigs, hats, capes, masks, makeup kits, prop weapons, gloves, boots, and costume components — that you can mix and match to create a totally original look. DIY costumes let you express your creativity, save money, and wear something nobody else at the party will have. Browse our accessories collection and start building your perfect Halloween costume.",
+        "schema_type":"CollectionPage",
+        "keywords":"diy halloween costume ideas 2026, build your own halloween costume, halloween costume accessories diy, homemade halloween costume",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -574,6 +723,7 @@ NAV_GROUPS = {
     "home":        {"label":"Home & Decor", "icon":"🏚️"},
     "spirit":      {"label":"Props & More",  "icon":"🤖"},
     "extra":       {"label":"Themes & More", "icon":"🌟"},
+    "franchise":   {"label":"By Character",  "icon":"🎬"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -621,6 +771,15 @@ POPULAR_SEARCHES = [
     "ghostbusters costume","star wars costume","disney costume","licensed costume",
     "tween costume","medieval costume","viking costume","kpop costume",
     "funko pop halloween","inflatable t-rex","art the clown costume","terrifier costume",
+    "wednesday addams costume","beetlejuice costume","freddy krueger costume",
+    "jason voorhees costume","pennywise costume","michael myers costume",
+    "harry potter costume","hermione granger costume","scooby doo costume",
+    "five nights at freddys costume","fnaf costume","addams family costume",
+    "80s halloween costume","90s halloween costume","decade costume",
+    "nurse costume","police costume","firefighter costume",
+    "fairy costume","angel costume","mermaid costume","wizard costume",
+    "halloween party supplies","halloween balloons","kpop demon hunter costume",
+    "diy halloween costume","k-pop costume","occupation costume",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -635,6 +794,8 @@ TRUST_BADGES = [
     {"icon":"⭐","label":"10,000+ Costumes"},
     {"icon":"📦","label":"Free Shipping Over $50"},
     {"icon":"🎃","label":"Updated Daily"},
+    {"icon":"🚀","label":"Same-Day Delivery Available"},
+    {"icon":"🎉","label":"Party Supplies Too"},
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -922,7 +1083,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -933,7 +1094,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1056,17 +1217,17 @@ def make_page(page_key):
         # Gender grid
         gender_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["womens","mens","girls","boys","kids","tween","teen","toddler","baby"]
+            for pk in ["womens","mens","girls","boys","kids","tween","teen","toddler","baby","sizeguide"]
         ])
         # Type grid
         type_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["adult","scary","funny","sexy","couples","group","new2026","plussize","wholesale","pet","licensed","inflatable","medieval","videogame","themes","comiccon"]
+            for pk in ["adult","scary","funny","sexy","couples","group","new2026","plussize","wholesale","pet","licensed","inflatable","medieval","videogame","themes","comiccon","kpop","horror","decades","occupation","fantasy"]
         ])
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","sale","lastminute"]
+            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -1643,6 +1804,122 @@ BLOG_POSTS = [
         "keywords": "group halloween costume ideas 2026, group costumes, family halloween costumes, office halloween costumes, friend group costumes",
     },
     {
+        "slug":    "horror-movie-halloween-costume-ideas",
+        "file":    "blog-horror-costumes.html",
+        "icon":    "🔪",
+        "title":   "20+ Horror Movie Halloween Costume Ideas for 2026",
+        "desc":    "The scariest horror movie Halloween costume ideas for 2026 — Freddy Krueger, Jason, Pennywise, The Nun, Art the Clown and more iconic horror characters.",
+        "h1":      "20+ Horror Movie Halloween Costume Ideas for 2026",
+        "intro":   "Horror movie costumes are the ultimate Halloween flex. These iconic characters from the silver screen are immediately recognizable, endlessly terrifying, and never go out of style. Here are the most popular horror movie Halloween costume ideas for 2026.",
+        "sections": [
+            ("Freddy Krueger Costume", "freddy krueger costume",
+             "The razor-fingered nightmare stalker is one of the most iconic Halloween costumes ever. Freddy's striped sweater, fedora, and finger blades are instantly recognizable at any Halloween party. Our Freddy Krueger costume collection includes complete sets, mask-only options, and individual accessories."),
+            ("Jason Voorhees Costume", "jason voorhees costume",
+             "The silent, unstoppable killer from Camp Crystal Lake is a perennial Halloween favorite. Jason's hockey mask, machete, and dirty camp clothes make for a terrifyingly simple but effective Halloween costume. Available in adult and plus size."),
+            ("Pennywise the Clown", "pennywise costume",
+             "You'll float too — into the costume contest winner's circle. Pennywise from Stephen King's IT is one of the most popular horror costumes of the decade. Our Pennywise costume collection includes the classic Tim Curry version and the modern Bill Skarsgård look."),
+            ("Art the Clown — Terrifier", "art the clown costume",
+             "Art the Clown from Terrifier has taken over as the new face of horror for 2026. The black and white mime-clown look is terrifying, distinctive, and one of the most talked-about horror costumes this year."),
+            ("The Nun & The Conjuring Universe", "horror movie costumes",
+             "Valak the Nun is one of the most terrifying characters in modern horror. The black robes, pale face, and supernatural menace make this one of the most effective scary Halloween costumes available."),
+        ],
+        "cta_cat": "horror",
+        "keywords": "horror movie halloween costume ideas 2026, freddy krueger costume, jason voorhees costume, pennywise costume, art the clown costume, horror halloween costumes",
+    },
+    {
+        "slug":    "diy-halloween-costume-ideas",
+        "file":    "blog-diy-costumes.html",
+        "icon":    "✂️",
+        "title":   "10 Creative DIY Halloween Costume Ideas for 2026",
+        "desc":    "Creative DIY Halloween costume ideas for 2026 — build your own unique costume using accessories, wigs, and costume components. Stand out from the crowd.",
+        "h1":      "10 Creative DIY Halloween Costume Ideas for 2026",
+        "intro":   "The best Halloween costume might be one you build yourself. DIY Halloween costumes let you express your creativity, customize every detail, and wear something completely unique. Here are 10 creative DIY Halloween costume ideas for 2026 — all achievable with our accessories collection.",
+        "sections": [
+            ("DIY Decade Costumes", "decade costumes",
+             "Pick your favorite decade and build a costume from era-appropriate accessories. An 80s costume needs big hair (wig), neon colors, and leg warmers. A 90s look needs a flannel shirt, Doc Martens, and a grunge attitude. Decade costumes are flexible, recognizable, and endlessly customizable."),
+            ("DIY Occupation Costumes", "occupation career costumes",
+             "Occupation costumes are the easiest DIY Halloween look. A nurse costume needs scrubs, a stethoscope prop, and a nurse hat. A construction worker needs a hard hat and reflective vest. Our accessories collection has every prop you need to complete any career costume."),
+            ("DIY Fantasy Costumes", "fantasy fairy angel costume",
+             "Build a fairy, angel, or fantasy creature costume from individual pieces — wings, wigs, glitter makeup, floral crowns, and mystical accessories. Mix and match our fantasy accessories to create a completely original magical look."),
+            ("DIY Horror Costumes", "scary costumes",
+             "The best DIY horror costumes use makeup and accessories to transform simple clothing into terrifying looks. Zombie makeup kit, torn clothing, and fake blood can turn any outfit into a convincing zombie look with minimal effort."),
+            ("DIY Couples & Group Themes", "couples halloween costumes",
+             "DIY couples and group costumes are the most impressive Halloween looks. Coordinate accessories — matching color schemes, complementary themes, or famous duos — for a cohesive group look that's completely original."),
+        ],
+        "cta_cat": "diy",
+        "keywords": "diy halloween costume ideas 2026, homemade halloween costumes, build your own halloween costume, creative halloween costume ideas",
+    },
+    {
+        "slug":    "halloween-party-ideas",
+        "file":    "blog-party-ideas.html",
+        "icon":    "🎉",
+        "title":   "Halloween Party Ideas 2026 | Themes, Decorations & Supplies",
+        "desc":    "Halloween party ideas for 2026 — themes, decorations, costumes, party supplies and planning tips for the ultimate Halloween party.",
+        "h1":      "Halloween Party Ideas for 2026",
+        "intro":   "Throwing an amazing Halloween party takes more than just costumes. The right theme, decorations, and atmosphere make the difference between a forgettable gathering and a legendary Halloween celebration. Here are our top Halloween party ideas for 2026.",
+        "sections": [
+            ("Choose Your Halloween Party Theme", "halloween decorations",
+             "The best Halloween parties have a clear theme. Classic haunted house, elegant masquerade, 80s horror, specific movie franchise (Addams Family, Beetlejuice), or decade theme — pick a concept that guides your costume suggestions, decorations, and playlist."),
+            ("Halloween Party Decorations", "halloween decorations 2026",
+             "Your decorations set the scene. Outdoor yard displays greet guests before they arrive — tombstones, spider webs, skeleton stakes and inflatable decorations. Indoors, string lights, fog machines, hanging props, and themed tableware complete the atmosphere."),
+            ("Halloween Party Costumes", "halloween costumes 2026",
+             "Encourage guests to dress in theme. If it's a horror movie party, suggest specific characters. For a decades party, assign a decade to each guest. Our group and couples costume collections make it easy for guests to coordinate."),
+            ("Halloween Party Supplies", "halloween party supplies",
+             "Don't forget the practical party supplies — themed plates, cups, napkins, tablecloths, serving trays, and goodie bags. Halloween party kits include everything in one coordinated set so nothing clashes."),
+            ("Kids Halloween Party Ideas", "kids halloween costumes",
+             "Kids Halloween parties need age-appropriate fun — costume contests, trick-or-treat games, Halloween crafts, and safe outdoor activities. Our kids costume collection covers every character for the little ones to choose from."),
+        ],
+        "cta_cat": "partysupplies",
+        "keywords": "halloween party ideas 2026, halloween party themes, halloween party decorations, halloween party supplies, halloween party planning",
+    },
+    {
+        "slug":    "decade-halloween-costume-ideas",
+        "file":    "blog-decade-costumes.html",
+        "icon":    "📀",
+        "title":   "Best Decade Halloween Costume Ideas for 2026",
+        "desc":    "Decade Halloween costume ideas for 2026 — the best 50s, 70s, 80s and 90s Halloween costumes for adults and groups. Throwback looks done right.",
+        "h1":      "Best Decade Halloween Costume Ideas for 2026",
+        "intro":   "Decade theme Halloween costumes are having a massive moment in 2026. Whether you're hosting a decade-themed party or just love a throwback look, these costumes combine nostalgia with Halloween creativity for an unforgettable result.",
+        "sections": [
+            ("1950s Halloween Costumes", "decade costumes",
+             "The 1950s aesthetic — poodle skirts, leather jackets, saddle shoes, and slicked-back hair — makes for instantly recognizable costume looks. Go as a 50s greaser, a sock hop dancer, or a drive-in movie star for a classic decade Halloween look."),
+            ("1970s Disco Halloween Costumes", "decade costumes",
+             "Disco fever never looked so good on Halloween. 70s costumes feature polyester suits, platform shoes, big hair, and the unmistakable glam of the disco era. Perfect for couples and group themes."),
+            ("1980s Halloween Costumes", "decade costumes",
+             "The 80s are the most popular decade costume theme by far. Neon colors, big shoulder pads, crimped hair, leg warmers, and 80s pop star looks dominate Halloween parties worldwide. Our 80s accessories collection has every piece you need."),
+            ("1990s Halloween Costumes", "decade costumes",
+             "90s nostalgia is at an all-time high in 2026. Grunge flannel, Fresh Prince-style streetwear, 90s sitcom characters, and the iconic minimalist looks of the era translate perfectly to Halloween costumes."),
+            ("Group Decade Themes", "group halloween costumes",
+             "Decade costumes shine in groups. Assign each person a different icon from the same decade, or have each group member represent a different decade for a fun multi-era group costume that tells a story."),
+        ],
+        "cta_cat": "decades",
+        "keywords": "decade halloween costume ideas, 80s halloween costume, 90s halloween costume, 70s halloween costume, 50s halloween costume 2026",
+    },
+    {
+        "slug":    "franchise-halloween-costume-ideas",
+        "file":    "blog-franchise-costumes.html",
+        "icon":    "🎬",
+        "title":   "Best Franchise Halloween Costume Ideas for 2026",
+        "desc":    "The best franchise Halloween costume ideas for 2026 — Addams Family, Beetlejuice, Harry Potter, Scooby-Doo, FNAF and more licensed character costumes.",
+        "h1":      "Best Franchise Halloween Costume Ideas for 2026",
+        "intro":   "The most recognizable Halloween costumes come from beloved franchises — movies, TV shows, and games that everyone knows and loves. Here are the best franchise Halloween costume ideas for 2026, covering the most popular characters from the biggest entertainment properties.",
+        "sections": [
+            ("Addams Family Costumes", "addams family costume",
+             "The Addams Family is the perfect Halloween costume franchise — they're already dressed for the holiday! Wednesday, Morticia, Gomez, Pugsley, and Uncle Fester make an iconic group costume for families and friend groups. The Wednesday Netflix series has made this franchise more popular than ever for 2026."),
+            ("Beetlejuice Costumes", "beetlejuice costume",
+             "It's showtime! Beetlejuice Beetlejuice (2024) reignited interest in this iconic Tim Burton franchise, making Beetlejuice, Lydia, and Astrid some of the most popular Halloween costume choices for 2026."),
+            ("Harry Potter & Hogwarts", "harry potter costume",
+             "Hogwarts house robes, wizard wands, and beloved characters make Harry Potter one of the most versatile Halloween costume franchises. Works for solo looks, couples (Harry & Hermione), and large group Hogwarts house themes."),
+            ("Five Nights at Freddy's", "five nights at freddys costume",
+             "FNAF remains one of the most popular gaming franchises for Halloween costumes. Freddy Fazbear, Foxy, Glamrock Freddy and friends are instantly recognizable to kids, teens, and adult gaming fans alike."),
+            ("Scooby-Doo Group Costumes", "scooby doo costume",
+             "The Mystery Machine crew is the perfect group Halloween costume — five distinct, recognizable characters with coordinating color schemes. Scooby, Shaggy, Velma, Daphne, and Fred together win every group costume contest."),
+        ],
+        "cta_cat": "licensed",
+        "keywords": "franchise halloween costume ideas 2026, addams family costume, beetlejuice costume, harry potter costume halloween, scooby doo group costume",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -2017,6 +2294,10 @@ def build():
     print(f"  ✅  Blog with {len(BLOG_POSTS)} SEO articles — beats Costumes.com editorial")
     print(f"  ✅  Video game, themes, comic con pages — beats Costumes.com categories")
     print(f"  ✅  Size guide page — trust builder")
+    print(f"  ✅  {len(BLOG_POSTS)} blog articles total — more than Party City")
+    print(f"  ✅  Franchise pages: Addams Family, Beetlejuice, Harry Potter, FNAF, Scooby-Doo, Horror")
+    print(f"  ✅  Decade, Occupation, Fantasy, K-Pop, Party Supplies, DIY pages")
+    print(f"  ✅  Beats Party City, Spirit Halloween, Costumes.com & HalloweenCostumes.com")
     print()
 
 if __name__ == "__main__":
