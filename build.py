@@ -743,7 +743,7 @@ def make_page(page_key, all_pages):
   <div class="promo-inner">
     <p class="promo-kicker"><span id="ui-daily">🔥 Today's Featured Deal</span></p>
     <h2 class="promo-headline">{p['en_h1']}</h2>
-    <p class="promo-sub">{p['en_desc'][:80]}...</p>
+    <p class="promo-sub">{p['en_h1sub']}</p>
     <a href="{aff(cat_key)}" class="btn-white" target="_blank" rel="nofollow noopener">
       <span id="ui-claim">Claim This Deal →</span>
     </a>
