@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (57 total)
+## Pages (69 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -69,6 +69,18 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [TV Show Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/tvshows.html): TV show Halloween costumes 2026 — Wednesday, Stranger Things, The Office, Game of Thrones, Breaking 
 - [Halloween Clothing & Apparel 2026](https://brightlane.github.io/HalloweenCostumes/clothing.html): Halloween clothing and apparel 2026 — Halloween t-shirts, sweaters, pajamas, socks and themed clothi
 - [Halloween Year-Round 2026](https://brightlane.github.io/HalloweenCostumes/yearround.html): Shop Halloween year-round — costumes, collectibles, decorations, clothing and horror merchandise ava
+- [Genshin Impact Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/genshin.html): Genshin Impact cosplay costumes 2026 — Hu Tao, Raiden Shogun, Ayaka, Ganyu, Zhongli, Venti and all G
+- [League of Legends Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/leagueoflegends.html): League of Legends cosplay costumes 2026 — Jinx, Vi, Ekko, Caitlyn from Arcane Season 2 plus classic 
+- [Overwatch 2 Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/overwatch.html): Overwatch 2 cosplay costumes 2026 — Kiriko, Tracer, D.Va, Mercy, Widowmaker, Genji and all OW2 heroe
+- [Final Fantasy Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/finalfantasy.html): Final Fantasy cosplay costumes 2026 — FF7 Rebirth Cloud, Tifa, Aerith, Sephiroth, plus FF14, FF16 an
+- [Dead by Daylight Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/deadbydaylight.html): Dead by Daylight cosplay costumes 2026 — Ghostface, Trapper, Nurse, Huntress, Myers, and survivor co
+- [Jujutsu Kaisen Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/jujutsukaisen.html): Jujutsu Kaisen cosplay costumes 2026 — Gojo Satoru, Yuji Itadori, Megumi Fushiguro, Nobara and more 
+- [Hazbin Hotel Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/hazbinhotel.html): Hazbin Hotel cosplay costumes 2026 — Alastor, Charlie, Vaggie, Angel Dust, Lucifer and more Hazbin H
+- [Frieren Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/frieren.html): Frieren: Beyond Journey's End cosplay costumes 2026 — Frieren, Fern, Stark, Himmel and more Sousou n
+- [One Piece Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/onepiececosplay.html): One Piece cosplay costumes 2026 — Luffy, Zoro, Nami, Robin, Sanji, Gear 5 Luffy and the full Straw H
+- [Cosplay Shoes & Boots 2026](https://brightlane.github.io/HalloweenCostumes/cosplayshoes.html): Cosplay shoes and boots 2026 — character-accurate footwear for anime, gaming, movie and Halloween co
+- [Convention Cosplay Guide 2026](https://brightlane.github.io/HalloweenCostumes/convention.html): Convention cosplay guide 2026 — what to wear to Comic Con, Anime Expo, PAX, Dragon Con and more. Bes
+- [Lolita Fashion Costumes 2026](https://brightlane.github.io/HalloweenCostumes/lolita.html): Lolita fashion costumes 2026 — gothic lolita, sweet lolita, classic lolita and EGL fashion costumes 
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
