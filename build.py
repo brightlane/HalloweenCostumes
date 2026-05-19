@@ -192,6 +192,16 @@ CAT_URLS = {
     "animals":       "https://www.halloweencostumes.com/search?q=animal+costume",
     "dragon":        "https://www.halloweencostumes.com/search?q=dragon+costume",
     "glowinthedark": "https://www.halloweencostumes.com/search?q=glow+in+the+dark+costume",
+    # ── Amazon/Walmart/Target decoration beaters ──
+    "skeletons":     "https://www.halloweencostumes.com/search?q=skeleton+decoration",
+    "spiderwebs":    "https://www.halloweencostumes.com/search?q=spider+web+halloween+decoration",
+    "tombstones":    "https://www.halloweencostumes.com/search?q=tombstone+graveyard+halloween",
+    "candy":         "https://www.halloweencostumes.com/search?q=halloween+candy+treat",
+    "trunkortreat":  "https://www.halloweencostumes.com/search?q=trunk+or+treat+halloween",
+    "gnomes":        "https://www.halloweencostumes.com/search?q=halloween+gnome",
+    "nightmarebc":   "https://www.halloweencostumes.com/search?q=nightmare+before+christmas+costume",
+    "hocuspocus":    "https://www.halloweencostumes.com/search?q=hocus+pocus+costume",
+    "murdermystery": "https://www.halloweencostumes.com/search?q=murder+mystery+halloween",
 }
 
 def aff(cat_key=None, search=None):
@@ -1411,6 +1421,109 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"glow in the dark halloween costume 2026, glow halloween costume, skeleton glow costume, uv reactive halloween costume, neon halloween costume, light up halloween costume kids",
     },
+    # ══════════════════════════════════════════════════
+    # AMAZON/WALMART/TARGET DECORATION BEATERS — 9 pages
+    # The decoration market we were completely missing
+    # ══════════════════════════════════════════════════
+    "skeletons": {
+        "file":"skeletons.html","cat_key":"skeletons","icon":"💀",
+        "group":"decor","nav_group":"decor",
+        "en_title":"Halloween Skeleton Decorations 2026 | Posable & Life-Size Skeletons",
+        "en_desc":"Halloween skeleton decorations 2026 — posable skeletons, life-size skeleton props, skeleton stakes, skull decorations and graveyard skeleton displays. Ships to 200+ countries.",
+        "en_h1":"Halloween Skeleton Decorations 2026",
+        "en_h1sub":"Posable Skeletons, Life-Size Props & Skull Displays",
+        "en_body":"Create the ultimate Halloween graveyard with our skeleton decoration collection 2026. Skeletons are the most iconic Halloween decoration — and our collection covers every size, style, and placement. Life-size posable skeletons that you can arrange in any position, smaller desktop skeleton figurines, skeleton dogs and animals, hanging skeleton props, skeleton hands reaching from the ground, glow-in-the-dark skeleton displays, and complete skeleton graveyard kits. Our skeleton decorations work for front porch displays, yard haunted houses, indoor tabletop decor, and professional haunted attractions. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween skeleton decorations 2026, posable skeleton halloween, life size skeleton decoration, skeleton prop halloween, skull halloween decoration, graveyard skeleton display",
+    },
+    "spiderwebs": {
+        "file":"spiderwebs.html","cat_key":"spiderwebs","icon":"🕸️",
+        "group":"decor","nav_group":"decor",
+        "en_title":"Halloween Spider Webs & Fake Spiders 2026 | Cobweb Decorations",
+        "en_desc":"Halloween spider webs and fake spiders 2026 — stretch cobwebs, giant spider webs, realistic fake spiders and spider web decoration kits. Ships to 200+ countries.",
+        "en_h1":"Halloween Spider Webs & Spiders 2026",
+        "en_h1sub":"Stretch Cobwebs, Giant Webs & Realistic Fake Spiders",
+        "en_body":"Spin a terrifying web with our Halloween spider web and fake spider collection 2026. Spider webs are the most versatile and essential Halloween decoration — drape them over bushes, furniture, fences, and doorways for instant haunted house atmosphere. Our collection includes super-stretch cobwebs that cover large areas, giant pre-made spider webs, realistic hairy fake spiders in every size from small to giant, glowing spider web sets, and complete spider web decoration kits with multiple spiders included. Spider webs and fake spiders are among the most purchased Halloween decorations every year. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween spider webs 2026, fake spiders halloween, cobweb halloween decoration, giant spider web halloween, stretch spider web decoration, halloween spider decoration",
+    },
+    "tombstones": {
+        "file":"tombstones.html","cat_key":"tombstones","icon":"🪦",
+        "group":"decor","nav_group":"decor",
+        "en_title":"Halloween Tombstones & Graveyard Decorations 2026",
+        "en_desc":"Halloween tombstones and graveyard decorations 2026 — foam tombstones, metal headstones, graveyard kits, lawn stakes and cemetery decoration sets. Ships to 200+ countries.",
+        "en_h1":"Halloween Tombstones & Graveyard Decorations 2026",
+        "en_h1sub":"Foam Tombstones, Metal Headstones & Graveyard Kits",
+        "en_body":"Create a spine-chilling Halloween graveyard with our tombstone and cemetery decoration collection 2026. Tombstones are the anchor of any outdoor Halloween yard display — our collection includes foam tombstone sets with classic RIP inscriptions, durable weatherproof metal tombstones, light-up tombstones with LED red eyes, complete graveyard kit sets, zombie groundbreaker props rising from between headstones, and graveyard fence sections. Available in small 3-piece starter sets through large professional graveyard displays. Tombstone decorations stake easily into most ground types and withstand outdoor weather. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween tombstones 2026, graveyard halloween decoration, headstone halloween, rip tombstone halloween, halloween cemetery decoration, foam tombstone halloween",
+    },
+    "candy": {
+        "file":"candy.html","cat_key":"candy","icon":"🍬",
+        "group":"decor","nav_group":"decor",
+        "en_title":"Halloween Candy & Trick-or-Treat Treats 2026",
+        "en_desc":"Halloween candy and trick-or-treat treats 2026 — bulk Halloween candy, individual wrapped treats, novelty candy, candy assortments and trick-or-treat candy bags. Ships to 200+ countries.",
+        "en_h1":"Halloween Candy & Treats 2026",
+        "en_h1sub":"Bulk Candy, Novelty Treats & Trick-or-Treat Favorites",
+        "en_body":"Stock up for trick-or-treat season with our Halloween candy and treat collection 2026. Halloween candy is the heart of the trick-or-treat tradition — and the right candy makes your house the most popular stop on the block. Our Halloween candy collection covers bulk chocolate assortments, individual wrapped candy favorites, novelty Halloween-themed gummy candies in spooky shapes (eyeballs, worms, skulls), lollipop assortments, candy bowls and cauldrons for serving, and complete trick-or-treat candy kits. Find the perfect Halloween candy at every budget — from economy bulk bags to premium chocolate assortments. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween candy 2026, trick or treat candy, bulk halloween candy, halloween candy assortment, halloween treats, novelty halloween candy, halloween gummy candy",
+    },
+    "trunkortreat": {
+        "file":"trunkortreat.html","cat_key":"trunkortreat","icon":"🚗",
+        "group":"decor","nav_group":"decor",
+        "en_title":"Trunk or Treat Ideas & Decorations 2026 | Car Decoration Kits",
+        "en_desc":"Trunk or treat ideas and decorations 2026 — car trunk decoration kits, trunk or treat themes, candy bowls and everything you need for the perfect trunk or treat event.",
+        "en_h1":"Trunk or Treat 2026",
+        "en_h1sub":"Car Decoration Kits, Themes & Trunk or Treat Ideas",
+        "en_body":"Host the most popular trunk at the trick-or-treat event with our trunk or treat decoration collection 2026. Trunk or treat events have become one of the most popular Halloween traditions for families, schools, churches, and community organizations — a safe, fun alternative to traditional trick-or-treating. Our trunk or treat collection includes car decoration kits with themed designs (spider, clown, haunted house, friendly Halloween), trunk archways, LED light strings for trunk illumination, candy bowls and dispensers sized for car trunks, and complete trunk or treat theme kits. Transform any vehicle trunk into a spectacular Halloween experience. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"trunk or treat 2026, trunk or treat decorations, trunk or treat ideas, car halloween decoration kit, trunk or treat themes, halloween trunk decorating",
+    },
+    "gnomes": {
+        "file":"gnomes.html","cat_key":"gnomes","icon":"🧙",
+        "group":"decor","nav_group":"decor",
+        "en_title":"Halloween Gnomes & Seasonal Gnome Decorations 2026",
+        "en_desc":"Halloween gnomes and gnome decorations 2026 — spooky Halloween gnomes, witch gnomes, pumpkin gnomes, skeleton gnomes and seasonal Halloween gnome decor. Ships to 200+ countries.",
+        "en_h1":"Halloween Gnomes 2026",
+        "en_h1sub":"Spooky Gnomes, Witch Gnomes & Pumpkin Gnome Decor",
+        "en_body":"Add whimsy and Halloween charm to your home with our Halloween gnome decoration collection 2026. Halloween gnomes have become one of the most beloved seasonal decoration trends — combining the traditional Scandinavian gnome aesthetic with Halloween themes for a look that's charming rather than scary. Our Halloween gnome collection includes witch hat gnomes, skeleton gnomes, pumpkin gnomes, ghost gnomes, tabletop gnome figurines, gnome doormats, gnome wreaths, and complete Halloween gnome decoration sets. Perfect for people who want festive Halloween decor without horror — popular for front porches, mantles, and tabletop displays. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween gnomes 2026, halloween gnome decoration, witch gnome halloween, pumpkin gnome halloween, spooky gnome decor, seasonal halloween gnome",
+    },
+    "nightmarebc": {
+        "file":"nightmarebc.html","cat_key":"nightmarebc","icon":"🎃",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Nightmare Before Christmas Costumes & Decorations 2026",
+        "en_desc":"Nightmare Before Christmas costumes and decorations 2026 — Jack Skellington, Sally, Oogie Boogie costumes, NBC merchandise and Halloween Town decorations. Ships to 200+ countries.",
+        "en_h1":"Nightmare Before Christmas 2026",
+        "en_h1sub":"Jack Skellington, Sally, Oogie Boogie & Halloween Town",
+        "en_body":"This is Halloween — and our Nightmare Before Christmas collection 2026 has everything for the world's most beloved Halloween franchise. The Nightmare Before Christmas has transcended from movie to year-round Halloween lifestyle brand — beloved by Halloween enthusiasts worldwide. Our NBC collection covers Jack Skellington costumes for adults, teens, and kids, Sally Ragdoll gown costumes, Oogie Boogie looks, Zero the ghost dog costumes, Nightmare Before Christmas decorations including Jack Skellington figurines, NBC tabletop decor, NBC merchandise and accessories. Perfect for Halloween, year-round, and any occasion for true Halloween Town citizens. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"nightmare before christmas costume 2026, jack skellington costume, sally costume nightmare before christmas, oogie boogie costume, nightmare before christmas decoration, nbc halloween",
+    },
+    "hocuspocus": {
+        "file":"hocuspocus.html","cat_key":"hocuspocus","icon":"🧙‍♀️",
+        "group":"franchise","nav_group":"franchise",
+        "en_title":"Hocus Pocus Halloween Costumes & Decorations 2026",
+        "en_desc":"Hocus Pocus Halloween costumes and decorations 2026 — Winifred, Sarah, Mary Sanderson witch costumes, Hocus Pocus merchandise and Book of Spells decorations. Ships to 200+ countries.",
+        "en_h1":"Hocus Pocus Costumes & Decorations 2026",
+        "en_h1sub":"Winifred, Sarah, Mary & The Sanderson Sisters",
+        "en_body":"I smell children — and they're looking for Hocus Pocus Halloween costumes in 2026. The Sanderson Sisters from Disney's Hocus Pocus remain one of the most beloved and recognizable Halloween costume groups ever created. Our Hocus Pocus collection includes Winifred Sanderson's purple and green witch gown, Sarah Sanderson's pink flirty dress, Mary Sanderson's red and brown look, and complete Sanderson Sisters group costume sets for three friends. Also includes Hocus Pocus decorations: Book of Spells replica books, Hocus Pocus tabletop decor, and Salem-themed Halloween merchandise. Perfect for Halloween parties, costume contests, and Disney Halloween fans. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"hocus pocus costume 2026, sanderson sisters costume, winifred sanderson costume, hocus pocus halloween costume, sarah sanderson costume, hocus pocus halloween",
+    },
+    "murdermystery": {
+        "file":"murdermystery.html","cat_key":"murdermystery","icon":"🔍",
+        "group":"extra","nav_group":"extra",
+        "en_title":"Murder Mystery Halloween Party Kits & Costumes 2026",
+        "en_desc":"Murder mystery Halloween party kits and costumes 2026 — complete murder mystery game kits, detective costumes, villain costumes and crime scene decoration sets. Ships to 200+ countries.",
+        "en_h1":"Murder Mystery Halloween Parties 2026",
+        "en_h1sub":"Party Kits, Detective Costumes & Crime Scene Decorations",
+        "en_body":"Host the most talked-about Halloween party with our murder mystery collection 2026. Murder mystery Halloween parties combine the fun of interactive storytelling with Halloween costume creativity — guests dress as characters and work together to solve a spooky whodunit. Our murder mystery collection includes complete game kits with character cards, clues, and host guides, detective and investigator costumes, villain and suspect costume sets, crime scene decoration kits with caution tape and evidence markers, and mystery party supplies. Murder mystery parties work for adults, teens, and family Halloween events. Complete kits for 6, 8, and 12+ players available. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"murder mystery halloween party 2026, murder mystery kit halloween, halloween murder mystery game, detective costume halloween, crime scene halloween decoration, murder mystery party ideas",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1434,6 +1547,7 @@ NAV_GROUPS = {
     "fashion":     {"label":"Halloween Fashion","icon":"👗"},
     "essential":   {"label":"Halloween Essentials","icon":"🎃"},
     "character":   {"label":"By Character",   "icon":"👑"},
+    "decor":       {"label":"Spooky Decor",   "icon":"🪦"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1533,6 +1647,15 @@ POPULAR_SEARCHES = [
     "dragon halloween costume","dragon costume kids","dragon costume adult",
     "glow in the dark halloween costume","skeleton glow costume","glow halloween costume",
     "neon halloween costume","uv reactive halloween costume",
+    "halloween skeleton decoration","posable skeleton halloween","life size skeleton",
+    "halloween spider web","fake spiders halloween","cobweb decoration",
+    "halloween tombstones","graveyard halloween decoration","rip tombstone",
+    "halloween candy","bulk halloween candy","trick or treat candy",
+    "trunk or treat","trunk or treat decorations","trunk or treat ideas",
+    "halloween gnomes","jack skellington","nightmare before christmas",
+    "hocus pocus costume","sanderson sisters costume","winifred costume",
+    "murder mystery halloween","halloween murder mystery party",
+    "halloween window clings","halloween doormats","halloween wreaths",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1858,7 +1981,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','makeup','trickortreat','hauntedhouse','pumpkin','lighting','budget','clearance','bestsellers','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','nightmarebc','hocuspocus','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','makeup','trickortreat','hauntedhouse','pumpkin','lighting','skeletons','spiderwebs','tombstones','candy','trunkortreat','gnomes','murdermystery','budget','clearance','bestsellers','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1991,7 +2114,7 @@ def make_page(page_key):
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["budget","clearance","bestsellers","animals","dragon","glowinthedark","makeup","trickortreat","hauntedhouse","pumpkin","lighting","princess","mermaid","food","cheerleader","cowgirl","steampunk","masquerade","animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","halloweenfashion","halloweenpajamas","matchingfamily","halloweensweaters","halloweendresses","weeklydeals","preorder","yearround","sale","lastminute"]
+            for pk in ["skeletons","spiderwebs","tombstones","candy","trunkortreat","gnomes","nightmarebc","hocuspocus","budget","clearance","bestsellers","animals","dragon","glowinthedark","makeup","trickortreat","hauntedhouse","pumpkin","lighting","princess","mermaid","food","cheerleader","cowgirl","steampunk","masquerade","animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","halloweenfashion","halloweenpajamas","matchingfamily","halloweensweaters","halloweendresses","weeklydeals","preorder","yearround","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -3313,6 +3436,76 @@ BLOG_POSTS = [
     },
 
     {
+        "slug":    "halloween-decorating-guide",
+        "file":    "blog-halloween-decorations-guide.html",
+        "icon":    "🏚️",
+        "title":   "Complete Halloween Decorating Guide 2026 | Room by Room",
+        "desc":    "The complete Halloween decorating guide for 2026 — how to decorate your front yard, porch, living room and every room for Halloween with the best decorations and setup tips.",
+        "h1":      "Complete Halloween Decorating Guide 2026",
+        "intro":   "Halloween decorating is an art form — and the best decorated houses don't just have more decorations, they have the right decorations in the right places creating a unified theme. This complete Halloween decorating guide covers every area of your home from the front yard to the candy bowl, with specific product recommendations and setup tips for 2026.",
+        "sections": [
+            ("Front Yard Halloween Decorating", "halloween yard decorations",
+             "The front yard is your Halloween first impression. Start with a graveyard foundation — tombstones staked in a row with skull pathway lights leading to the door. Add life-size skeleton figures in varied poses (some rising from the ground, some slumped against trees). Hang ghost decorations from tree branches. Finish with orange and purple string lights outlining the house. A fog machine at porch level and a large animatronic centerpiece creates the signature haunted house look."),
+            ("Porch & Entryway Halloween Decorating", "haunted house decorations",
+             "The porch is where trick-or-treaters pause — make it count. Flank the door with two large animatronics or jack-o-lanterns. Drape spider webs across railings with large spiders strategically placed. Hang a door wreath, door cover, or banner. A cauldron filled with candy (or dry ice for fog effect) makes the candy-giving moment theatrical. Pathway lights and skeleton stakes line the walkway leading to the door."),
+            ("Indoor Halloween Decorating by Room", "halloween indoor decorations 2026",
+             "Living room: window clings on glass surfaces, battery candles on all surfaces, a central skeleton or animatronic, and string lights replacing regular lighting. Dining room: Halloween tablecloth, skeleton or ghost centerpiece, skull candle holders. Kitchen: Halloween candy dish, spooky mugs and drinkware, ghost or pumpkin figurines. Bathroom: black and orange hand towels, spider web shower curtain liner, spooky soap dispensers."),
+            ("Skeleton Decoration Placement Tips", "halloween skeleton decorations",
+             "Posable skeleton placement is an art — the best setups tell a story. Popular skeleton scenes: skeleton sitting in a chair reading a book, skeleton climbing the side of the house, skeleton family in the front yard, skeleton dog on a leash, skeleton rising from the ground. The key is posing with personality — a slouched skeleton looks defeated while an outstretched skeleton looks menacing. Pose before you stake to find the right position."),
+            ("Spider Webs, Tombstones & Finishing Touches", "halloween spider web",
+             "Spider webs go on everything — bushes, railings, decorations, door frames. The trick is not over-webbing (covering everything) but using webs to connect decoration elements and create visual flow across your display. Tombstones anchor the graveyard section and should vary in height — mix small, medium, and tall headstones for visual interest. Add skeleton hands or zombie hands rising between tombstones for depth."),
+        ],
+        "cta_cat": "decorations",
+        "keywords": "halloween decorating guide 2026, how to decorate for halloween, halloween decoration ideas, front yard halloween decoration, halloween porch decorating, indoor halloween decorating guide",
+    },
+    {
+        "slug":    "trunk-or-treat-ideas",
+        "file":    "blog-trunk-or-treat-ideas.html",
+        "icon":    "🚗",
+        "title":   "Trunk or Treat Ideas & Decoration Guide 2026",
+        "desc":    "The complete trunk or treat guide for 2026 — best car decoration themes, candy setup ideas, costumes for trunk or treat events and tips for the most popular trunk in the lot.",
+        "h1":      "Trunk or Treat Ideas & Guide 2026",
+        "intro":   "Trunk or treat events have become one of Halloween's most beloved traditions — a safe, community-focused alternative to traditional trick-or-treating. Whether you're decorating your own trunk or organizing an event, here's everything you need to make your trunk or treat unforgettable in 2026.",
+        "sections": [
+            ("Best Trunk or Treat Themes for 2026", "trunk or treat decorations",
+             "The best trunk or treat themes are visually bold, recognizable from across the parking lot, and kid-friendly. Top themes for 2026: Haunted mansion (black and purple with cobwebs), Under the Sea (blue and green with fish and mermaid), Candy Land (pastel colors, giant candy props), Safari/Jungle (green foliage, animal props), Outer Space (dark blue, stars, alien props), and classic Halloween (orange and black with pumpkins and skeletons)."),
+            ("Trunk Decoration Essentials", "trunk or treat decorations",
+             "Every great trunk needs: a backdrop (fabric, curtain, or custom banner that covers the trunk opening), lighting (LED string lights or battery-powered lights that work without a running engine), a costume for the car owner, a candy distribution setup (bowl, cauldron, or dispenser that makes giving candy easy), and side decorations on the bumper and sides of the car for visual width."),
+            ("Making Your Trunk the Most Popular Stop", "halloween candy 2026",
+             "The secret to the most popular trunk: full-size candy bars (instant legend status), an interactive element (a spinning wheel, a mystery box, a guessing game), a photo opportunity prop that kids want to stand next to, and costumes for the whole family matching your theme. The trunks that kids talk about are the ones that gave an experience, not just candy."),
+            ("Trunk or Treat Safety Tips", "trick or treat supplies 2026",
+             "Safety at trunk or treat events: ensure your car is fully off with parking brake engaged, keep the trunk area clear of trip hazards, have adequate lighting so candy can be seen and selected easily, check candy for any damage before distributing, and ensure all electrical decorations use battery power or proper extension cords rather than running from a car battery."),
+            ("Trunk or Treat for Schools & Churches", "halloween party supplies 2026",
+             "Organizing a trunk or treat event for a school or church? Key logistics: advertise a theme requirement so all trunks coordinate, set a minimum candy quantity per trunk, designate a judge for best-decorated trunk, space trunks 10-15 feet apart for traffic flow, and have a start and end time with a signal. Prizes for best-decorated trunks encourage participation."),
+        ],
+        "cta_cat": "trunkortreat",
+        "keywords": "trunk or treat ideas 2026, trunk or treat decoration themes, how to decorate trunk or treat, trunk or treat guide, best trunk or treat, trunk or treat for schools",
+    },
+    {
+        "slug":    "halloween-candy-guide",
+        "file":    "blog-halloween-candy-guide.html",
+        "icon":    "🍬",
+        "title":   "Best Halloween Candy Guide 2026 | Trick-or-Treat Favorites",
+        "desc":    "The best Halloween candy guide for 2026 — what candy to buy for trick-or-treaters, how much candy to buy, allergy-friendly options and the candy that makes your house legendary.",
+        "h1":      "Best Halloween Candy Guide 2026",
+        "intro":   "Halloween candy is serious business — the right candy makes your house the most talked-about stop in the neighborhood for years. The wrong candy gets you egged (or at least side-eyed). Here's the definitive Halloween candy guide for 2026, covering what to buy, how much to buy, and how to achieve legendary status.",
+        "sections": [
+            ("The Tier List — Best Halloween Candy", "halloween candy 2026",
+             "Tier 1 (Legendary status): Full-size candy bars of any kind — Snickers, Reese's, Kit Kat, Twix, M&Ms. Tier 2 (Excellent): Fun-size versions of the same, Starbursts, Skittles, Swedish Fish, Haribo Gummies. Tier 3 (Good): Most other chocolate minis, Nerds, SweeTarts, Smarties. Tier 4 (Acceptable): Tootsie Rolls, Dum Dums, Candy Corn. Tier 5 (Avoid): Raisins, anything unwrapped, black licorice."),
+            ("How Much Halloween Candy to Buy", "trick or treat candy",
+             "The formula: estimate your trick-or-treater count based on your neighborhood density and past years. Multiply by 2-3 pieces per child. Add 20% buffer for the unexpected surge years. For a suburban house expecting 50-100 trick-or-treaters: 2-3 bags of assorted minis (150-200 pieces) is usually right. Run out? Turn off your porch light. Have too much? Win at life for the next month."),
+            ("Allergy-Friendly Halloween Candy Options", "halloween trick or treat",
+             "The Teal Pumpkin Project designates houses with teal pumpkins as allergy-friendly with non-food treats. For allergy-friendly candy options: Skittles, Starburst, Sour Patch Kids, Swedish Fish (all nut-free), Enjoy Life chocolate (nut, dairy, gluten-free), and Surf Sweets (top allergen-free gummies) are safe choices for children with common food allergies."),
+            ("Novelty Halloween Candy That Kids Love", "halloween candy assortment",
+             "Novelty Halloween candy creates memorable moments beyond just taste. Gummy worms in dirt cups, candy eyeballs in cauldrons, Halloween-shaped gummies (bats, skulls, pumpkins), pop rocks in Halloween packaging, and novelty lollipops with Halloween character faces all stand out from the standard assortment and give children a memorable experience."),
+            ("Candy Bowls, Cauldrons & Distribution", "halloween candy bowl",
+             "How you give out candy matters almost as much as what you give. A motion-activated talking candy bowl creates an unforgettable moment. A large cauldron with dry ice fog for atmospheric effect is spectacular. Self-serve honor bowls can work but empty fast. The most memorable approach: be present in costume, engage with kids, and make the candy-giving moment theatrical rather than just functional."),
+        ],
+        "cta_cat": "candy",
+        "keywords": "best halloween candy 2026, halloween candy guide, what candy to buy halloween, trick or treat candy ideas, how much halloween candy, allergy friendly halloween candy",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -3703,6 +3896,11 @@ def build():
     print(f"  ✅  TRULY #1 — covers every major Halloween search category")
     print(f"  ✅  Walmart beaten — budget, clearance, princess, mermaid, food, cheerleader, cowgirl, steampunk, masquerade, bestsellers")
     print(f"  ✅  Target beaten — animals, dragon, glow-in-the-dark pages added")
+    print(f"  ✅  Amazon/Walmart/Target DECOR gap closed:")
+    print(f"      Skeleton Decor, Spider Webs, Tombstones, Halloween Candy")
+    print(f"      Trunk or Treat, Halloween Gnomes, Nightmare Before Christmas")
+    print(f"      Hocus Pocus, Murder Mystery Halloween Party")
+    print(f"  ✅  3 deep decoration blog guides: Decorating, Trunk or Treat, Halloween Candy")
     print(f"  ✅  Animal costume blog — babies, kids, dragons, adults, family themes")
     print(f"  ✅  Price anchoring added — costumes from $10 in trust badges")
     print(f"  ✅  WOW Promise + AfterPay/ShopPay + Matching Family trust badges added")
