@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (102 total)
+## Pages (105 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -114,6 +114,9 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Cheerleader Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/cheerleader.html): Cheerleader Halloween costumes 2026 — cheer uniform costume sets for girls, teens and adults. Zombie
 - [Cowgirl & Western Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/cowgirl.html): Cowgirl and western Halloween costumes 2026 — cowgirl outfits, cowboy costumes, western Halloween lo
 - [Best-Selling Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/bestsellers.html): The best-selling Halloween costumes of 2026 — the most popular, most ordered, and most talked-about 
+- [Animal Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/animals.html): Animal Halloween costumes 2026 — lion, bee, cat, dog, dinosaur, cow, flamingo, unicorn and hundreds 
+- [Dragon Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/dragon.html): Dragon Halloween costumes 2026 — fire-breathing dragon costumes for kids, teens and adults. Winged d
+- [Glow in the Dark Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/glowinthedark.html): Glow in the dark Halloween costumes 2026 — skeleton costumes, neon costumes, UV reactive looks and g
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
