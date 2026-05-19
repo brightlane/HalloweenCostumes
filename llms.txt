@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (114 total)
+## Pages (131 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -126,6 +126,23 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Nightmare Before Christmas Costumes & Decorations 2026](https://brightlane.github.io/HalloweenCostumes/nightmarebc.html): Nightmare Before Christmas costumes and decorations 2026 — Jack Skellington, Sally, Oogie Boogie cos
 - [Hocus Pocus Halloween Costumes & Decorations 2026](https://brightlane.github.io/HalloweenCostumes/hocuspocus.html): Hocus Pocus Halloween costumes and decorations 2026 — Winifred, Sarah, Mary Sanderson witch costumes
 - [Murder Mystery Halloween Party Kits & Costumes 2026](https://brightlane.github.io/HalloweenCostumes/murdermystery.html): Murder mystery Halloween party kits and costumes 2026 — complete murder mystery game kits, detective
+- [Eco & Sustainable Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/sustainable.html): Eco-friendly and sustainable Halloween costumes 2026 — ethical costume choices, thrift store costume
+- [Plus Size Cosplay Costumes 2026](https://brightlane.github.io/HalloweenCostumes/plussizecosplay.html): Plus size cosplay costumes 2026 — anime cosplay, gaming character costumes, fantasy cosplay and conv
+- [Renaissance Faire Costumes 2026](https://brightlane.github.io/HalloweenCostumes/renfaire.html): Renaissance Faire costumes 2026 — ren faire outfits, medieval garb, renaissance dresses, knight armo
+- [Gothic & Dark Aesthetic Costumes 2026](https://brightlane.github.io/HalloweenCostumes/gothic.html): Gothic and dark aesthetic costumes 2026 — goth fashion, dark academia looks, Victorian gothic, cyber
+- [Carnival & Mardi Gras Costumes 2026](https://brightlane.github.io/HalloweenCostumes/carnival.html): Carnival and Mardi Gras costumes 2026 — Mardi Gras outfits, Brazilian Carnival looks, Venice Carniva
+- [LARP Costumes & Gear 2026](https://brightlane.github.io/HalloweenCostumes/larp.html): LARP costumes and gear 2026 — live action roleplay armor, LARP weapons, fantasy character costumes, 
+- [Cosplay Wigs 2026](https://brightlane.github.io/HalloweenCostumes/cosplaywigs.html): Cosplay wigs 2026 — character-specific wigs, cosplay wigs by color (pink, silver, blonde, rainbow), 
+- [Witch Aesthetic Costumes & Fashion 2026](https://brightlane.github.io/HalloweenCostumes/witchaesthetic.html): Witch aesthetic costumes and fashion 2026 — cottagecore witch, dark academia witch, coastal witch, h
+- [Adaptive & Wheelchair Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/adaptive.html): Adaptive and wheelchair Halloween costumes 2026 — wheelchair-friendly costumes, sensory-friendly Hal
+- [Celebrity Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/celebrity.html): Celebrity Halloween costumes 2026 — Taylor Swift, Sabrina Carpenter, Beyoncé, Chappell Roan, and the
+- [Best Friend Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/friendscostume.html): Best friend Halloween costumes 2026 — non-romantic duo costume ideas for best friends, siblings, cow
+- [Office & Work Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/officecostume.html): Office and work-appropriate Halloween costumes 2026 — professional Halloween looks, work-safe costum
+- [Race Car Driver Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/racer.html): Race car driver Halloween costumes 2026 — F1 racing costumes, checkered flag looks, NASCAR driver ou
+- [Creepy Doll & Puppet Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/creepydoll.html): Creepy doll and puppet Halloween costumes 2026 — porcelain doll, ventriloquist dummy, marionette, ra
+- [Occult & Supernatural Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/occult.html): Occult and supernatural Halloween costumes 2026 — tarot reader, moon goddess, oracle, high priestess
+- [Music Artist Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/musicartist.html): Music artist Halloween costumes 2026 — Taylor Swift, Beyoncé, Sabrina Carpenter, Chappell Roan, Bill
+- [Halloween Horror Night Guide 2026](https://brightlane.github.io/HalloweenCostumes/horrornight.html): Halloween horror night guide 2026 — best horror movies to watch, horror movie marathon planning, hor
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
