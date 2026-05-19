@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (105 total)
+## Pages (114 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -117,6 +117,15 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Animal Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/animals.html): Animal Halloween costumes 2026 — lion, bee, cat, dog, dinosaur, cow, flamingo, unicorn and hundreds 
 - [Dragon Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/dragon.html): Dragon Halloween costumes 2026 — fire-breathing dragon costumes for kids, teens and adults. Winged d
 - [Glow in the Dark Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/glowinthedark.html): Glow in the dark Halloween costumes 2026 — skeleton costumes, neon costumes, UV reactive looks and g
+- [Halloween Skeleton Decorations 2026](https://brightlane.github.io/HalloweenCostumes/skeletons.html): Halloween skeleton decorations 2026 — posable skeletons, life-size skeleton props, skeleton stakes, 
+- [Halloween Spider Webs & Fake Spiders 2026](https://brightlane.github.io/HalloweenCostumes/spiderwebs.html): Halloween spider webs and fake spiders 2026 — stretch cobwebs, giant spider webs, realistic fake spi
+- [Halloween Tombstones & Graveyard Decorations 2026](https://brightlane.github.io/HalloweenCostumes/tombstones.html): Halloween tombstones and graveyard decorations 2026 — foam tombstones, metal headstones, graveyard k
+- [Halloween Candy & Trick-or-Treat Treats 2026](https://brightlane.github.io/HalloweenCostumes/candy.html): Halloween candy and trick-or-treat treats 2026 — bulk Halloween candy, individual wrapped treats, no
+- [Trunk or Treat Ideas & Decorations 2026](https://brightlane.github.io/HalloweenCostumes/trunkortreat.html): Trunk or treat ideas and decorations 2026 — car trunk decoration kits, trunk or treat themes, candy 
+- [Halloween Gnomes & Seasonal Gnome Decorations 2026](https://brightlane.github.io/HalloweenCostumes/gnomes.html): Halloween gnomes and gnome decorations 2026 — spooky Halloween gnomes, witch gnomes, pumpkin gnomes,
+- [Nightmare Before Christmas Costumes & Decorations 2026](https://brightlane.github.io/HalloweenCostumes/nightmarebc.html): Nightmare Before Christmas costumes and decorations 2026 — Jack Skellington, Sally, Oogie Boogie cos
+- [Hocus Pocus Halloween Costumes & Decorations 2026](https://brightlane.github.io/HalloweenCostumes/hocuspocus.html): Hocus Pocus Halloween costumes and decorations 2026 — Winifred, Sarah, Mary Sanderson witch costumes
+- [Murder Mystery Halloween Party Kits & Costumes 2026](https://brightlane.github.io/HalloweenCostumes/murdermystery.html): Murder mystery Halloween party kits and costumes 2026 — complete murder mystery game kits, detective
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
