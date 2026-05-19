@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (92 total)
+## Pages (102 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -104,6 +104,16 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Haunted House Setup Guide 2026](https://brightlane.github.io/HalloweenCostumes/hauntedhouse.html): Haunted house setup guide and supplies 2026 — everything you need to build the scariest haunted hous
 - [Pumpkin Carving & Halloween Pumpkin Ideas 2026](https://brightlane.github.io/HalloweenCostumes/pumpkin.html): Pumpkin carving ideas and supplies 2026 — carving kits, stencils, pumpkin decorations and Halloween 
 - [Halloween Lighting 2026](https://brightlane.github.io/HalloweenCostumes/lighting.html): Halloween lighting 2026 — string lights, strobe lights, blacklights, LED Halloween lights, projectio
+- [Cheap Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/budget.html): Cheap Halloween costumes 2026 — the best Halloween costumes under $10, $20 and $30. Budget-friendly 
+- [Halloween Costume Clearance 2026](https://brightlane.github.io/HalloweenCostumes/clearance.html): Halloween costume clearance 2026 — massive discounts on costumes, accessories and decorations. Up to
+- [Princess Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/princess.html): Princess Halloween costumes 2026 — Disney princess costumes, fairy tale princess gowns, royal prince
+- [Mermaid Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mermaid.html): Mermaid Halloween costumes 2026 — Ariel Little Mermaid costumes, original mermaid tail gowns, sequin
+- [Steampunk Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/steampunk.html): Steampunk Halloween costumes 2026 — Victorian steampunk outfits, gothic steampunk looks, steampunk a
+- [Masquerade Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/masquerade.html): Masquerade Halloween costumes 2026 — Venetian masquerade ball gowns, masquerade masks, elegant masqu
+- [Food Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/food.html): Food Halloween costumes 2026 — banana, hot dog, taco, pizza, avocado, watermelon and funny food obje
+- [Cheerleader Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/cheerleader.html): Cheerleader Halloween costumes 2026 — cheer uniform costume sets for girls, teens and adults. Zombie
+- [Cowgirl & Western Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/cowgirl.html): Cowgirl and western Halloween costumes 2026 — cowgirl outfits, cowboy costumes, western Halloween lo
+- [Best-Selling Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/bestsellers.html): The best-selling Halloween costumes of 2026 — the most popular, most ordered, and most talked-about 
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
