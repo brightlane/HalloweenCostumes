@@ -1,5 +1,5 @@
 # HalloweenCostumes 2026
-# llms.txt — AI crawler discovery | Updated: 2026-05-18
+# llms.txt — AI crawler discovery | Updated: 2026-05-19
 # Standard: https://llmstxt.org
 
 > The world's #1 Halloween costume affiliate destination. 25+ pages covering every costume category. Ships to 200+ countries. 12 languages. All links via LinkConnector ID 7949.
