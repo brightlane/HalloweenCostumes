@@ -177,6 +177,17 @@ CAT_URLS = {
     "pumpkin":       "https://www.halloweencostumes.com/halloween-decorations.html",
     "lighting":      "https://www.halloweencostumes.com/search?q=halloween+lighting+string+lights",
     "sizecharts":    "https://www.halloweencostumes.com/size-charts.html",
+    # ── Walmart beaters — budget + character specific ──
+    "budget":        "https://www.halloweencostumes.com/sale-halloween-costumes.html",
+    "clearance":     "https://www.halloweencostumes.com/sale-halloween-costumes.html",
+    "princess":      "https://www.halloweencostumes.com/search?q=princess+costume",
+    "mermaid":       "https://www.halloweencostumes.com/search?q=mermaid+costume",
+    "steampunk":     "https://www.halloweencostumes.com/search?q=steampunk+costume",
+    "masquerade":    "https://www.halloweencostumes.com/search?q=masquerade+costume",
+    "food":          "https://www.halloweencostumes.com/search?q=food+costume+funny",
+    "cheerleader":   "https://www.halloweencostumes.com/search?q=cheerleader+costume",
+    "cowgirl":       "https://www.halloweencostumes.com/search?q=cowgirl+western+costume",
+    "bestsellers":   "https://www.halloweencostumes.com/",
 }
 
 def aff(cat_key=None, search=None):
@@ -1246,6 +1257,120 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"halloween lighting 2026, halloween string lights, halloween strobe lights, halloween blacklight, halloween projection lights, spooky lighting halloween, halloween atmosphere lighting",
     },
+    # ════════════════════════════════════════════════════
+    # WALMART BEATERS — Budget + Character-specific pages
+    # Walmart dominates budget & character search angles
+    # ════════════════════════════════════════════════════
+    "budget": {
+        "file":"budget.html","cat_key":"budget","icon":"💲",
+        "group":"deals","nav_group":"deals",
+        "en_title":"Cheap Halloween Costumes 2026 | Best Deals Under $20",
+        "en_desc":"Cheap Halloween costumes 2026 — the best Halloween costumes under $10, $20 and $30. Budget-friendly costumes for kids, adults and families that look amazing. Ships to 200+ countries.",
+        "en_h1":"Cheap Halloween Costumes 2026",
+        "en_h1sub":"Best Costumes Under $10, $20 & $30 — Look Amazing for Less",
+        "en_body":"You don't need to spend a fortune to have the best Halloween costume. Our cheap Halloween costume collection 2026 features incredible deals at every budget level — costumes under $10, costumes under $20, and costumes under $30 that look far more expensive than they cost. Browse kids Halloween costumes under $15, adult Halloween costumes under $25, and complete couple and group costume sets under $50. Our budget Halloween costume section is updated daily with new deals, rollback prices, and clearance finds. Free shipping available on orders over $50. The best cheap Halloween costumes in stock and shipping to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"cheap halloween costumes 2026, halloween costumes under $20, budget halloween costumes, cheap kids halloween costumes, affordable halloween costumes, halloween costumes under $10",
+    },
+    "clearance": {
+        "file":"clearance.html","cat_key":"clearance","icon":"🏷️",
+        "group":"deals","nav_group":"deals",
+        "en_title":"Halloween Costume Clearance 2026 | Up to 80% Off",
+        "en_desc":"Halloween costume clearance 2026 — massive discounts on costumes, accessories and decorations. Up to 80% off clearance prices. Ships to 200+ countries.",
+        "en_h1":"Halloween Costume Clearance 2026",
+        "en_h1sub":"Up to 80% Off — Massive Clearance Discounts",
+        "en_body":"Save massively with our Halloween costume clearance section 2026. Our clearance collection features deep discounts — up to 80% off — on costumes, accessories, decorations, and Halloween merchandise. Clearance Halloween costumes for kids, adults, couples, and groups at the lowest prices of the season. Stock up early for next year, find last-minute deals before October 31st, or grab incredible clearance prices any time. Our clearance section is updated continuously with new markdowns. Clearance items ship while supplies last — order before your size sells out.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween costume clearance 2026, halloween clearance sale, halloween costumes clearance, clearance halloween, halloween sale up to 80 off",
+    },
+    "princess": {
+        "file":"princess.html","cat_key":"princess","icon":"👑",
+        "group":"type","nav_group":"type",
+        "en_title":"Princess Halloween Costumes 2026 | Disney, Fairy Tale & Royal",
+        "en_desc":"Princess Halloween costumes 2026 — Disney princess costumes, fairy tale princess gowns, royal princess outfits for girls, toddlers and adults. Ships to 200+ countries.",
+        "en_h1":"Princess Halloween Costumes 2026",
+        "en_h1sub":"Disney, Fairy Tale & Royal Princess Gowns",
+        "en_body":"Find the perfect princess Halloween costume 2026 — our princess costume collection is one of the largest and most beautiful available online. We carry Disney princess costumes (Elsa, Cinderella, Belle, Ariel, Moana, Rapunzel, Tiana, Jasmine, Aurora, and more), original fairy tale princess gowns, royal queen costumes, and elegant princess styles for girls ages 2 through 12 and adults. Princess costumes are the #1 most popular Halloween costume for girls year after year — our collection offers the widest selection at the best prices. Available from infant size through adult plus size with complete accessory sets.",
+        "schema_type":"CollectionPage",
+        "keywords":"princess halloween costume 2026, disney princess costume, elsa costume, cinderella costume halloween, fairy tale princess costume, princess dress halloween girls",
+    },
+    "mermaid": {
+        "file":"mermaid.html","cat_key":"mermaid","icon":"🧜",
+        "group":"type","nav_group":"type",
+        "en_title":"Mermaid Halloween Costumes 2026 | Ariel, Little Mermaid & More",
+        "en_desc":"Mermaid Halloween costumes 2026 — Ariel Little Mermaid costumes, original mermaid tail gowns, sequin mermaid dresses and under-the-sea Halloween looks. Ships to 200+ countries.",
+        "en_h1":"Mermaid Halloween Costumes 2026",
+        "en_h1sub":"Ariel, Sequin Tails & Under-the-Sea Looks",
+        "en_body":"Dive into Halloween with our mermaid costume collection 2026. Mermaid costumes are among the most magical and beautiful Halloween looks available — our collection includes officially licensed Ariel Little Mermaid costumes, original mermaid tail gowns in every color, sequin mermaid dresses, under-the-sea character sets, and mermaid accessories including wigs, fins, and shell accessories. Mermaid Halloween costumes available for babies, toddlers, girls, teens, and adult women. From budget-friendly options to premium deluxe mermaid gowns — find your perfect underwater Halloween look.",
+        "schema_type":"CollectionPage",
+        "keywords":"mermaid halloween costume 2026, ariel costume, little mermaid costume, mermaid tail costume halloween, mermaid dress halloween, mermaid costume girls",
+    },
+    "steampunk": {
+        "file":"steampunk.html","cat_key":"steampunk","icon":"⚙️",
+        "group":"extra","nav_group":"extra",
+        "en_title":"Steampunk Halloween Costumes 2026 | Victorian & Steampunk Looks",
+        "en_desc":"Steampunk Halloween costumes 2026 — Victorian steampunk outfits, gothic steampunk looks, steampunk accessories and Victorian-inspired Halloween costumes. Ships to 200+ countries.",
+        "en_h1":"Steampunk Halloween Costumes 2026",
+        "en_h1sub":"Victorian Gothic, Steampunk Gears & Industrial Fantasy",
+        "en_body":"Enter the world of Victorian-era fantasy with our steampunk Halloween costume collection 2026. Steampunk combines Victorian elegance with industrial machinery aesthetic — creating one of the most distinctive and creative Halloween costume styles available. Our steampunk collection includes men's Victorian tailcoats with gears and goggles, women's corset and bustle skirt sets, steampunk aviator costumes, mad scientist looks, and complete steampunk accessory kits including goggles, pocket watches, and gear-decorated props. Steampunk costumes are perfect for Halloween parties, renaissance fairs, and cosplay events where creativity counts.",
+        "schema_type":"CollectionPage",
+        "keywords":"steampunk halloween costume 2026, victorian halloween costume, steampunk costume, gothic steampunk costume, steampunk outfit halloween, victorian costume halloween",
+    },
+    "masquerade": {
+        "file":"masquerade.html","cat_key":"masquerade","icon":"🎭",
+        "group":"extra","nav_group":"extra",
+        "en_title":"Masquerade Halloween Costumes 2026 | Venetian & Masquerade Ball",
+        "en_desc":"Masquerade Halloween costumes 2026 — Venetian masquerade ball gowns, masquerade masks, elegant masquerade outfits and masquerade party costumes. Ships to 200+ countries.",
+        "en_h1":"Masquerade Halloween Costumes 2026",
+        "en_h1sub":"Venetian Ball Gowns, Elegant Masks & Mystery",
+        "en_body":"Attend the masquerade with our elegant masquerade Halloween costume collection 2026. Masquerade costumes bring the drama of a Venetian masquerade ball to Halloween — elaborate masks, sweeping ball gowns, men's formal masquerade suits, and mysterious dark elegance that stands apart from typical Halloween looks. Our masquerade collection includes ornate Venetian masks in every style, masquerade ball gowns for women, formal masquerade attire for men, and complete couples masquerade sets. Perfect for upscale Halloween parties, adult costume events, and anyone who prefers elegant mystery over horror.",
+        "schema_type":"CollectionPage",
+        "keywords":"masquerade halloween costume 2026, venetian masquerade costume, masquerade ball gown halloween, masquerade mask costume, elegant halloween costume, masquerade party costume",
+    },
+    "food": {
+        "file":"food.html","cat_key":"food","icon":"🍕",
+        "group":"type","nav_group":"type",
+        "en_title":"Food Halloween Costumes 2026 | Funny Food & Object Costumes",
+        "en_desc":"Food Halloween costumes 2026 — banana, hot dog, taco, pizza, avocado, watermelon and funny food object costumes for adults and kids. Ships to 200+ countries.",
+        "en_h1":"Food Halloween Costumes 2026",
+        "en_h1sub":"Banana, Hot Dog, Taco, Pizza & More Funny Food Looks",
+        "en_body":"Be the funniest person at every Halloween party with our food and object costume collection 2026. Food costumes are perennially the most photographed and most recognized funny Halloween costumes — banana costumes, hot dog suits, taco costumes, pizza slice outfits, avocado costumes, watermelon suits, burrito costumes, French fry outfits, and dozens more ridiculous food and object looks. These costumes guarantee laughs, photos, and costume contest wins every single time. Food Halloween costumes available for adults, teens, and kids — many come in couple and group sets (peanut butter & jelly, ketchup & mustard, bacon & eggs).",
+        "schema_type":"CollectionPage",
+        "keywords":"food halloween costume 2026, banana costume halloween, hot dog costume, funny food costume halloween, taco costume, pizza costume halloween, funny object costume",
+    },
+    "cheerleader": {
+        "file":"cheerleader.html","cat_key":"cheerleader","icon":"📣",
+        "group":"type","nav_group":"type",
+        "en_title":"Cheerleader Halloween Costumes 2026 | Cheer Uniforms & Sets",
+        "en_desc":"Cheerleader Halloween costumes 2026 — cheer uniform costume sets for girls, teens and adults. Zombie cheerleader, classic cheer and squad costume sets. Ships to 200+ countries.",
+        "en_h1":"Cheerleader Halloween Costumes 2026",
+        "en_h1sub":"Cheer Uniforms, Zombie Cheer & Squad Costume Sets",
+        "en_body":"Bring the team spirit to Halloween with our cheerleader costume collection 2026. Cheerleader Halloween costumes are consistently one of the most popular costume choices for girls, teens, and adults — our collection includes classic spirit squad uniforms, zombie cheerleader scary looks, color-blocked school spirit sets, and complete cheerleader costume kits with pom poms, megaphones, and accessories. Available in solo styles, couples sets (cheerleader and football player), and group squad costumes. Cheerleader costumes for girls ages 3-12, teens, and adult women in all sizes.",
+        "schema_type":"CollectionPage",
+        "keywords":"cheerleader halloween costume 2026, cheer costume halloween, zombie cheerleader costume, cheerleader costume girls, cheer uniform halloween, cheerleader costume adult",
+    },
+    "cowgirl": {
+        "file":"cowgirl.html","cat_key":"cowgirl","icon":"🤠",
+        "group":"type","nav_group":"type",
+        "en_title":"Cowgirl & Western Halloween Costumes 2026 | Cowboy & Cowgirl",
+        "en_desc":"Cowgirl and western Halloween costumes 2026 — cowgirl outfits, cowboy costumes, western Halloween looks, rodeo queen styles and country-themed costumes. Ships to 200+ countries.",
+        "en_h1":"Cowgirl & Western Halloween Costumes 2026",
+        "en_h1sub":"Cowgirl Outfits, Cowboy Looks & Western Styles",
+        "en_body":"Saddle up for Halloween with our cowgirl and western costume collection 2026. Cowgirl and cowboy costumes have surged in popularity — inspired by country music, western fashion trends, and the Barbie cowgirl movie aesthetic. Our western Halloween collection includes classic cowgirl fringe outfits, pink cowgirl Barbie-inspired looks, cowboy sheriff costumes, rodeo queen styles, saloon girl costumes, and western accessories including hats, boots, lasso props, and sheriff badges. Available for adults, teens, girls, boys, and toddlers. Couples cowgirl and cowboy sets available.",
+        "schema_type":"CollectionPage",
+        "keywords":"cowgirl halloween costume 2026, cowboy costume halloween, western halloween costume, pink cowgirl costume, country halloween costume, rodeo halloween costume",
+    },
+    "bestsellers": {
+        "file":"bestsellers.html","cat_key":"bestsellers","icon":"🔥",
+        "group":"deals","nav_group":"deals",
+        "en_title":"Best-Selling Halloween Costumes 2026 | Most Popular Right Now",
+        "en_desc":"The best-selling Halloween costumes of 2026 — the most popular, most ordered, and most talked-about costumes this Halloween season. Updated daily. Ships to 200+ countries.",
+        "en_h1":"Best-Selling Halloween Costumes 2026",
+        "en_h1sub":"Most Popular, Most Ordered & Most Talked-About",
+        "en_body":"Discover the best-selling Halloween costumes of 2026 — the styles that are selling fastest, trending on social media, and guaranteed to be recognized at every Halloween party this year. Our best-seller list covers trending kids costumes, adult costume hits, viral funny looks, popular scary costumes, and the breakout new releases that everyone is wearing this Halloween season. Updated daily as new trends emerge. These costumes are popular for a reason — they look great, photograph well, and earn instant recognition. Order early — best-sellers sell out first.",
+        "schema_type":"CollectionPage",
+        "keywords":"best selling halloween costumes 2026, most popular halloween costumes, trending halloween costumes, top halloween costumes 2026, best halloween costumes this year",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1268,6 +1393,7 @@ NAV_GROUPS = {
     "morph":       {"label":"Full Body & Tech","icon":"🕴️"},
     "fashion":     {"label":"Halloween Fashion","icon":"👗"},
     "essential":   {"label":"Halloween Essentials","icon":"🎃"},
+    "character":   {"label":"By Character",   "icon":"👑"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1353,6 +1479,16 @@ POPULAR_SEARCHES = [
     "halloween dress","gothic halloween dress","witch dress halloween",
     "halloween outfit not costume","halloween fashion wear","spooky fashion",
     "matching halloween outfits","halloween sleepwear","halloween pajama set",
+    "cheap halloween costumes","halloween costumes under 20","budget halloween costumes",
+    "halloween clearance","halloween costumes on clearance","cheap kids halloween costumes",
+    "princess costume","disney princess costume","elsa costume","cinderella costume",
+    "mermaid costume","ariel costume","little mermaid costume",
+    "steampunk costume","victorian halloween costume","masquerade costume",
+    "food costume halloween","banana costume","hot dog costume","taco costume",
+    "cheerleader costume","cowgirl costume","western halloween costume",
+    "best selling halloween costumes","trending halloween costumes","most popular halloween costume 2026",
+    "princess halloween costume for girls","mermaid halloween costume girls",
+    "cowboy costume halloween","pink cowgirl costume",
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1378,6 +1514,8 @@ TRUST_BADGES = [
     {"icon":"🔍","label":"500K+ Quality Checks Yearly"},
     {"icon":"🎀","label":"WOW Promise — Love It or Return It"},
     {"icon":"👨‍👩‍👧","label":"Matching Family Sets Available"},
+    {"icon":"💲","label":"Costumes From Just $10"},
+    {"icon":"🏷️","label":"Clearance Deals Up to 80% Off"},
 ]
 
 # ─────────────────────────────────────────────────────────
@@ -1649,7 +1787,7 @@ function buildFooter(){{
     couples:'💑 Couples', group:'👨‍👩‍👧‍👦 Group', new2026:'✨ New 2026',
     plussize:'💎 Plus Size', wholesale:'🛍️ Wholesale', pet:'🐾 Pet',
     accessories:'🎩 Accessories', wigs:'💇 Wigs', masks:'👺 Masks',
-    decorations:'🏚️ Decorations', indoordecor:'🕯️ Indoor Decor', outdoordecor:'🌙 Outdoor Decor', props:'🦴 Props', animatronics:'🤖 Animatronics', inflatable:'🎈 Inflatable', collectibles:'🏆 Collectibles', licensed:'™️ Licensed', sale:'💰 Sale', lastminute:'⚡ Last Minute', tween:'🧒 Tween', medieval:'⚔️ Medieval', videogame:'🎮 Video Games', themes:'🌟 Themes', comiccon:'🦸 Comic Con', sizeguide:'📏 Size Guide', addamsfamily:'🖤 Addams Family', beetlejuice:'🐛 Beetlejuice', horror:'🔪 Horror Movies', fnaf:'🐻 FNAF', scooby:'🐕 Scooby-Doo', harrypotter:'⚡ Harry Potter', decades:'📀 Decades', occupation:'👷 Occupations', fantasy:'🧚 Fantasy', partysupplies:'🎉 Party Supplies', kpop:'🎤 K-Pop', diy:'✂️ DIY', anime:'🌸 Anime', gamer:'🎮 Gamer', gifts:'🎁 Gifts', movies:'🎬 Movies', tvshows:'📺 TV Shows', clothing:'👕 Clothing', yearround:'🗓️ Year-Round', genshin:'🌟 Genshin', leagueoflegends:'⚔️ League of Legends', overwatch:'🎯 Overwatch', finalfantasy:'🗡️ Final Fantasy', deadbydaylight:'🔦 Dead by Daylight', jujutsukaisen:'🩸 JJK', hazbinhotel:'😈 Hazbin Hotel', frieren:'🧝 Frieren', onepiececosplay:'🏴‍☠️ One Piece', nier:'⚙️ NieR:Automata', cyberpunk:'🤖 Cyberpunk', zelda:'🗡️ Zelda', devilmaycry:'😈 DMC', morphsuits:'🕴️ Morphsuits', piggyback:'🏇 Piggyback', digital:'📱 Digital & Tech', fullbody:'🦸 Full Body', swimwear:'🩱 Cosplay Swimwear', kawaii:'🌸 Kawaii', casualwear:'👘 Anime Casual', weeklydeals:'🔥 Weekly Deals', preorder:'📦 Pre-Order', lolita:'🎀 Lolita', cosplayshoes:'👟 Cosplay Shoes', convention:'🏟️ Conventions', halloweenfashion:'👗 Halloween Fashion', halloweenpajamas:'🌙 Halloween Pajamas', matchingfamily:'👨‍👩‍👧 Matching Family', halloweensweaters:'🧶 Halloween Sweaters', halloweendresses:'👘 Halloween Dresses'
+    decorations:'🏚️ Decorations', indoordecor:'🕯️ Indoor Decor', outdoordecor:'🌙 Outdoor Decor', props:'🦴 Props', animatronics:'🤖 Animatronics', inflatable:'🎈 Inflatable', collectibles:'🏆 Collectibles', licensed:'™️ Licensed', sale:'💰 Sale', lastminute:'⚡ Last Minute', tween:'🧒 Tween', medieval:'⚔️ Medieval', videogame:'🎮 Video Games', themes:'🌟 Themes', comiccon:'🦸 Comic Con', sizeguide:'📏 Size Guide', addamsfamily:'🖤 Addams Family', beetlejuice:'🐛 Beetlejuice', horror:'🔪 Horror Movies', fnaf:'🐻 FNAF', scooby:'🐕 Scooby-Doo', harrypotter:'⚡ Harry Potter', decades:'📀 Decades', occupation:'👷 Occupations', fantasy:'🧚 Fantasy', partysupplies:'🎉 Party Supplies', kpop:'🎤 K-Pop', diy:'✂️ DIY', anime:'🌸 Anime', gamer:'🎮 Gamer', gifts:'🎁 Gifts', movies:'🎬 Movies', tvshows:'📺 TV Shows', clothing:'👕 Clothing', yearround:'🗓️ Year-Round', genshin:'🌟 Genshin', leagueoflegends:'⚔️ League of Legends', overwatch:'🎯 Overwatch', finalfantasy:'🗡️ Final Fantasy', deadbydaylight:'🔦 Dead by Daylight', jujutsukaisen:'🩸 JJK', hazbinhotel:'😈 Hazbin Hotel', frieren:'🧝 Frieren', onepiececosplay:'🏴‍☠️ One Piece', nier:'⚙️ NieR:Automata', cyberpunk:'🤖 Cyberpunk', zelda:'🗡️ Zelda', devilmaycry:'😈 DMC', morphsuits:'🕴️ Morphsuits', piggyback:'🏇 Piggyback', digital:'📱 Digital & Tech', fullbody:'🦸 Full Body', swimwear:'🩱 Cosplay Swimwear', kawaii:'🌸 Kawaii', casualwear:'👘 Anime Casual', weeklydeals:'🔥 Weekly Deals', preorder:'📦 Pre-Order', lolita:'🎀 Lolita', cosplayshoes:'👟 Cosplay Shoes', convention:'🏟️ Conventions', halloweenfashion:'👗 Halloween Fashion', halloweenpajamas:'🌙 Halloween Pajamas', matchingfamily:'👨‍👩‍👧 Matching Family', halloweensweaters:'🧶 Halloween Sweaters', halloweendresses:'👘 Halloween Dresses', makeup:'💄 Makeup & FX', trickortreat:'🎃 Trick or Treat', hauntedhouse:'👻 Haunted House', pumpkin:'🎃 Pumpkin Carving', lighting:'💡 Halloween Lighting', budget:'💲 Cheap Costumes', clearance:'🏷️ Clearance', princess:'👑 Princess', mermaid:'🧜 Mermaid', steampunk:'⚙️ Steampunk', masquerade:'🎭 Masquerade', food:'🍕 Food Costumes', cheerleader:'📣 Cheerleader', cowgirl:'🤠 Cowgirl', bestsellers:'🔥 Best Sellers'
   }};
   const fc1 = document.getElementById('fc1-links');
   if(fc1){{
@@ -1665,7 +1803,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','princess','mermaid','steampunk','masquerade','food','cheerleader','cowgirl'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1676,7 +1814,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','makeup','trickortreat','hauntedhouse','pumpkin','lighting','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','makeup','trickortreat','hauntedhouse','pumpkin','lighting','budget','clearance','bestsellers','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1809,7 +1947,7 @@ def make_page(page_key):
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["makeup","trickortreat","hauntedhouse","pumpkin","lighting","animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","halloweenfashion","halloweenpajamas","matchingfamily","halloweensweaters","halloweendresses","weeklydeals","preorder","yearround","sale","lastminute"]
+            for pk in ["budget","clearance","bestsellers","makeup","trickortreat","hauntedhouse","pumpkin","lighting","princess","mermaid","food","cheerleader","cowgirl","steampunk","masquerade","animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","halloweenfashion","halloweenpajamas","matchingfamily","halloweensweaters","halloweendresses","weeklydeals","preorder","yearround","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -3037,6 +3175,76 @@ BLOG_POSTS = [
     },
 
     {
+        "slug":    "cheap-halloween-costume-ideas",
+        "file":    "blog-cheap-costumes.html",
+        "icon":    "💲",
+        "title":   "Best Cheap Halloween Costumes 2026 | Under $10, $20 & $30",
+        "desc":    "The best cheap Halloween costumes for 2026 — amazing costumes under $10, $20 and $30 that look incredible. Budget Halloween costume ideas for kids, adults and families.",
+        "h1":      "Best Cheap Halloween Costumes 2026",
+        "intro":   "Halloween doesn't have to cost a fortune. Some of the most popular, most recognizable, and most photographed Halloween costumes of all time are also the cheapest. Here are the best cheap Halloween costume ideas for 2026 — organized by budget, for kids, adults, couples, and groups.",
+        "sections": [
+            ("Best Halloween Costumes Under $10", "cheap halloween costumes",
+             "Under $10 Halloween costumes that actually look great: skeleton t-shirts and leggings (instantly recognizable, comfortable, reusable), devil accessories kit (horns, tail, pitchfork transforms any red outfit), witch hat and cape set (classic Halloween in one $8 accessory purchase), vampire cape with teeth (complete vampire look from accessories alone), and zombie face paint kit that transforms any ripped clothing into a full zombie costume."),
+            ("Best Halloween Costumes Under $20", "halloween costumes under 20",
+             "The $10-$20 range unlocks complete costume sets. Skeleton onesie jumpsuits for kids (full Halloween look, doubles as pajamas), witch costume sets with dress and hat, ghost costumes from sheet-style designs with printed faces, animal onesie costumes that work for adults and kids, and inflatable mini costumes that fit the under-$20 range and provide maximum entertainment value."),
+            ("Best Costumes Under $30 for Adults", "budget halloween costumes",
+             "Adults with a $30 budget can achieve excellent Halloween looks. Classic vampire cape and accessory sets, zombie costume kits with clothing distressing supplies included, nurse and doctor costume sets with props, decade costumes assembled from accessories (80s kit: big hair wig, neon legwarmers, scrunchies), and character-specific accessory packs that transform regular clothing."),
+            ("Cheap Couples Halloween Costumes", "couples halloween costumes",
+             "Cheap couples costumes under $50 total: devil and angel (matching accessory kits), zombie couple (ripped clothing and makeup kit), decade couples (matching 80s or 70s accessory kits), crime scene duo (police and criminal), and skeleton couple (matching skeleton onesies). These couples looks are immediately recognizable, photograph well, and cost a fraction of elaborate costume sets."),
+            ("How to Make Any Cheap Costume Look Expensive", "halloween makeup 2026",
+             "The secret to making cheap costumes look premium: quality makeup execution, properly distressed or accessorized base clothing, confidence in the character, and good photography. A $15 zombie costume with a $10 SFX makeup kit looks better than a $60 zombie costume with no makeup. Invest your costume budget where it shows most — for most costumes, that's the face."),
+        ],
+        "cta_cat": "budget",
+        "keywords": "cheap halloween costumes 2026, halloween costumes under 20, budget halloween costumes, best cheap halloween costumes, affordable halloween costumes, halloween costumes under 10",
+    },
+    {
+        "slug":    "princess-costume-guide",
+        "file":    "blog-princess-costumes.html",
+        "icon":    "👑",
+        "title":   "Best Princess Halloween Costume Ideas for Girls 2026",
+        "desc":    "The best princess Halloween costume ideas for girls in 2026 — Disney princess costumes, fairy tale gowns, and royal looks for toddlers, kids and teens.",
+        "h1":      "Best Princess Halloween Costume Ideas for Girls 2026",
+        "intro":   "Princess costumes are the #1 most popular Halloween costume for girls year after year — and 2026 has the best selection ever. Whether your little one dreams of being Elsa, Cinderella, Ariel, or an original fairy tale princess — here's the complete guide to princess Halloween costumes for 2026.",
+        "sections": [
+            ("Disney Princess Costumes 2026", "disney princess costume",
+             "Disney princess costumes are the most recognized and most requested princess looks every Halloween. Elsa from Frozen is consistently the #1 Halloween costume for girls ages 3-8. Moana, Rapunzel, Belle, Ariel, Cinderella, Tiana, and Jasmine all remain perennial top-5 choices. Disney princesses have the advantage of being instantly recognizable — no explanation needed at the door."),
+            ("Fairy Tale Princess Costumes", "princess costume",
+             "Beyond Disney, original fairy tale princess gowns offer gorgeous looks without licensed price premiums. Flowing ballgowns in pink, purple, blue, and gold with tiara accessories create stunning princess Halloween costumes that photograph beautifully and allow more creative freedom than licensed characters. These are perfect for girls who want a princess look without being a specific character."),
+            ("Princess Costumes by Age", "princess halloween costume for girls",
+             "Infant and toddler princess costumes (0-3): focus on comfort, soft materials, easy-off designs. Toddler princesses (2-4): princess rompers and simple gowns with no small accessories. Kids (4-10): full gown sets with accessories — tiaras, wands, gloves. Tweens (10+): more sophisticated princess looks with detailed embellishment and teen-appropriate styling."),
+            ("Princess and Prince Group Themes", "matching family halloween costumes",
+             "Princess costumes work brilliantly for group and family Halloween themes. A beauty and her beast, a royal court of princesses, a Frozen family (Elsa, Anna, Kristoff, Olaf), or an all-Disney-princess friend group creates spectacular group costume photos. Our matching family collection includes prince costumes to complement princess looks."),
+            ("Accessories That Complete Princess Looks", "halloween costume accessories",
+             "A princess costume is only complete with the right accessories. Essential princess accessories: tiara or crown (character-specific or universal), magic wand, formal gloves, princess shoes or slippers, and character-specific items (Ariel's shell accessories, Elsa's ice crystals, Belle's rose). Our accessories collection covers every princess character's key props."),
+        ],
+        "cta_cat": "princess",
+        "keywords": "princess halloween costume guide 2026, disney princess halloween costume, best princess costume for girls, elsa costume halloween, princess costume ideas girls",
+    },
+    {
+        "slug":    "funny-food-costume-ideas",
+        "file":    "blog-funny-food-costumes.html",
+        "icon":    "🍕",
+        "title":   "Funniest Food Halloween Costume Ideas for 2026",
+        "desc":    "The funniest food Halloween costume ideas for 2026 — banana, hot dog, taco, pizza, avocado costumes and the best food and object Halloween looks that win every contest.",
+        "h1":      "Funniest Food Halloween Costume Ideas for 2026",
+        "intro":   "Food costumes are the unsung heroes of Halloween — instantly recognizable, universally funny, and almost always win the costume contest. The best food costumes require zero explanation, photograph brilliantly, and make everyone who sees them smile. Here are the funniest food Halloween costume ideas for 2026.",
+        "sections": [
+            ("The Classics — Banana, Hot Dog & More", "food costume halloween",
+             "The banana costume is the single most photographed food Halloween costume in history — it's universal shorthand for funny Halloween costume. The hot dog costume is a close second, followed by the taco, pizza slice, and watermelon. These classics work because they're immediately recognizable from 50 feet away, which is what makes a great party costume. Every year they trend on social media without fail."),
+            ("Couples Food Costumes That Always Win", "couples halloween costumes",
+             "Food couples costumes dominate costume contest judging: peanut butter & jelly (brown and purple matching blobs with hats), ketchup & mustard (red and yellow matching condiment bottles), salt & pepper (salt shaker and pepper shaker duo), bacon & eggs (frying pan setup), spaghetti & meatball. These couples costumes have instant punchline delivery — the costume IS the joke, and it lands every time."),
+            ("Kids Food Costumes", "funny halloween costumes",
+             "Kids food costumes are peak adorable Halloween content. A toddler in a broccoli costume, a baby as a pea pod, a little kid as a corn cob or French fry — these generate the most social media engagement of any Halloween photos. Our kids food costume collection covers every fruit, vegetable, and junk food category in sizes from infant to teen."),
+            ("Group Food Costume Themes", "group halloween costumes",
+             "Group food costume themes work brilliantly for office Halloween parties and friend groups: a sushi platter (tuna roll, salmon roll, rice, chopsticks), fast food combo (burger, fries, drink), fruit salad, ice cream sundae components, or complete pizza with toppings. These themes photograph as a group better than any other costume category."),
+            ("Why Food Costumes Always Win Contests", "funny halloween costumes",
+             "Food costumes win costume contests for three reasons: they're immediately understandable (no costume explanation needed), they're inherently funny without requiring performance, and they photograph extremely well from any angle. The best costume contest winners are those that make judges laugh before they even think about it — food costumes deliver this automatically."),
+        ],
+        "cta_cat": "food",
+        "keywords": "food halloween costume ideas 2026, funny food costume halloween, banana costume halloween, couples food costumes, hot dog costume halloween, funniest halloween costumes 2026",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -3425,6 +3633,8 @@ def build():
     print(f"  ✅  CRITICAL GAPS FILLED: Halloween Makeup, Pumpkin Carving, Trick-or-Treat, Haunted House, Lighting")
     print(f"  ✅  5 deep-content blog guides on highest-traffic Halloween searches")
     print(f"  ✅  TRULY #1 — covers every major Halloween search category")
+    print(f"  ✅  Walmart beaten — budget, clearance, princess, mermaid, food, cheerleader, cowgirl, steampunk, masquerade, bestsellers")
+    print(f"  ✅  Price anchoring added — costumes from $10 in trust badges")
     print(f"  ✅  WOW Promise + AfterPay/ShopPay + Matching Family trust badges added")
     print(f"  ✅  Comfort & Fit Guaranteed + 3 Business Day Delivery trust badges")
     print(f"  ✅  500K+ Quality Checks trust claim added")
