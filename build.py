@@ -170,6 +170,13 @@ CAT_URLS = {
     "matchingfamily":   "https://www.halloweencostumes.com/search?q=matching+family+halloween+costume",
     "halloweensweaters":"https://www.halloweencostumes.com/search?q=halloween+sweater+costume",
     "halloweendresses": "https://www.halloweencostumes.com/search?q=halloween+dress+costume",
+    # ── High-traffic missing categories ──
+    "makeup":        "https://www.halloweencostumes.com/halloween-makeup.html",
+    "trickortreat":  "https://www.halloweencostumes.com/halloween-costume-accessories.html",
+    "hauntedhouse":  "https://www.halloweencostumes.com/halloween-decorations.html",
+    "pumpkin":       "https://www.halloweencostumes.com/halloween-decorations.html",
+    "lighting":      "https://www.halloweencostumes.com/search?q=halloween+lighting+string+lights",
+    "sizecharts":    "https://www.halloweencostumes.com/size-charts.html",
 }
 
 def aff(cat_key=None, search=None):
@@ -1180,6 +1187,65 @@ PAGES = {
         "schema_type":"CollectionPage",
         "keywords":"halloween dresses 2026, witch dress halloween, gothic halloween dress, halloween costume dress, spooky dress halloween, halloween fashion dress",
     },
+    # ══════════════════════════════════════════════════════
+    # MISSING HIGH-TRAFFIC PAGES — Amazon gap analysis
+    # These are the #2-#6 Halloween search categories
+    # ══════════════════════════════════════════════════════
+    "makeup": {
+        "file":"makeup.html","cat_key":"makeup","icon":"💄",
+        "group":"accessories","nav_group":"accessories",
+        "en_title":"Halloween Makeup & FX 2026 | Face Paint, SFX & Costume Makeup",
+        "en_desc":"Halloween makeup and FX 2026 — special effects makeup, face paint, fake blood, prosthetics, theatrical makeup kits and scary SFX for adults and kids. Ships to 200+ countries.",
+        "en_h1":"Halloween Makeup & FX 2026",
+        "en_h1sub":"Face Paint, Special Effects, Fake Blood & SFX Kits",
+        "en_body":"Complete your Halloween look with our professional Halloween makeup and special effects collection 2026. Halloween makeup is often the difference between a good costume and an unforgettable one. Our Halloween makeup collection includes face paint kits in every color, special effects (SFX) latex prosthetics for wounds and scars, realistic fake blood, theatrical greasepaint, Halloween makeup palettes for zombies, vampires, witches and monsters, and complete character makeup kits. Whether you want a quick simple face paint or a full Hollywood-quality SFX transformation — our Halloween makeup collection covers every skill level and budget. Safe for adults and children. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween makeup 2026, halloween face paint, halloween sfx makeup, fake blood halloween, halloween makeup kit, special effects halloween makeup, scary makeup ideas",
+    },
+    "trickortreat": {
+        "file":"trickortreat.html","cat_key":"trickortreat","icon":"🎃",
+        "group":"accessories","nav_group":"accessories",
+        "en_title":"Trick or Treat Supplies 2026 | Bags, Buckets & Halloween Candy",
+        "en_desc":"Trick or treat supplies 2026 — Halloween trick-or-treat bags, candy buckets, treat bags and everything you need for the perfect trick-or-treat night. Ships to 200+ countries.",
+        "en_h1":"Trick or Treat Supplies 2026",
+        "en_h1sub":"Bags, Buckets, Candy Bowls & Everything for Halloween Night",
+        "en_body":"Make trick-or-treat night perfect with our complete trick-or-treat supply collection 2026. We carry everything the trick-or-treater needs — Halloween candy bags in character designs, pumpkin-shaped candy buckets, ghost and witch treat baskets, glow-in-the-dark trick-or-treat bags, and oversized bags for maximum candy haul capacity. Also essential for the candy-giver: Halloween candy bowls, cauldrons, and decorative treat dispensers that make your house the most popular stop on the block. Trick-or-treat supplies available for all ages. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"trick or treat supplies 2026, halloween trick or treat bags, candy bucket halloween, trick or treat buckets, halloween candy bags, halloween treat bags",
+    },
+    "hauntedhouse": {
+        "file":"hauntedhouse.html","cat_key":"hauntedhouse","icon":"👻",
+        "group":"home","nav_group":"home",
+        "en_title":"Haunted House Setup Guide 2026 | DIY Haunted House Supplies",
+        "en_desc":"Haunted house setup guide and supplies 2026 — everything you need to build the scariest haunted house on the block. Animatronics, fog machines, lighting, props and decorations. Ships to 200+ countries.",
+        "en_h1":"Haunted House Setup Guide 2026",
+        "en_h1sub":"Everything You Need to Build the Scariest Haunted House",
+        "en_body":"Build a haunted house that your neighborhood will talk about for years with our complete haunted house supply collection 2026. Creating a truly scary haunted house requires the right combination of animatronics, atmosphere, lighting, sound, and props working together. Our haunted house collection covers every element — life-size animatronic figures, professional fog machines, strobe lights, blacklights, hanging props, cemetery decorations, cobwebs, jump scare accessories, and complete haunted house decoration kits. Whether you're creating a simple scary porch display or a full walk-through haunted attraction — our haunted house supplies have everything you need. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"haunted house setup 2026, diy haunted house supplies, how to build haunted house, haunted house decorations, haunted house props, fog machine halloween haunted house",
+    },
+    "pumpkin": {
+        "file":"pumpkin.html","cat_key":"pumpkin","icon":"🎃",
+        "group":"home","nav_group":"home",
+        "en_title":"Pumpkin Carving & Halloween Pumpkin Ideas 2026",
+        "en_desc":"Pumpkin carving ideas and supplies 2026 — carving kits, stencils, pumpkin decorations and Halloween pumpkin accessories. The complete pumpkin guide for 2026.",
+        "en_h1":"Pumpkin Carving Ideas & Supplies 2026",
+        "en_h1sub":"Carving Kits, Stencils & Creative Pumpkin Ideas",
+        "en_body":"Make the best jack-o-lantern on the block with our pumpkin carving ideas and supplies collection 2026. Halloween pumpkins are the iconic symbol of the season — and our pumpkin collection covers everything from basic carving kits with safe serrated tools to advanced stencils for intricate designs, pumpkin painting supplies for no-carve options, LED pumpkin lights, and decorative pumpkin accessories. Browse carving ideas for beginners, intermediate carvers, and advanced artists — from classic triangle eyes to elaborate portraits and pop culture designs. Pumpkin carving supplies ship to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"pumpkin carving 2026, pumpkin carving ideas, pumpkin carving kits, halloween pumpkin, jack o lantern ideas, pumpkin stencils halloween, pumpkin carving supplies",
+    },
+    "lighting": {
+        "file":"lighting.html","cat_key":"lighting","icon":"💡",
+        "group":"home","nav_group":"home",
+        "en_title":"Halloween Lighting 2026 | String Lights, Strobes & Blacklights",
+        "en_desc":"Halloween lighting 2026 — string lights, strobe lights, blacklights, LED Halloween lights, projection lights and atmospheric lighting for Halloween. Ships to 200+ countries.",
+        "en_h1":"Halloween Lighting 2026",
+        "en_h1sub":"String Lights, Strobes, Blacklights & Atmospheric Lighting",
+        "en_body":"Set the perfect Halloween atmosphere with our Halloween lighting collection 2026. The right lighting transforms any space into a genuinely spooky environment — our Halloween lighting collection includes orange and purple string lights, strobe lights for haunted house effects, UV blacklights that make white and neon colors glow, projection spotlights that cast Halloween images on walls and houses, LED candelabras, flicker flame lights, color-changing LED strips, and complete Halloween atmosphere lighting kits. Halloween lighting works for both indoor decorating and dramatic outdoor yard displays. Ships to 200+ countries.",
+        "schema_type":"CollectionPage",
+        "keywords":"halloween lighting 2026, halloween string lights, halloween strobe lights, halloween blacklight, halloween projection lights, spooky lighting halloween, halloween atmosphere lighting",
+    },
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1201,6 +1267,7 @@ NAV_GROUPS = {
     "micc":        {"label":"Fashion & More", "icon":"👘"},
     "morph":       {"label":"Full Body & Tech","icon":"🕴️"},
     "fashion":     {"label":"Halloween Fashion","icon":"👗"},
+    "essential":   {"label":"Halloween Essentials","icon":"🎃"},
 }
 
 # ─────────────────────────────────────────────────────────
@@ -1609,7 +1676,7 @@ function buildFooter(){{
   const fc3 = document.getElementById('fc3-links');
   if(fc3){{
     fc3.innerHTML = '';
-    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
+    ['addamsfamily','beetlejuice','horror','fnaf','scooby','harrypotter','cosplayshoes','convention','lolita','swimwear','kawaii','casualwear','weeklydeals','preorder','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','makeup','trickortreat','hauntedhouse','pumpkin','lighting','accessories','wigs','masks','decorations','indoordecor','outdoordecor','props','animatronics','inflatable','collectibles','licensed','partysupplies','diy','gifts','gamer','clothing','yearround','sale','lastminute'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -1742,7 +1809,7 @@ def make_page(page_key):
         # Accessories + extras
         extra_cards = "".join([
             f'<a class="cat-card" href="{PAGES[pk]["file"]}"><span class="cat-icon">{PAGES[pk]["icon"]}</span><div class="cat-name">{PAGES[pk]["en_h1"].split(chr(10))[0]}</div><div class="cat-desc">{PAGES[pk]["en_h1sub"]}</div><div class="cat-arrow">Shop Now →</div></a>'
-            for pk in ["animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","halloweenfashion","halloweenpajamas","matchingfamily","halloweensweaters","halloweendresses","weeklydeals","preorder","yearround","sale","lastminute"]
+            for pk in ["makeup","trickortreat","hauntedhouse","pumpkin","lighting","animatronics","props","indoordecor","outdoordecor","collectibles","accessories","wigs","masks","decorations","partysupplies","diy","anime","gamer","gifts","movies","tvshows","clothing","genshin","leagueoflegends","overwatch","finalfantasy","jujutsukaisen","hazbinhotel","onepiececosplay","nier","cyberpunk","zelda","devilmaycry","morphsuits","piggyback","digital","fullbody","cosplayshoes","convention","lolita","swimwear","kawaii","casualwear","halloweenfashion","halloweenpajamas","matchingfamily","halloweensweaters","halloweendresses","weeklydeals","preorder","yearround","sale","lastminute"]
         ])
         categories_html = f"""
 <section class="section">
@@ -2854,6 +2921,122 @@ BLOG_POSTS = [
     },
 
     {
+        "slug":    "halloween-makeup-guide",
+        "file":    "blog-halloween-makeup.html",
+        "icon":    "💄",
+        "title":   "Ultimate Halloween Makeup Guide 2026 | Face Paint & SFX Tutorial",
+        "desc":    "The ultimate Halloween makeup guide for 2026 — how to do zombie makeup, witch makeup, vampire makeup, skeleton face paint and SFX special effects for beginners and pros.",
+        "h1":      "Ultimate Halloween Makeup Guide 2026",
+        "intro":   "The right Halloween makeup transforms any costume from ordinary to extraordinary. Whether you want simple face paint that takes 10 minutes or a full professional SFX transformation that stuns everyone at the party — this guide covers every skill level, every character type, and every budget for Halloween 2026.",
+        "sections": [
+            ("Basic Face Paint for Beginners", "halloween face paint",
+             "Start with water-activated face paint in a basic palette — white, black, red, green, and purple cover the majority of Halloween looks. Apply foundation-grade white as a base, then layer colors. Clean brushes between colors. Set with translucent powder for longevity. The basic 4-color kit can create witch, skeleton, zombie, vampire, and dozens of other looks."),
+            ("Zombie Makeup Step by Step", "halloween makeup kit",
+             "For realistic zombie makeup: start with white/grey base paint, add green and brown tones for decomposition. Use liquid latex to create skin texture and 'rips'. Red and purple eye shadow around eyes for undead look. Fake blood applied last — use in corners of mouth and on 'wounds' created with latex. Set everything with powder to prevent transfer."),
+            ("Vampire Makeup Tutorial", "halloween makeup 2026",
+             "Classic vampire makeup starts with pale base — white face paint or very light foundation. Darken under-eyes with purple and grey shadow. Deep red lips. Optional: use spirit gum to attach pointed ear tips and fangs. For blood: apply fake blood from corner of mouth dripping down chin. Dramatic black eyebrows complete the look."),
+            ("SFX Special Effects Wounds & Prosthetics", "halloween sfx makeup",
+             "Professional SFX makeup creates realistic wounds, scars, and creature effects. Start with liquid latex applied to clean skin — apply thin layers, allowing each to dry. Tissue paper embedded in wet latex creates skin texture. Flesh-colored paint over dried latex, then detail with red and purple for bruising. Fake blood as the final layer. Latex prosthetics (pre-made shapes) provide instant SFX results for beginners."),
+            ("Skeleton & Sugar Skull Face Paint", "halloween face paint",
+             "Skeleton face paint: white base covering entire face, then use black paint to create hollow eye sockets (oval shapes around eyes), nose cavity (upside down heart), and teeth lines on lower face extending from lips. Add shading with grey for dimension. Sugar skull variation adds colorful flowers and patterns around the eyes and forehead for the Day of the Dead aesthetic."),
+        ],
+        "cta_cat": "makeup",
+        "keywords": "halloween makeup guide 2026, halloween face paint tutorial, zombie makeup step by step, vampire halloween makeup, skeleton face paint, sfx halloween makeup, halloween makeup ideas",
+    },
+    {
+        "slug":    "haunted-house-setup-guide",
+        "file":    "blog-hauntedhouse-setup.html",
+        "icon":    "👻",
+        "title":   "How to Set Up a Haunted House 2026 | Complete DIY Guide",
+        "desc":    "The complete guide to setting up a DIY haunted house in 2026 — layout tips, scariest props, lighting tricks, sound effects and everything you need to terrify your neighborhood.",
+        "h1":      "How to Set Up a Haunted House 2026",
+        "intro":   "A great haunted house is built on four pillars: atmosphere, surprise, physical sensation, and narrative. Get those four things right and you'll create genuine fear — not just a collection of decorations. Here's the complete guide to building a haunted house that your neighborhood will never forget.",
+        "sections": [
+            ("Planning Your Haunted House Layout", "haunted house setup 2026",
+             "The most effective haunted house layouts use narrow pathways, unexpected turns, and blind corners to maximize startles. Map your space first — identify where you can create choke points that force visitors to slow down. Dead ends that require backtracking are great for creating trapped feelings. Separate your scariest elements so visitors never know what's coming next."),
+            ("Essential Haunted House Props", "halloween props 2026",
+             "Every haunted house needs anchor props that define the atmosphere. Life-size animatronic figures are the gold standard — motion-activated creatures that lunge, speak, or move create genuine startles. Supplement animatronics with static props: hanging skeletons, tombstone sets, cauldrons with fog effects, coffins, and creature displays. Layer small detail props (candles, books, bones) throughout to reward observant visitors."),
+            ("Lighting for Maximum Scare", "halloween lighting 2026",
+             "Lighting is the most powerful atmospheric tool in haunted house design. Keep overall lighting very dim — visitors should strain to see. Use UV blacklights to make strategically placed neon elements glow mysteriously. Strobe lights in specific rooms create disorientation and make movement appear jerky and unnatural. Red uplighting underneath props creates menacing shadows. Flickering LED candles add ambient spookiness cheaply."),
+            ("Sound Design for Haunted Houses", "haunted house supplies",
+             "Sound sells fear. A quality bluetooth speaker playing atmospheric Halloween sound effects — creaking wood, distant screaming, chains rattling, thunder — creates psychological tension even in empty spaces. Layer ambient sound with triggered sounds from motion-activated props. Silence is also powerful: moments of quiet before a scare hit harder than continuous noise."),
+            ("Fog Machine Tips & Tricks", "halloween props 2026",
+             "A fog machine transforms any haunted house space. Position it at floor level so fog crawls along the ground — this obscures pathways and feet, which is psychologically unsettling. Use cold-activated fog juice for ground-hugging fog. Keep ventilation in mind — too much fog in enclosed spaces can trigger smoke detectors. Refill fluid regularly and test before visitors arrive."),
+        ],
+        "cta_cat": "hauntedhouse",
+        "keywords": "how to set up haunted house 2026, diy haunted house guide, haunted house setup tips, home haunted house ideas, haunted house layout tips, scariest haunted house props",
+    },
+    {
+        "slug":    "pumpkin-carving-ideas-guide",
+        "file":    "blog-pumpkin-carving.html",
+        "icon":    "🎃",
+        "title":   "Pumpkin Carving Ideas & Guide 2026 | Beginner to Advanced",
+        "desc":    "The complete pumpkin carving guide for 2026 — beginner patterns, advanced stencils, no-carve pumpkin ideas and step-by-step carving tips for the perfect jack-o-lantern.",
+        "h1":      "Pumpkin Carving Ideas & Guide 2026",
+        "intro":   "The perfect jack-o-lantern is the centerpiece of Halloween. Whether you're a beginner carving your first pumpkin or an experienced carver attempting a detailed portrait — this guide covers techniques, tools, design ideas, and preservation tips to make your 2026 pumpkin the best one on the block.",
+        "sections": [
+            ("Choosing the Right Pumpkin", "pumpkin carving 2026",
+             "The best carving pumpkins are firm, uniformly colored, and have a flat base. Avoid pumpkins with soft spots or cuts — they rot faster. Taller pumpkins work well for portrait designs. Wider flat-faced pumpkins are best for traditional triangle eyes and toothy grins. Choose a pumpkin at least 10 inches tall for detailed work."),
+            ("Essential Pumpkin Carving Tools", "pumpkin carving kit",
+             "A good pumpkin carving kit includes: a large scooper for removing seeds and pulp, a poker tool for transferring stencil designs, thin detail saws for intricate cuts, a larger serrated saw for outline cuts, and a candle or LED light. Avoid kitchen knives — they're dangerous and too large for detail work. Purpose-built carving kits ($10-30) make the process dramatically easier and safer."),
+            ("Beginner Pumpkin Carving Patterns", "jack o lantern ideas",
+             "Start with classic designs: triangle eyes, a jagged or toothy mouth, and a simple nose triangle. These three shapes create the iconic jack-o-lantern that's stood for centuries. Progress to: rounded eyes with pupils, curved smiles, star or moon cutouts, and simple ghost shapes. Beginner patterns require minimal straight-cut accuracy and are forgiving of mistakes."),
+            ("Advanced Pumpkin Carving Techniques", "halloween pumpkin",
+             "Advanced carving uses stencils for complex designs — spiderwebs, haunted houses, portraits, and pop culture characters. Transfer stencils by taping the paper to the pumpkin and using a pin to poke holes along all lines. Remove paper and connect the dots with your carving tool. Depth carving (shading by removing only skin without cutting through) creates dramatic contrast without losing structural integrity."),
+            ("No-Carve Pumpkin Decorating Ideas", "pumpkin carving supplies",
+             "No-carve pumpkins last longer and work for people who want more decorating options. Paint your pumpkin with acrylic paint — white pumpkins painted black with gold accents look sophisticated and modern. Decoupage tissue paper designs onto pumpkins. Apply stick-on gems, washi tape patterns, or carved foam pieces. Drill holes in patterns to create polka-dot light designs without full carving."),
+        ],
+        "cta_cat": "pumpkin",
+        "keywords": "pumpkin carving ideas 2026, pumpkin carving guide, beginner pumpkin carving, advanced pumpkin carving, jack o lantern ideas 2026, no carve pumpkin ideas, pumpkin carving tips",
+    },
+    {
+        "slug":    "trick-or-treat-guide",
+        "file":    "blog-trickortreat-guide.html",
+        "icon":    "🎃",
+        "title":   "Trick-or-Treat Guide 2026 | Safety Tips, Bags & Candy Ideas",
+        "desc":    "The complete trick-or-treat guide for 2026 — safety tips, best trick-or-treat bags, candy giving ideas, costume tips for the night and how to make trick-or-treat unforgettable.",
+        "h1":      "Trick-or-Treat Guide 2026",
+        "intro":   "Trick-or-treating is the heart of Halloween — the tradition that brings neighborhoods together, fills pillowcases with candy, and creates memories that last a lifetime. Here's everything you need to know to make trick-or-treat night in 2026 the best one ever — whether you're going out or staying home.",
+        "sections": [
+            ("Best Trick-or-Treat Bags & Buckets", "trick or treat bags",
+             "The right trick-or-treat bag matters more than you'd think — capacity, comfort, and cool factor all count. Classic pumpkin buckets hold a good haul but fill up fast. Pillowcases are low-tech but have maximum capacity and make a satisfying rustling sound. Character-themed bags match costumes and look great in photos. Glow-in-the-dark bags are safer for night trick-or-treating. For young children: lightweight buckets they can carry themselves without tipping."),
+            ("Trick-or-Treat Safety Tips 2026", "trick or treat supplies 2026",
+             "Safety essentials for trick-or-treating: go in groups, stay on sidewalks, cross only at crosswalks, and check candy before eating. For costumes: choose flame-resistant materials, use face paint instead of masks that obscure vision, add reflective tape to dark costumes, and carry a flashlight or glow sticks. Set a route and curfew before leaving, and make sure young children are accompanied by adults at all times."),
+            ("Best Candy to Give Out 2026", "halloween candy bucket",
+             "The houses that give out full-size candy bars achieve legendary neighborhood status instantly. If budget is a concern, popular minis include Reese's, Kit Kat, Snickers, Starbursts, and Skittles — the universally beloved options. Avoid hard candy, lollipops (safety risk for young kids), and anything with common allergens unless you know your neighborhood. Non-candy alternatives like small toys, stickers, and temporary tattoos are popular for allergy-inclusive houses."),
+            ("Setting Up the Best Candy-Giving House", "halloween decorations 2026",
+             "Make your house the one every trick-or-treater is excited to visit: elaborate decorations on the porch (animatronics are spectacular for this), dramatic lighting, atmospheric music, and a full-size candy bar reputation built over years. Costumes for adults giving out candy make the experience more memorable. A fog machine at porch level transforms your entry into an atmospheric haunted experience."),
+            ("Trick-or-Treat Costume Tips for the Night", "halloween costumes 2026",
+             "Halloween night costume requirements differ from party costumes: comfort over complexity (you're walking for hours), warmth layering (October nights are cold — plan layers under costumes), comfortable shoes (blisters on Halloween are tragic), and visibility (reflective elements for night safety). Pack a small bag with any makeup touch-up supplies, a spare costume piece, bandaids, and hand sanitizer."),
+        ],
+        "cta_cat": "trickortreat",
+        "keywords": "trick or treat guide 2026, trick or treating safety tips, best trick or treat bags, halloween candy ideas, how to trick or treat, trick or treat night tips",
+    },
+    {
+        "slug":    "halloween-lighting-guide",
+        "file":    "blog-halloween-lighting.html",
+        "icon":    "💡",
+        "title":   "Halloween Lighting Guide 2026 | Spooky Atmosphere Tips",
+        "desc":    "The complete Halloween lighting guide for 2026 — how to use string lights, strobes, blacklights and projection lights to create the scariest, most atmospheric Halloween display.",
+        "h1":      "Halloween Lighting Guide 2026",
+        "intro":   "Lighting is the single most impactful element of Halloween decoration — it creates atmosphere, defines mood, and transforms ordinary spaces into genuinely spooky environments. The right lighting makes a $50 decoration setup look like a professional haunted attraction. Here's how to use Halloween lighting like a pro in 2026.",
+        "sections": [
+            ("Halloween String Lights — More Than Orange & Purple", "halloween string lights",
+             "While orange and purple string lights are Halloween classics, creative lighting uses go much further. Wrap string lights inside carved pumpkins for warm interior glow. Drape white string lights behind thin fabric for ghostly diffused effects. Use battery-powered string lights inside decorative lanterns throughout your outdoor display. Green string lights create alien/toxic atmosphere. Red lights transform any room into a horror scene."),
+            ("Blacklights — The Secret Weapon", "halloween blacklight",
+             "UV blacklights make white and neon colors glow in ways that look supernatural and otherworldly. Strategic blacklight use: paint glow-in-dark skeletons on black paper for wall decorations that only appear under UV. Use neon green fake slime and spiderwebs that glow. White costumes and makeup glow dramatically under blacklight. Install blacklights low and hidden for most dramatic effect."),
+            ("Strobe Lights — Use with Caution", "halloween strobe light",
+             "Strobe lights create disorientation and make movement appear jerky — highly effective for haunted houses. Important: strobes can trigger photosensitive epilepsy. Always post warnings for strobe-lit areas. Use strobes in short burst rather than continuous strobing. Position them to light props from below or the side rather than head-on. Combine with fog machines for maximum atmospheric effect."),
+            ("Projection Lights — Maximum Impact, Minimum Effort", "halloween lighting 2026",
+             "Halloween projection spotlights are the highest-impact, lowest-effort decoration available. A single projection light can cast moving bats, ghosts, witches, or falling leaves across your entire house exterior. Some models project from inside onto windows, creating animated ghost and monster effects visible from the street. Full-color LED projectors with Halloween disc packs run $30-80 and create effects worth ten times that."),
+            ("Combining Light Sources for Maximum Effect", "halloween atmosphere lighting",
+             "The most atmospheric Halloween displays layer multiple light sources: warm orange string lights as base layer, cool blacklights in specific zones, a projection light on the house exterior, LED candles in windows, and a fog machine at ground level lit by colored uplights. Each element adds depth and dimension. The key is keeping overall brightness low — Halloween lighting should reveal just enough to see while keeping most of the environment in shadow."),
+        ],
+        "cta_cat": "lighting",
+        "keywords": "halloween lighting guide 2026, halloween string lights tips, halloween blacklight setup, halloween strobe light, halloween projection lights, spooky halloween lighting, halloween atmosphere",
+    },
+
+    {
         "slug":    "plus-size-halloween-costume-ideas",
         "file":    "blog-plussize-costumes.html",
         "icon":    "💎",
@@ -3239,6 +3422,9 @@ def build():
     print(f"  ✅  Miccostumes beaten — swimwear, kawaii, casual wear, NieR, Cyberpunk, Zelda, DMC")
     print(f"  ✅  Morphsuits beaten — morphsuits, piggyback, digital, full body pages")
     print(f"  ✅  Tipsy Elves beaten — Halloween fashion, pajamas, matching family, sweaters, dresses")
+    print(f"  ✅  CRITICAL GAPS FILLED: Halloween Makeup, Pumpkin Carving, Trick-or-Treat, Haunted House, Lighting")
+    print(f"  ✅  5 deep-content blog guides on highest-traffic Halloween searches")
+    print(f"  ✅  TRULY #1 — covers every major Halloween search category")
     print(f"  ✅  WOW Promise + AfterPay/ShopPay + Matching Family trust badges added")
     print(f"  ✅  Comfort & Fit Guaranteed + 3 Business Day Delivery trust badges")
     print(f"  ✅  500K+ Quality Checks trust claim added")
