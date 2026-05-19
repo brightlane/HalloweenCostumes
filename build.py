@@ -1981,7 +1981,7 @@ function buildFooter(){{
   const fc2 = document.getElementById('fc2-links');
   if(fc2){{
     fc2.innerHTML = '';
-    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry','morphsuits','piggyback','digital','fullbody','halloweenfashion','halloweenpajamas','matchingfamily','halloweensweaters','halloweendresses','princess','mermaid','steampunk','masquerade','food','cheerleader','cowgirl','animals','dragon','glowinthedark'].forEach(pk => {{
+    ['adult','scary','funny','sexy','couples','group','new2026','plussize','wholesale','pet','videogame','themes','comiccon','medieval','kpop','horror','decades','occupation','fantasy','anime','movies','tvshows','genshin','leagueoflegends','overwatch','finalfantasy','deadbydaylight','jujutsukaisen','hazbinhotel','frieren','onepiececosplay','nier','cyberpunk','zelda','devilmaycry','princess','mermaid','steampunk','masquerade','food','cheerleader','cowgirl','animals','dragon','glowinthedark'].forEach(pk => {{
       if(!PAGES[pk]) return;
       const a = document.createElement('a');
       a.href = PAGES[pk].file;
@@ -2108,7 +2108,16 @@ def make_page(page_key):
                 nav_links += f'<span class="nav-cat-group">{NAV_GROUPS[grp]["icon"]} {NAV_GROUPS[grp]["label"]}</span>'
             current_group = grp
         active = ' active' if pk == page_key else ''
-        nav_links += f'<a href="{pd["file"]}" class="nav-cat-link{active}">{pd["icon"]} {pd["en_h1"].split(" ")[0]} {pd["en_h1"].split(" ")[1] if len(pd["en_h1"].split())>1 else ""}</a>'
+        # Build nav label: icon + up to 3 meaningful words, max 22 chars
+        h1_words = pd['en_h1'].split(' ')
+        # Take words until we hit year or 'Costumes' or 'Halloween' at end
+        nav_words = []
+        for w in h1_words[:4]:
+            if w.startswith('202') or (w == 'Costumes' and len(nav_words) >= 2):
+                break
+            nav_words.append(w)
+        nav_label = ' '.join(nav_words) if nav_words else h1_words[0]
+        nav_links += f'<a href="{pd["file"]}" class="nav-cat-link{active}">{pd["icon"]} {nav_label}</a>'
 
     # Category cards — homepage shows all in groups, category pages show 5 related
     if page_key == "index":
