@@ -11,7 +11,7 @@ HalloweenCostumes 2026 is the world's most comprehensive Halloween costume affil
 Owner: Benny "Palmo Kid" Palmarino | Network: LinkConnector ID 7949
 Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 
-## Pages (87 total)
+## Pages (92 total)
 - [Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/index.html): Halloween costumes 2026 — the world's best deals. Kids, adults, scary, funny, sexy, couples, group, 
 - [Women's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/womens.html): Women's Halloween costumes 2026 — hundreds of styles for women. Classic, scary, funny, sexy and plus
 - [Men's Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/mens.html): Men's Halloween costumes 2026 — hundreds of styles for men. Scary, funny, classic and pop culture. S
@@ -99,6 +99,11 @@ Base: https://www.linkconnector.com/ta.php?lc=007949060109004909&atid=WebWidge
 - [Matching Family Halloween Costumes 2026](https://brightlane.github.io/HalloweenCostumes/matchingfamily.html): Matching family Halloween costumes 2026 — coordinated costume sets for the whole family from baby to
 - [Halloween Sweaters 2026](https://brightlane.github.io/HalloweenCostumes/halloweensweaters.html): Halloween sweaters 2026 — spooky Halloween sweaters, ugly Halloween sweaters, Halloween knit tops an
 - [Halloween Dresses 2026](https://brightlane.github.io/HalloweenCostumes/halloweendresses.html): Halloween dresses 2026 — witch dresses, gothic dresses, sequin Halloween dresses, costume dresses an
+- [Halloween Makeup & FX 2026](https://brightlane.github.io/HalloweenCostumes/makeup.html): Halloween makeup and FX 2026 — special effects makeup, face paint, fake blood, prosthetics, theatric
+- [Trick or Treat Supplies 2026](https://brightlane.github.io/HalloweenCostumes/trickortreat.html): Trick or treat supplies 2026 — Halloween trick-or-treat bags, candy buckets, treat bags and everythi
+- [Haunted House Setup Guide 2026](https://brightlane.github.io/HalloweenCostumes/hauntedhouse.html): Haunted house setup guide and supplies 2026 — everything you need to build the scariest haunted hous
+- [Pumpkin Carving & Halloween Pumpkin Ideas 2026](https://brightlane.github.io/HalloweenCostumes/pumpkin.html): Pumpkin carving ideas and supplies 2026 — carving kits, stencils, pumpkin decorations and Halloween 
+- [Halloween Lighting 2026](https://brightlane.github.io/HalloweenCostumes/lighting.html): Halloween lighting 2026 — string lights, strobe lights, blacklights, LED Halloween lights, projectio
 
 ## Languages (12)
 - [🌐 English](https://brightlane.github.io/HalloweenCostumes/index.html?lang=en)
