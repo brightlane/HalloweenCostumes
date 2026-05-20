@@ -1,4 +1,4 @@
-# robots.txt — HalloweenCostumes 2026 | Updated: 2026-05-19
+# robots.txt — HalloweenCostumes 2026 | Updated: 2026-05-20
 User-agent: *
 Allow: /
 Sitemap: https://brightlane.github.io/HalloweenCostumes/sitemap.xml
